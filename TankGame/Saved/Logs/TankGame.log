@@ -2976,3 +2976,598 @@ Script Stack (0 frames) :
 [2023.10.08-03.55.45:420][885]LogUObjectGlobals: BeginLoad(/Game/__ExternalActors__/Prefabs/EnemyTank/3/0W/KMXMOIHRA20WS1TDX95204) is flushing async loading
 [2023.10.08-03.55.45:423][885]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 481 ms)
 [2023.10.08-03.55.45:424][885]LogLevelInstance: Loaded 1 levels in 0.008 seconds
+[2023.10.08-03.57.52:116][595]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.10.08-03.57.53:648][618]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.10.08-03.57.54:562][633]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.10.08-03.58.08:930][178]LogViewport: Scene viewport resized to 1535x845, mode Windowed.
+[2023.10.08-03.58.17:212][335]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.10.08-03.58.17:212][335]Can't find target element.
+[2023.10.08-03.58.20:697][401]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.10.08-03.58.31:064][571]Cmd: TRANSACTION UNDO
+[2023.10.08-03.58.31:064][571]LogEditorTransaction: Undo Scale Elements
+[2023.10.08-03.58.35:585][711]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Engine/BasicShapes/Plane.Plane
+[2023.10.08-03.58.35:631][711]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-03.58.35:631][711]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-03.58.36:279][711]LogViewport: Scene viewport resized to 1403x848, mode Windowed.
+[2023.10.08-03.58.57:668][219]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-03.58.57:668][219]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-03.59.05:449][336]Cmd: TRANSACTION UNDO
+[2023.10.08-03.59.05:449][336]LogEditorTransaction: Undo Scale Elements
+[2023.10.08-04.00.32:710][673]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.08-04.00.32:710][673]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.00.32:710][673]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.08-04.00.32:710][673]MaterialEditorStats: Shader Count: 0
+[2023.10.08-04.00.34:670][693]LogShaderCompilers: Display: ================================================
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display: Total job queries 699, among them cache hits 493 (70.53%)
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display: Tracking 194 distinct input hashes that result in 114 distinct outputs (58.76%)
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display: RAM used: 749.84 KiB of 614.40 MiB budget. Usage: 0.12%
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display: Shaders Compiled: 162
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display: Jobs assigned 166, completed 162 (97.59%)
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display: Average time worker was idle: 72.43 s
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display: Time job spent in pending queue: average 0.45 s, longest 3.13 s
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display: Job execution time: average 1.05 s, max 4.42 s
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display: Job life time (pending + execution): average 1.51 s, max 4.49
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display: Shader code size: average 8.209 KiB, min 432 B, max 55.414 KiB
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 52.55 s
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display: Jobs were issued in 166 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display: Average processing rate: 3.08 jobs/sec
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display: Total thread time: 124.914 s
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display: Total thread preprocess time: 12.389 s
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display: Percentage time preprocessing: 9.92%
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display: Effective parallelization: 2.38 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    1 times, average 2.23 sec, max 2.23 sec, min 2.23 sec)
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 1.97 sec, max 1.97 sec, min 1.97 sec)
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 1.22 sec, max 1.22 sec, min 1.22 sec)
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   27 times, average 1.10 sec, max 2.74 sec, min 0.66 sec)
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   20 times, average 1.02 sec, max 1.96 sec, min 0.74 sec)
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 23.74% of total time (compiled   27 times, average 1.10 sec, max 2.74 sec, min 0.66 sec)
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 21.27% of total time (compiled   27 times, average 0.98 sec, max 1.97 sec, min 0.48 sec)
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display:                                                 FLumenCardVS - 16.31% of total time (compiled   20 times, average 1.02 sec, max 1.96 sec, min 0.74 sec)
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.36% of total time (compiled   20 times, average 0.40 sec, max 1.07 sec, min 0.23 sec)
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 2.30% of total time (compiled    5 times, average 0.58 sec, max 0.88 sec, min 0.44 sec)
+[2023.10.08-04.00.34:671][693]LogShaderCompilers: Display: ================================================
+[2023.10.08-04.00.34:686][694]MaterialEditorStats: Base pass shader: 149 instructions
+[2023.10.08-04.00.34:686][694]MaterialEditorStats: Base pass vertex shader: 122 instructions
+[2023.10.08-04.00.34:687][694]MaterialEditorStats: Texture samplers: 4/16
+[2023.10.08-04.00.34:687][694]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.00.34:687][694]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.08-04.00.34:687][694]MaterialEditorStats: Shader Count: 4
+[2023.10.08-04.00.40:193][767]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_2: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureCoordinate) Only 8 texture coordinate sets can be used by this feature level, currently using 16
+
+[2023.10.08-04.00.40:208][767]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_2: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureCoordinate) Only 8 texture coordinate sets can be used by this feature level, currently using 16
+
+[2023.10.08-04.00.40:214][767]MaterialEditorStats: Error: [SM5] (Node TextureCoordinate) Only 8 texture coordinate sets can be used by this feature level, currently using 16
+[2023.10.08-04.00.44:773][816]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.08-04.00.44:773][816]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.00.44:773][816]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.08-04.00.44:773][816]MaterialEditorStats: Shader Count: 0
+[2023.10.08-04.00.44:976][817]MaterialEditorStats: Base pass shader: 149 instructions
+[2023.10.08-04.00.44:977][817]MaterialEditorStats: Base pass vertex shader: 122 instructions
+[2023.10.08-04.00.44:977][817]MaterialEditorStats: Texture samplers: 4/16
+[2023.10.08-04.00.44:977][817]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.00.44:977][817]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.08-04.00.44:977][817]MaterialEditorStats: Shader Count: 4
+[2023.10.08-04.00.48:280][849]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_2: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureCoordinate) Only 8 texture coordinate sets can be used by this feature level, currently using 16
+
+[2023.10.08-04.00.48:294][849]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_2: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureCoordinate) Only 8 texture coordinate sets can be used by this feature level, currently using 16
+
+[2023.10.08-04.00.48:295][849]MaterialEditorStats: Error: [SM5] (Node TextureCoordinate) Only 8 texture coordinate sets can be used by this feature level, currently using 16
+[2023.10.08-04.00.50:022][867]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.08-04.00.50:022][867]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.00.50:022][867]MaterialEditorStats: User interpolators: 16/16 Scalars (4/4 Vectors) (TexCoords: 16, Custom: 0)
+[2023.10.08-04.00.50:022][867]MaterialEditorStats: Shader Count: 0
+[2023.10.08-04.00.50:966][876]MaterialEditorStats: Texture samplers: 2/16
+[2023.10.08-04.00.50:966][876]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.00.50:966][876]MaterialEditorStats: User interpolators: 16/16 Scalars (4/4 Vectors) (TexCoords: 16, Custom: 0)
+[2023.10.08-04.00.50:966][876]MaterialEditorStats: Shader Count: 1
+[2023.10.08-04.00.51:407][880]MaterialEditorStats: Base pass shader: 149 instructions
+[2023.10.08-04.00.51:407][880]MaterialEditorStats: Base pass vertex shader: 140 instructions
+[2023.10.08-04.00.51:407][880]MaterialEditorStats: Texture samplers: 4/16
+[2023.10.08-04.00.51:407][880]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.00.51:407][880]MaterialEditorStats: User interpolators: 16/16 Scalars (4/4 Vectors) (TexCoords: 16, Custom: 0)
+[2023.10.08-04.00.51:407][880]MaterialEditorStats: Shader Count: 3
+[2023.10.08-04.00.54:987][914]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.08-04.00.54:987][914]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.00.54:987][914]MaterialEditorStats: User interpolators: 10/12 Scalars (3/4 Vectors) (TexCoords: 10, Custom: 0)
+[2023.10.08-04.00.54:987][914]MaterialEditorStats: Shader Count: 0
+[2023.10.08-04.00.55:793][922]MaterialEditorStats: Texture samplers: 2/16
+[2023.10.08-04.00.55:793][922]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.00.55:793][922]MaterialEditorStats: User interpolators: 10/12 Scalars (3/4 Vectors) (TexCoords: 10, Custom: 0)
+[2023.10.08-04.00.55:793][922]MaterialEditorStats: Shader Count: 1
+[2023.10.08-04.00.56:456][928]MaterialEditorStats: Base pass shader: 149 instructions
+[2023.10.08-04.00.56:457][928]MaterialEditorStats: Base pass vertex shader: 133 instructions
+[2023.10.08-04.00.56:457][928]MaterialEditorStats: Texture samplers: 4/16
+[2023.10.08-04.00.56:457][928]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.00.56:457][928]MaterialEditorStats: User interpolators: 10/12 Scalars (3/4 Vectors) (TexCoords: 10, Custom: 0)
+[2023.10.08-04.00.56:457][928]MaterialEditorStats: Shader Count: 4
+[2023.10.08-04.01.01:231][980]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.08-04.01.01:231][980]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.01.01:231][980]MaterialEditorStats: User interpolators: 6/8 Scalars (2/4 Vectors) (TexCoords: 6, Custom: 0)
+[2023.10.08-04.01.01:231][980]MaterialEditorStats: Shader Count: 0
+[2023.10.08-04.01.02:053][988]MaterialEditorStats: Texture samplers: 2/16
+[2023.10.08-04.01.02:054][988]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.01.02:054][988]MaterialEditorStats: User interpolators: 6/8 Scalars (2/4 Vectors) (TexCoords: 6, Custom: 0)
+[2023.10.08-04.01.02:054][988]MaterialEditorStats: Shader Count: 1
+[2023.10.08-04.01.02:685][994]MaterialEditorStats: Base pass shader: 149 instructions
+[2023.10.08-04.01.02:685][994]MaterialEditorStats: Base pass vertex shader: 129 instructions
+[2023.10.08-04.01.02:685][994]MaterialEditorStats: Texture samplers: 4/16
+[2023.10.08-04.01.02:685][994]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.01.02:685][994]MaterialEditorStats: User interpolators: 6/8 Scalars (2/4 Vectors) (TexCoords: 6, Custom: 0)
+[2023.10.08-04.01.02:685][994]MaterialEditorStats: Shader Count: 4
+[2023.10.08-04.01.05:470][ 20]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.08-04.01.05:471][ 20]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.01.05:471][ 20]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.01.05:471][ 20]MaterialEditorStats: Shader Count: 0
+[2023.10.08-04.01.06:146][ 28]MaterialEditorStats: Texture samplers: 2/16
+[2023.10.08-04.01.06:147][ 28]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.01.06:147][ 28]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.01.06:147][ 28]MaterialEditorStats: Shader Count: 1
+[2023.10.08-04.01.06:860][ 34]MaterialEditorStats: Base pass shader: 149 instructions
+[2023.10.08-04.01.06:860][ 34]MaterialEditorStats: Base pass vertex shader: 126 instructions
+[2023.10.08-04.01.06:860][ 34]MaterialEditorStats: Texture samplers: 4/16
+[2023.10.08-04.01.06:860][ 34]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.01.06:860][ 34]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.01.06:860][ 34]MaterialEditorStats: Shader Count: 4
+[2023.10.08-04.01.10:845][ 73]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.08-04.01.10:846][ 73]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.01.10:846][ 73]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.01.10:846][ 73]MaterialEditorStats: Shader Count: 0
+[2023.10.08-04.01.11:532][ 81]MaterialEditorStats: Texture samplers: 2/16
+[2023.10.08-04.01.11:532][ 81]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.01.11:532][ 81]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.01.11:532][ 81]MaterialEditorStats: Shader Count: 1
+[2023.10.08-04.01.12:209][ 87]MaterialEditorStats: Base pass shader: 150 instructions
+[2023.10.08-04.01.12:209][ 87]MaterialEditorStats: Base pass vertex shader: 126 instructions
+[2023.10.08-04.01.12:209][ 87]MaterialEditorStats: Texture samplers: 4/16
+[2023.10.08-04.01.12:209][ 87]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.01.12:209][ 87]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.01.12:209][ 87]MaterialEditorStats: Shader Count: 4
+[2023.10.08-04.01.17:070][144]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.08-04.01.17:070][144]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.01.17:070][144]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.01.17:070][144]MaterialEditorStats: Shader Count: 0
+[2023.10.08-04.01.17:964][153]MaterialEditorStats: Texture samplers: 2/16
+[2023.10.08-04.01.17:965][153]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.01.17:965][153]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.01.17:965][153]MaterialEditorStats: Shader Count: 1
+[2023.10.08-04.01.18:625][159]MaterialEditorStats: Base pass shader: 150 instructions
+[2023.10.08-04.01.18:626][159]MaterialEditorStats: Base pass vertex shader: 126 instructions
+[2023.10.08-04.01.18:626][159]MaterialEditorStats: Texture samplers: 4/16
+[2023.10.08-04.01.18:626][159]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.01.18:626][159]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.01.18:626][159]MaterialEditorStats: Shader Count: 4
+[2023.10.08-04.01.21:017][181]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.08-04.01.21:017][181]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.01.21:018][181]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.01.21:018][181]MaterialEditorStats: Shader Count: 0
+[2023.10.08-04.01.21:838][189]MaterialEditorStats: Texture samplers: 2/16
+[2023.10.08-04.01.21:839][189]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.01.21:839][189]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.01.21:839][189]MaterialEditorStats: Shader Count: 1
+[2023.10.08-04.01.22:346][194]MaterialEditorStats: Base pass shader: 150 instructions
+[2023.10.08-04.01.22:346][194]MaterialEditorStats: Texture samplers: 4/16
+[2023.10.08-04.01.22:346][194]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.01.22:346][194]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.01.22:346][194]MaterialEditorStats: Shader Count: 3
+[2023.10.08-04.01.22:493][195]MaterialEditorStats: Base pass shader: 150 instructions
+[2023.10.08-04.01.22:493][195]MaterialEditorStats: Base pass vertex shader: 126 instructions
+[2023.10.08-04.01.22:493][195]MaterialEditorStats: Texture samplers: 4/16
+[2023.10.08-04.01.22:494][195]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.01.22:494][195]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.01.22:494][195]MaterialEditorStats: Shader Count: 4
+[2023.10.08-04.01.28:316][255]LogMaterialEditor: Saving and Compiling material Wood1
+[2023.10.08-04.01.30:848][255]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.10.08-04.01.31:912][255]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.10.08-04.01.31:926][255]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-04.01.34:003][255]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2023.10.08-04.01.34:456][255]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 2.457904s (0.457904s overbudget)
+[2023.10.08-04.01.34:512][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Wood1" FILE="C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Materials/Wood1.uasset" SILENT=true
+[2023.10.08-04.01.34:515][255]LogSavePackage: Moving output files for package: /Game/Materials/Wood1
+[2023.10.08-04.01.34:515][255]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/Wood1C2DCC8884228CA0AFBA3BFAC335EA4FE.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Materials/Wood1.uasset'
+[2023.10.08-04.01.34:524][255]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.59 sec (total: 17.5 sec)
+[2023.10.08-04.01.34:525][255]AssetCheck: New page: Asset Save: Wood1
+[2023.10.08-04.01.34:525][255]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/Wood1.Wood1
+[2023.10.08-04.01.34:526][255]MaterialEditorStats: Base pass shader: 150 instructions
+[2023.10.08-04.01.34:527][255]MaterialEditorStats: Base pass vertex shader: 126 instructions
+[2023.10.08-04.01.34:527][255]MaterialEditorStats: MaxSampler: 199 instructions
+[2023.10.08-04.01.34:527][255]MaterialEditorStats: Texture samplers: 5/16
+[2023.10.08-04.01.34:527][255]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.01.34:527][255]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.01.34:527][255]MaterialEditorStats: Shader Count: 20
+[2023.10.08-04.02.47:081][267]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-04.02.47:231][267]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/TankGame/A/IK/ID4PT97DHR9HIJ4EYP6VSW
+[2023.10.08-04.02.47:231][267]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/ID4PT97DHR9HIJ4EYP6VSWB42268FF48B26126FCF2858499442DBF.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/__ExternalActors__/Levels/TankGame/A/IK/ID4PT97DHR9HIJ4EYP6VSW.uasset'
+[2023.10.08-04.02.47:236][267]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/TankGame/5/6X/HUTR80WSEK5CTH9EWLCID8
+[2023.10.08-04.02.47:236][267]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/HUTR80WSEK5CTH9EWLCID861BBE16649F1A249DE750E9CA61E7880.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/__ExternalActors__/Levels/TankGame/5/6X/HUTR80WSEK5CTH9EWLCID8.uasset'
+[2023.10.08-04.02.47:242][267]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Levels/TankGame/4/GV/ZBJR3DVB2VLR58DH4OD44T
+[2023.10.08-04.02.47:242][267]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/ZBJR3DVB2VLR58DH4OD44T23AFA25F4A86AF745ECF1C9EA11AC86E.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/__ExternalObjects__/Levels/TankGame/4/GV/ZBJR3DVB2VLR58DH4OD44T.uasset'
+[2023.10.08-04.02.47:254][267]LogFileHelpers: InternalPromptForCheckoutAndSave took 173 ms (total: 17.7 sec)
+[2023.10.08-04.02.47:257][267]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.08-04.02.47:257][267]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B957FB001_1520682367
+[2023.10.08-04.02.47:257][267]LogContentValidation: Display: Validating /Script/Engine.LevelInstance /Game/Levels/TankGame.TankGame:PersistentLevel.LevelInstance_UAID_601895280B9581B001_1450655730
+[2023.10.08-04.02.47:257][267]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/Levels/TankGame.TankGame:PersistentLevel.ActorFolder_UID_3581215E-4BBB05E8-3173F4A4-AFB77374
+[2023.10.08-04.03.01:077][655]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-04.03.01:227][655]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Levels/TankGame/C/4U/UBMFQY4URV65DQMKYUKNX3
+[2023.10.08-04.03.01:227][655]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/UBMFQY4URV65DQMKYUKNX3C60A623546B8AD946849E8A28F1D041B.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/__ExternalObjects__/Levels/TankGame/C/4U/UBMFQY4URV65DQMKYUKNX3.uasset'
+[2023.10.08-04.03.01:239][655]LogFileHelpers: InternalPromptForCheckoutAndSave took 161 ms (total: 17.9 sec)
+[2023.10.08-04.03.01:241][655]AssetCheck: New page: Asset Save: ActorFolder_UID_90E94280-4DB23BF9-DD2F269A-5186249C
+[2023.10.08-04.03.01:241][655]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/Levels/TankGame.TankGame:PersistentLevel.ActorFolder_UID_90E94280-4DB23BF9-DD2F269A-5186249C
+[2023.10.08-04.03.34:317][129]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.Actor
+[2023.10.08-04.03.34:317][129]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.Actor
+[2023.10.08-04.03.34:319][129]LogActorFactory: Actor Factory spawned Class /Script/Engine.Actor as actor: Actor /Game/Levels/TankGame.TankGame:PersistentLevel.Actor_UAID_601895280B9581B001_1919563731
+[2023.10.08-04.03.34:319][129]LogActorFactory: Actor Factory spawned Class /Script/Engine.Actor as actor: Actor /Game/Levels/TankGame.TankGame:PersistentLevel.Actor_UAID_601895280B9581B001_1919563731
+[2023.10.08-04.03.42:794][328]Cmd: DELETE
+[2023.10.08-04.03.42:795][328]Cmd: ACTOR DELETE
+[2023.10.08-04.03.42:798][328]LogEditorActor: Deleted Actor: Actor
+[2023.10.08-04.03.42:818][328]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.10.08-04.03.42:827][328]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2023.10.08-04.03.42:876][329]Cmd: DELETE
+[2023.10.08-04.03.42:876][329]Cmd: ACTOR DELETE
+[2023.10.08-04.04.15:635][857]LogViewport: Scene viewport resized to 1330x845, mode Windowed.
+[2023.10.08-04.04.37:914][167]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.CameraActor
+[2023.10.08-04.04.37:914][167]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.CameraActor
+[2023.10.08-04.04.37:939][167]LogActorFactory: Actor Factory spawned Class /Script/Engine.CameraActor as actor: CameraActor /Game/Levels/TankGame.TankGame:PersistentLevel.CameraActor_0
+[2023.10.08-04.04.37:939][167]LogActorFactory: Actor Factory spawned Class /Script/Engine.CameraActor as actor: CameraActor /Game/Levels/TankGame.TankGame:PersistentLevel.CameraActor_0
+[2023.10.08-04.04.38:528][180]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.CameraActor
+[2023.10.08-04.04.38:528][180]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.CameraActor
+[2023.10.08-04.04.38:531][180]LogActorFactory: Actor Factory spawned Class /Script/Engine.CameraActor as actor: CameraActor /Game/Levels/TankGame.TankGame:PersistentLevel.CameraActor_UAID_601895280B9581B001_1983774732
+[2023.10.08-04.04.38:531][180]LogActorFactory: Actor Factory spawned Class /Script/Engine.CameraActor as actor: CameraActor /Game/Levels/TankGame.TankGame:PersistentLevel.CameraActor_UAID_601895280B9581B001_1983774732
+[2023.10.08-04.04.38:959][181]LogViewport: Scene viewport resized to 592x333, mode Windowed.
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display: ================================================
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display: Total job queries 793, among them cache hits 539 (67.97%)
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display: Tracking 243 distinct input hashes that result in 150 distinct outputs (61.73%)
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display: RAM used: 946.03 KiB of 614.40 MiB budget. Usage: 0.15%
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display: Shaders Compiled: 211
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display: Jobs assigned 214, completed 211 (98.60%)
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display: Average time worker was idle: 60.30 s
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display: Time job spent in pending queue: average 0.42 s, longest 3.13 s
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display: Job execution time: average 1.05 s, max 4.42 s
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display: Job life time (pending + execution): average 1.48 s, max 4.49
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display: Shader code size: average 8.087 KiB, min 432 B, max 55.484 KiB
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 69.19 s
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display: Jobs were issued in 214 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display: Average processing rate: 3.05 jobs/sec
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display: Total thread time: 163.744 s
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display: Total thread preprocess time: 16.01 s
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display: Percentage time preprocessing: 9.78%
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display: Effective parallelization: 2.37 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    1 times, average 2.23 sec, max 2.23 sec, min 2.23 sec)
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 1.97 sec, max 1.97 sec, min 1.97 sec)
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 1.22 sec, max 1.22 sec, min 1.22 sec)
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   35 times, average 1.11 sec, max 2.74 sec, min 0.66 sec)
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   28 times, average 1.04 sec, max 1.96 sec, min 0.74 sec)
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 23.67% of total time (compiled   35 times, average 1.11 sec, max 2.74 sec, min 0.66 sec)
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 21.69% of total time (compiled   35 times, average 1.01 sec, max 1.97 sec, min 0.48 sec)
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display:                                                 FLumenCardVS - 17.85% of total time (compiled   28 times, average 1.04 sec, max 1.96 sec, min 0.74 sec)
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.03% of total time (compiled   29 times, average 0.40 sec, max 1.07 sec, min 0.23 sec)
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 2.12% of total time (compiled    6 times, average 0.58 sec, max 0.88 sec, min 0.44 sec)
+[2023.10.08-04.04.38:972][182]LogShaderCompilers: Display: ================================================
+[2023.10.08-04.04.41:011][199]LogViewport: Scene viewport resized to 1535x845, mode Windowed.
+[2023.10.08-04.05.45:675][724]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2023.10.08-04.05.45:689][724]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/TankGame/C/HW/LNHMA55GKS6Q6OPVEJG1T3_Auto4
+[2023.10.08-04.05.45:689][724]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/LNHMA55GKS6Q6OPVEJG1T3_Auto4E9EAF1F548D021C9A7BAAAB5E227D232.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/Autosaves/Game/__ExternalActors__/Levels/TankGame/C/HW/LNHMA55GKS6Q6OPVEJG1T3_Auto4.uasset'
+[2023.10.08-04.05.45:690][724]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/TankGame' took 0.023
+[2023.10.08-04.05.45:690][724]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.023
+[2023.10.08-04.05.54:570][827]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.08-04.05.56:293][827]LogWorldPartition: Display: GenerateStreaming for 'EnemyTank' started...
+[2023.10.08-04.05.56:300][827]LogWorldPartition: Display: GenerateStreaming for 'EnemyTank' took 6 ms
+[2023.10.08-04.05.56:313][827]LogContentBundle: [TankGame(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.08-04.05.56:313][827]LogWorldPartition: Display: GenerateStreaming for 'TankGame' started...
+[2023.10.08-04.05.56:317][827]LogWorldPartition: Display: GenerateStreaming for 'TankGame' took 4 ms (total: 11 ms)
+[2023.10.08-04.05.56:511][827]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.08-04.05.56:549][827]PIE: New page: PIE session: TankGame (Oct 7, 2023, 8:05:56 PM)
+[2023.10.08-04.05.56:722][827]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.10.08-04.05.56:727][827]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2023.10.08-04.05.56:750][827]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TankGame
+[2023.10.08-04.05.56:776][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025360s)
+[2023.10.08-04.05.56:776][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TankGame.TankGame to /Game/Levels/UEDPIE_0_TankGame.TankGame (0.025658s)
+[2023.10.08-04.05.56:781][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2023.10.08-04.05.56:834][827]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-04.05.56:844][827]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-04.05.56:845][827]LogAIModule: Creating AISystem for world TankGame
+[2023.10.08-04.05.56:865][827]LogWorldPartition: ULevel::OnLevelLoaded(TankGame)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.08-04.05.56:865][827]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-04.05.56:865][827]LogWorldPartition: UWorldPartition::Initialize : World = TankGame, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-04.05.56:866][827]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.08-04.05.56:868][827]LogContentBundle: [TankGame(Standalone)] Creating new contrainer.
+[2023.10.08-04.05.56:870][827]LogWorldPartition: Display: WorldPartition initialize took 5 ms (total: 486 ms)
+[2023.10.08-04.05.56:870][827]LogPlayLevel: PIE: World Init took: (0.052373s)
+[2023.10.08-04.05.56:878][827]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.10.08-04.05.56:878][827]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.08-04.05.56:878][827]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.08-04.05.56:878][827]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.08-04.05.56:878][827]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.08-04.05.56:878][827]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.08-04.05.56:878][827]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.08-04.05.56:878][827]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.08-04.05.56:878][827]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.08-04.05.56:897][827]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.08-04.05.56:897][827]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.08-04.05.56:897][827]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.08-04.05.56:902][827]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.08-04.05.56:930][827]LogAudioMixer: Display: Using Audio Hardware Device Headphones (McChickens)
+[2023.10.08-04.05.56:934][827]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.08-04.05.56:934][827]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.08-04.05.56:934][827]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.08-04.05.56:941][827]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.10.08-04.05.56:941][827]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.10.08-04.05.56:943][827]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.10.08-04.05.56:943][827]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.10.08-04.05.56:943][827]LogInit: FAudioDevice initialized with ID 2.
+[2023.10.08-04.05.56:943][827]LogAudio: Display: Audio Device (ID: 2) registered with world 'TankGame'.
+[2023.10.08-04.05.56:943][827]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2023.10.08-04.05.57:061][827]LogLoad: Game class is 'GameModeBase'
+[2023.10.08-04.05.57:062][827]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TankGame.TankGame up for play (max tick rate 60) at 2023.10.08-00.05.57
+[2023.10.08-04.05.57:085][827]LogWorld: Bringing up level for play took: 0.023067
+[2023.10.08-04.05.57:092][827]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2023.10.08-04.05.57:386][827]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(1), CellsToLoad(0), CellsToUnload(0)
+[2023.10.08-04.05.57:386][827]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-200.000 Y=0.000 Z=92.000,P=0.000000 Y=180.000000 R=-0.000000
+[2023.10.08-04.05.57:403][827]LogStreaming: Display: FlushAsyncLoading(): 8 QueuedPackages, 0 AsyncPackages
+[2023.10.08-04.05.57:534][827]PIE: Server logged in
+[2023.10.08-04.05.57:538][827]PIE: Play in editor total start time 1.323 seconds.
+[2023.10.08-04.06.02:141][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-04.06.02:142][895]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TankGame
+[2023.10.08-04.06.02:143][895]LogWorld: UWorld::CleanupWorld for TankGame, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-04.06.02:145][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-04.06.02:145][895]LogContentBundle: [TankGame(Standalone)] Deleting container.
+[2023.10.08-04.06.02:187][895]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.08-04.06.02:218][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-04.06.02:246][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-04.06.02:246][895]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2023.10.08-04.06.02:286][895]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.10.08-04.06.02:289][895]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.10.08-04.06.02:324][895]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.10.08-04.06.02:365][896]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2023.10.08-04.06.02:372][896]LogViewport: Scene viewport resized to 592x333, mode Windowed.
+[2023.10.08-04.06.05:368][988]LogViewport: Scene viewport resized to 592x333, mode Windowed.
+[2023.10.08-04.06.09:700][143]LogViewport: Scene viewport resized to 592x333, mode Windowed.
+[2023.10.08-04.06.13:336][192]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-04.06.13:466][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.10.08-04.06.13:474][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.10.08-04.06.13:481][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.10.08-04.06.13:485][192]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/TankGame/C/HW/LNHMA55GKS6Q6OPVEJG1T3
+[2023.10.08-04.06.13:485][192]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/LNHMA55GKS6Q6OPVEJG1T3D4A629FC45926602C809A79D18507F56.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/__ExternalActors__/Levels/TankGame/C/HW/LNHMA55GKS6Q6OPVEJG1T3.uasset'
+[2023.10.08-04.06.13:496][192]LogFileHelpers: InternalPromptForCheckoutAndSave took 160 ms (total: 18.0 sec)
+[2023.10.08-04.06.13:498][192]AssetCheck: New page: Asset Save: CameraActor_UAID_601895280B9581B001_1983774732
+[2023.10.08-04.06.13:498][192]LogContentValidation: Display: Validating /Script/Engine.CameraActor /Game/Levels/TankGame.TankGame:PersistentLevel.CameraActor_UAID_601895280B9581B001_1983774732
+[2023.10.08-04.06.14:611][211]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.08-04.06.14:620][211]LogWorldPartition: Display: GenerateStreaming for 'EnemyTank' started...
+[2023.10.08-04.06.14:631][211]LogWorldPartition: Display: GenerateStreaming for 'EnemyTank' took 11 ms (total: 22 ms)
+[2023.10.08-04.06.14:631][211]LogContentBundle: [TankGame(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.08-04.06.14:631][211]LogWorldPartition: Display: GenerateStreaming for 'TankGame' started...
+[2023.10.08-04.06.14:634][211]LogWorldPartition: Display: GenerateStreaming for 'TankGame' took 2 ms (total: 25 ms)
+[2023.10.08-04.06.14:733][211]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.08-04.06.14:733][211]PIE: New page: PIE session: TankGame (Oct 7, 2023, 8:06:14 PM)
+[2023.10.08-04.06.14:733][211]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TankGame
+[2023.10.08-04.06.14:741][211]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001994s)
+[2023.10.08-04.06.14:741][211]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TankGame.TankGame to /Game/Levels/UEDPIE_0_TankGame.TankGame (0.007978s)
+[2023.10.08-04.06.14:746][211]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.10.08-04.06.14:854][211]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-04.06.14:854][211]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-04.06.14:855][211]LogAIModule: Creating AISystem for world TankGame
+[2023.10.08-04.06.14:856][211]LogWorldPartition: ULevel::OnLevelLoaded(TankGame)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.08-04.06.14:856][211]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-04.06.14:856][211]LogWorldPartition: UWorldPartition::Initialize : World = TankGame, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-04.06.14:856][211]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.08-04.06.14:857][211]LogContentBundle: [TankGame(Standalone)] Creating new contrainer.
+[2023.10.08-04.06.14:857][211]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 488 ms)
+[2023.10.08-04.06.14:857][211]LogPlayLevel: PIE: World Init took: (0.110635s)
+[2023.10.08-04.06.14:857][211]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.10.08-04.06.14:857][211]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.08-04.06.14:857][211]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.08-04.06.14:857][211]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.08-04.06.14:858][211]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.08-04.06.14:858][211]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.08-04.06.14:858][211]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.08-04.06.14:858][211]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.08-04.06.14:858][211]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.08-04.06.14:858][211]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.08-04.06.14:859][211]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.08-04.06.14:859][211]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.08-04.06.14:862][211]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.08-04.06.14:884][211]LogAudioMixer: Display: Using Audio Hardware Device Headphones (McChickens)
+[2023.10.08-04.06.14:886][211]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.08-04.06.14:886][211]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.08-04.06.14:886][211]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.08-04.06.14:886][211]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.10.08-04.06.14:886][211]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.10.08-04.06.14:889][211]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.10.08-04.06.14:889][211]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.10.08-04.06.14:889][211]LogInit: FAudioDevice initialized with ID 3.
+[2023.10.08-04.06.14:889][211]LogAudio: Display: Audio Device (ID: 3) registered with world 'TankGame'.
+[2023.10.08-04.06.14:889][211]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2023.10.08-04.06.14:910][211]LogLoad: Game class is 'GameModeBase'
+[2023.10.08-04.06.14:910][211]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TankGame.TankGame up for play (max tick rate 60) at 2023.10.08-00.06.14
+[2023.10.08-04.06.14:911][211]LogWorld: Bringing up level for play took: 0.000984
+[2023.10.08-04.06.14:915][211]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2023.10.08-04.06.14:916][211]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(1), CellsToLoad(0), CellsToUnload(0)
+[2023.10.08-04.06.14:916][211]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-200.000 Y=0.000 Z=92.000,P=0.000000 Y=180.000000 R=-0.000000
+[2023.10.08-04.06.14:916][211]LogStreaming: Display: FlushAsyncLoading(): 10 QueuedPackages, 0 AsyncPackages
+[2023.10.08-04.06.14:923][211]PIE: Server logged in
+[2023.10.08-04.06.14:924][211]PIE: Play in editor total start time 0.304 seconds.
+[2023.10.08-04.06.27:095][424]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-04.06.27:095][424]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TankGame
+[2023.10.08-04.06.27:096][424]LogWorld: UWorld::CleanupWorld for TankGame, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-04.06.27:096][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-04.06.27:097][424]LogContentBundle: [TankGame(Standalone)] Deleting container.
+[2023.10.08-04.06.27:148][424]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.08-04.06.27:155][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-04.06.27:167][424]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-04.06.27:168][424]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2023.10.08-04.06.27:168][424]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.10.08-04.06.27:174][424]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.10.08-04.06.27:189][424]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.10.08-04.06.27:244][425]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2023.10.08-04.06.32:298][497]LogViewport: Scene viewport resized to 592x333, mode Windowed.
+[2023.10.08-04.06.39:480][572]LogViewport: Scene viewport resized to 592x333, mode Windowed.
+[2023.10.08-04.06.57:246][769]LogViewport: Scene viewport resized to 1223x845, mode Windowed.
+[2023.10.08-04.07.29:034][191]Cmd: TRANSACTION UNDO
+[2023.10.08-04.07.29:034][191]LogEditorTransaction: Undo Set Rotation
+[2023.10.08-04.07.56:277][556]LogDerivedDataCache: C:/Users/alexs/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.401 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1282 files in 2084 folders with total size 34 MiB.
+[2023.10.08-04.07.57:133][567]Cmd: TRANSACTION UNDO
+[2023.10.08-04.07.57:134][567]LogEditorTransaction: Undo Set Rotation
+[2023.10.08-04.08.07:273][702]Cmd: TRANSACTION UNDO
+[2023.10.08-04.08.07:273][702]LogEditorTransaction: Undo Set Rotation
+[2023.10.08-04.08.51:676][266]Cmd: TRANSACTION UNDO
+[2023.10.08-04.08.51:676][266]LogEditorTransaction: Undo Set Location
+[2023.10.08-04.10.13:750][ 16]LogViewport: Scene viewport resized to 592x333, mode Windowed.
+[2023.10.08-04.10.26:211][155]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-04.10.27:921][155]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.10.08-04.10.27:931][155]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.10.08-04.10.27:937][155]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.10.08-04.10.27:939][155]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/TankGame/C/HW/LNHMA55GKS6Q6OPVEJG1T3
+[2023.10.08-04.10.27:939][155]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/LNHMA55GKS6Q6OPVEJG1T3F9FED1AA4E0551617B9F7984A1AE7ABA.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/__ExternalActors__/Levels/TankGame/C/HW/LNHMA55GKS6Q6OPVEJG1T3.uasset'
+[2023.10.08-04.10.27:949][155]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.73 sec (total: 19.8 sec)
+[2023.10.08-04.10.27:951][155]AssetCheck: New page: Asset Save: CameraActor_UAID_601895280B9581B001_1983774732
+[2023.10.08-04.10.27:951][155]LogContentValidation: Display: Validating /Script/Engine.CameraActor /Game/Levels/TankGame.TankGame:PersistentLevel.CameraActor_UAID_601895280B9581B001_1983774732
+[2023.10.08-04.10.29:378][173]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.08-04.10.29:392][173]LogWorldPartition: Display: GenerateStreaming for 'EnemyTank' started...
+[2023.10.08-04.10.29:395][173]LogWorldPartition: Display: GenerateStreaming for 'EnemyTank' took 2 ms (total: 27 ms)
+[2023.10.08-04.10.29:395][173]LogContentBundle: [TankGame(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.08-04.10.29:395][173]LogWorldPartition: Display: GenerateStreaming for 'TankGame' started...
+[2023.10.08-04.10.29:397][173]LogWorldPartition: Display: GenerateStreaming for 'TankGame' took 2 ms (total: 29 ms)
+[2023.10.08-04.10.29:456][173]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.08-04.10.29:457][173]PIE: New page: PIE session: TankGame (Oct 7, 2023, 8:10:29 PM)
+[2023.10.08-04.10.29:457][173]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TankGame
+[2023.10.08-04.10.29:459][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002509s)
+[2023.10.08-04.10.29:460][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TankGame.TankGame to /Game/Levels/UEDPIE_0_TankGame.TankGame (0.002587s)
+[2023.10.08-04.10.29:470][173]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2023.10.08-04.10.29:472][173]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-04.10.29:473][173]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-04.10.29:475][173]LogAIModule: Creating AISystem for world TankGame
+[2023.10.08-04.10.29:476][173]LogWorldPartition: ULevel::OnLevelLoaded(TankGame)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.08-04.10.29:476][173]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-04.10.29:476][173]LogWorldPartition: UWorldPartition::Initialize : World = TankGame, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-04.10.29:476][173]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.08-04.10.29:478][173]LogContentBundle: [TankGame(Standalone)] Creating new contrainer.
+[2023.10.08-04.10.29:478][173]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 489 ms)
+[2023.10.08-04.10.29:478][173]LogPlayLevel: PIE: World Init took: (0.006215s)
+[2023.10.08-04.10.29:478][173]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.10.08-04.10.29:478][173]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.08-04.10.29:478][173]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.08-04.10.29:478][173]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.08-04.10.29:479][173]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.08-04.10.29:479][173]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.08-04.10.29:479][173]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.08-04.10.29:479][173]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.08-04.10.29:479][173]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.08-04.10.29:480][173]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.08-04.10.29:480][173]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.08-04.10.29:480][173]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.08-04.10.29:488][173]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.08-04.10.29:518][173]LogAudioMixer: Display: Using Audio Hardware Device Headphones (McChickens)
+[2023.10.08-04.10.29:519][173]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.08-04.10.29:519][173]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.08-04.10.29:519][173]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.08-04.10.29:522][173]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.10.08-04.10.29:522][173]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.10.08-04.10.29:525][173]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.10.08-04.10.29:525][173]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.10.08-04.10.29:525][173]LogInit: FAudioDevice initialized with ID 4.
+[2023.10.08-04.10.29:525][173]LogAudio: Display: Audio Device (ID: 4) registered with world 'TankGame'.
+[2023.10.08-04.10.29:525][173]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2023.10.08-04.10.29:531][173]LogLoad: Game class is 'GameModeBase'
+[2023.10.08-04.10.29:532][173]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TankGame.TankGame up for play (max tick rate 60) at 2023.10.08-00.10.29
+[2023.10.08-04.10.29:532][173]LogWorld: Bringing up level for play took: 0.000723
+[2023.10.08-04.10.29:535][173]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2023.10.08-04.10.29:538][173]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(1), CellsToLoad(0), CellsToUnload(0)
+[2023.10.08-04.10.29:538][173]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-200.000 Y=0.000 Z=92.000,P=0.000000 Y=180.000000 R=-0.000000
+[2023.10.08-04.10.29:538][173]LogStreaming: Display: FlushAsyncLoading(): 10 QueuedPackages, 0 AsyncPackages
+[2023.10.08-04.10.29:547][173]PIE: Server logged in
+[2023.10.08-04.10.29:548][173]PIE: Play in editor total start time 0.156 seconds.
+[2023.10.08-04.10.35:164][275]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-04.10.35:164][275]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TankGame
+[2023.10.08-04.10.35:165][275]LogWorld: UWorld::CleanupWorld for TankGame, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-04.10.35:165][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-04.10.35:165][275]LogContentBundle: [TankGame(Standalone)] Deleting container.
+[2023.10.08-04.10.35:181][275]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.08-04.10.35:184][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-04.10.35:197][275]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-04.10.35:197][275]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2023.10.08-04.10.35:197][275]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.10.08-04.10.35:201][275]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.10.08-04.10.35:232][275]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2023.10.08-04.10.35:377][276]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.10.08-04.10.35:382][276]LogViewport: Scene viewport resized to 592x333, mode Windowed.
+[2023.10.08-04.10.37:938][303]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.08-04.10.37:945][303]LogWorldPartition: Display: GenerateStreaming for 'EnemyTank' started...
+[2023.10.08-04.10.37:947][303]LogWorldPartition: Display: GenerateStreaming for 'EnemyTank' took 1 ms (total: 31 ms)
+[2023.10.08-04.10.37:947][303]LogContentBundle: [TankGame(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.08-04.10.37:947][303]LogWorldPartition: Display: GenerateStreaming for 'TankGame' started...
+[2023.10.08-04.10.37:951][303]LogWorldPartition: Display: GenerateStreaming for 'TankGame' took 3 ms (total: 34 ms)
+[2023.10.08-04.10.37:992][303]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.08-04.10.37:992][303]PIE: New page: PIE session: TankGame (Oct 7, 2023, 8:10:37 PM)
+[2023.10.08-04.10.37:992][303]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TankGame
+[2023.10.08-04.10.37:994][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001610s)
+[2023.10.08-04.10.37:994][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TankGame.TankGame to /Game/Levels/UEDPIE_0_TankGame.TankGame (0.001647s)
+[2023.10.08-04.10.37:998][303]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.10.08-04.10.38:001][303]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-04.10.38:002][303]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-04.10.38:002][303]LogAIModule: Creating AISystem for world TankGame
+[2023.10.08-04.10.38:002][303]LogWorldPartition: ULevel::OnLevelLoaded(TankGame)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.08-04.10.38:002][303]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-04.10.38:002][303]LogWorldPartition: UWorldPartition::Initialize : World = TankGame, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-04.10.38:002][303]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.08-04.10.38:003][303]LogContentBundle: [TankGame(Standalone)] Creating new contrainer.
+[2023.10.08-04.10.38:003][303]LogWorldPartition: Display: WorldPartition initialize took 601 us (total: 490 ms)
+[2023.10.08-04.10.38:003][303]LogPlayLevel: PIE: World Init took: (0.001796s)
+[2023.10.08-04.10.38:003][303]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.10.08-04.10.38:003][303]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.08-04.10.38:003][303]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.08-04.10.38:003][303]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.08-04.10.38:003][303]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.08-04.10.38:003][303]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.08-04.10.38:003][303]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.08-04.10.38:003][303]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.08-04.10.38:003][303]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.08-04.10.38:003][303]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.08-04.10.38:003][303]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.08-04.10.38:003][303]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.08-04.10.38:005][303]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.08-04.10.38:024][303]LogAudioMixer: Display: Using Audio Hardware Device Headphones (McChickens)
+[2023.10.08-04.10.38:024][303]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.08-04.10.38:024][303]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.08-04.10.38:024][303]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.08-04.10.38:025][303]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.10.08-04.10.38:025][303]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.10.08-04.10.38:028][303]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.10.08-04.10.38:028][303]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.10.08-04.10.38:028][303]LogInit: FAudioDevice initialized with ID 5.
+[2023.10.08-04.10.38:028][303]LogAudio: Display: Audio Device (ID: 5) registered with world 'TankGame'.
+[2023.10.08-04.10.38:028][303]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2023.10.08-04.10.38:030][303]LogLoad: Game class is 'GameModeBase'
+[2023.10.08-04.10.38:031][303]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TankGame.TankGame up for play (max tick rate 60) at 2023.10.08-00.10.38
+[2023.10.08-04.10.38:031][303]LogWorld: Bringing up level for play took: 0.000902
+[2023.10.08-04.10.38:034][303]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2023.10.08-04.10.38:035][303]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(1), CellsToLoad(0), CellsToUnload(0)
+[2023.10.08-04.10.38:035][303]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-200.000 Y=0.000 Z=92.000,P=0.000000 Y=180.000000 R=-0.000000
+[2023.10.08-04.10.38:035][303]LogStreaming: Display: FlushAsyncLoading(): 10 QueuedPackages, 0 AsyncPackages
+[2023.10.08-04.10.38:042][303]PIE: Server logged in
+[2023.10.08-04.10.38:042][303]PIE: Play in editor total start time 0.097 seconds.
+[2023.10.08-04.10.57:315][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-04.10.57:315][670]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TankGame
+[2023.10.08-04.10.57:315][670]LogWorld: UWorld::CleanupWorld for TankGame, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-04.10.57:315][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-04.10.57:316][670]LogContentBundle: [TankGame(Standalone)] Deleting container.
+[2023.10.08-04.10.57:382][670]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.08-04.10.57:386][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-04.10.57:402][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-04.10.57:403][670]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2023.10.08-04.10.57:403][670]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.10.08-04.10.57:408][670]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.10.08-04.10.57:422][670]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.10.08-04.10.57:626][671]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2023.10.08-04.10.57:639][671]LogViewport: Scene viewport resized to 592x333, mode Windowed.
+[2023.10.08-04.11.11:698][839]LogViewport: Scene viewport resized to 592x333, mode Windowed.
