@@ -1772,3 +1772,82 @@ LogInit: Object subsystem initialized
 [2023.10.08-22.03.24:282][143]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/AU9QNI0ZNWMHC4G9D0BADX_Auto3BD74E244446243C7B8940FB5EBF57427.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/Autosaves/Game/__ExternalActors__/Levels/TankGame/A/K5/AU9QNI0ZNWMHC4G9D0BADX_Auto3.uasset'
 [2023.10.08-22.03.24:288][143]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/TankGame' took 0.035
 [2023.10.08-22.03.24:288][143]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.035
+[2023.10.08-22.29.40:990][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.10.08-22.29.43:035][958]LogSlate: Window 'Save Content' being destroyed
+[2023.10.08-22.29.43:057][958]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-22.29.43:118][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TankGame" FILE="C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Levels/TankGame.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.08-22.29.43:144][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.10.08-22.29.43:150][958]LogSavePackage: Moving output files for package: /Game/Levels/TankGame
+[2023.10.08-22.29.43:151][958]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/TankGameEC35239B44E36936015CD092160BDE21.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Levels/TankGame.umap'
+[2023.10.08-22.29.43:268][958]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/Levels/TankGame/D/GJ/QFNKI2CMNYYENJT8943DF8
+/Game/__ExternalActors__/Levels/TankGame/A/K5/AU9QNI0ZNWMHC4G9D0BADX
+[2023.10.08-22.29.43:268][958]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-22.29.43:271][958]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/TankGame/D/GJ/QFNKI2CMNYYENJT8943DF8
+[2023.10.08-22.29.43:271][958]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/QFNKI2CMNYYENJT8943DF8052C0D3644E48BEE734115B4B46CC202.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/__ExternalActors__/Levels/TankGame/D/GJ/QFNKI2CMNYYENJT8943DF8.uasset'
+[2023.10.08-22.29.43:274][958]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/TankGame/A/K5/AU9QNI0ZNWMHC4G9D0BADX
+[2023.10.08-22.29.43:275][958]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/AU9QNI0ZNWMHC4G9D0BADX4FA34C764DE6639B71AE65B3073C3298.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/__ExternalActors__/Levels/TankGame/A/K5/AU9QNI0ZNWMHC4G9D0BADX.uasset'
+[2023.10.08-22.29.43:277][958]LogFileHelpers: InternalPromptForCheckoutAndSave took 8 ms (total: 5.28 sec)
+[2023.10.08-22.29.43:277][958]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/Levels/TankGame/D/GJ/QFNKI2CMNYYENJT8943DF8
+/Game/__ExternalActors__/Levels/TankGame/A/K5/AU9QNI0ZNWMHC4G9D0BADX
+[2023.10.08-22.29.43:277][958]LogFileHelpers: Saving map 'TankGame' took 0.160
+[2023.10.08-22.29.43:279][958]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/TankGame/A/K5/AU9QNI0ZNWMHC4G9D0BADX
+[2023.10.08-22.29.43:280][958]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/AU9QNI0ZNWMHC4G9D0BADXC2090F3946A6733FE6E09784DCDD2364.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/__ExternalActors__/Levels/TankGame/A/K5/AU9QNI0ZNWMHC4G9D0BADX.uasset'
+[2023.10.08-22.29.43:282][958]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/TankGame/D/GJ/QFNKI2CMNYYENJT8943DF8
+[2023.10.08-22.29.43:283][958]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/QFNKI2CMNYYENJT8943DF81621206845DB00C625589F970AB30903.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/__ExternalActors__/Levels/TankGame/D/GJ/QFNKI2CMNYYENJT8943DF8.uasset'
+[2023.10.08-22.29.43:295][958]LogFileHelpers: InternalPromptForCheckoutAndSave took 237 ms (total: 5.52 sec)
+[2023.10.08-22.29.43:306][958]LogStall: Shutdown...
+[2023.10.08-22.29.43:317][958]LogStall: Shutdown complete.
+[2023.10.08-22.29.43:419][958]LogSlate: Window 'TankGame - Unreal Editor' being destroyed
+[2023.10.08-22.29.43:813][958]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.08-22.29.43:813][958]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TankGame.TankGame
+[2023.10.08-22.29.43:814][958]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95BBB001_2050035931
+[2023.10.08-22.29.43:814][958]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95BDB001_1518734288
+[2023.10.08-22.29.43:815][959]Cmd: QUIT_EDITOR
+[2023.10.08-22.29.43:815][959]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2023.10.08-22.29.43:902][959]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2023.10.08-22.29.43:920][959]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2023.10.08-22.29.43:920][959]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2023.10.08-22.29.43:997][959]LogWorld: UWorld::CleanupWorld for TankGame, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-22.29.43:997][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-22.29.43:999][959]LogContentBundle: [TankGame(Standalone)] Deleting container.
+[2023.10.08-22.29.44:000][959]LogWorld: UWorld::CleanupWorld for Wall1, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-22.29.44:000][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-22.29.44:000][959]LogWorld: UWorld::CleanupWorld for Wall4, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-22.29.44:000][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-22.29.44:000][959]LogWorld: UWorld::CleanupWorld for Wall3, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-22.29.44:000][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-22.29.44:000][959]LogWorld: UWorld::CleanupWorld for Wall2, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-22.29.44:000][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-22.29.44:000][959]LogWorld: UWorld::CleanupWorld for Wall4, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-22.29.44:000][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-22.29.44:000][959]LogWorld: UWorld::CleanupWorld for Wall2, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-22.29.44:000][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-22.29.44:000][959]LogWorld: UWorld::CleanupWorld for Wall1, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-22.29.44:000][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-22.29.44:000][959]LogWorld: UWorld::CleanupWorld for EnemyTank, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-22.29.44:000][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-22.29.44:000][959]LogWorld: UWorld::CleanupWorld for PlayerTank, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-22.29.44:000][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-22.29.44:000][959]LogWorld: UWorld::CleanupWorld for Wall4, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-22.29.44:000][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-22.29.44:000][959]LogWorld: UWorld::CleanupWorld for Wall2, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-22.29.44:000][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-22.29.44:673][959]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2023.10.08-22.29.45:256][959]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2023.10.08-22.29.45:256][959]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2023.10.08-22.29.45:256][959]LogAudio: Display: Audio Device unregistered from world 'TankGame'.
+[2023.10.08-22.29.45:256][959]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2023.10.08-22.29.45:337][959]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.10.08-22.29.45:341][959]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.10.08-22.29.45:388][959]LogAudio: Display: Audio Device Manager Shutdown
+[2023.10.08-22.29.45:389][959]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2023.10.08-22.29.45:447][959]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2023.10.08-22.29.45:491][959]LogExit: Preparing to exit.
+[2023.10.08-22.29.46:238][959]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.10.08-22.29.48:219][959]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-22.29.48:220][959]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-22.29.49:986][959]LogExit: Editor shut down
+[2023.10.08-22.29.50:020][959]LogExit: Transaction tracking system shut down
+[2023.10.08-22.29.50:211][959]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
