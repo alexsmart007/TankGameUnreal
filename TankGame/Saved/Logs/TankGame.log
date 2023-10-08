@@ -3571,3 +3571,570 @@ Script Stack (0 frames) :
 [2023.10.08-04.10.57:626][671]LogPlayLevel: Display: Destroying online subsystem :Context_20
 [2023.10.08-04.10.57:639][671]LogViewport: Scene viewport resized to 592x333, mode Windowed.
 [2023.10.08-04.11.11:698][839]LogViewport: Scene viewport resized to 592x333, mode Windowed.
+[2023.10.08-04.12.04:678][263]LogContentBrowser: Deferred new asset file creation: Wood2
+[2023.10.08-04.12.04:765][263]LogContentBrowser: Creating deferred item: Wood2
+[2023.10.08-04.12.04:861][264]LogContentBrowser: Renaming the item being created (Deferred Item: Wood2).
+[2023.10.08-04.12.06:292][284]LogContentBrowser: Attempting asset rename: Wood2 -> Wood2
+[2023.10.08-04.12.06:299][284]LogContentBrowser: End creating deferred item Wood2
+[2023.10.08-04.12.06:364][284]LogShaderCompilers: Display: ================================================
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display: Total job queries 806, among them cache hits 546 (67.74%)
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display: Tracking 252 distinct input hashes that result in 156 distinct outputs (61.90%)
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display: RAM used: 961.65 KiB of 614.40 MiB budget. Usage: 0.15%
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display: Shaders Compiled: 220
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display: Jobs assigned 220, completed 220 (100%)
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display: Average time worker was idle: 58.78 s
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display: Time job spent in pending queue: average 0.41 s, longest 3.13 s
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display: Job execution time: average 1.05 s, max 4.42 s
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display: Job life time (pending + execution): average 1.47 s, max 4.49
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display: Shader code size: average 7.905 KiB, min 432 B, max 55.484 KiB
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 71.43 s
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display: Jobs were issued in 220 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display: Average processing rate: 3.08 jobs/sec
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display: Total thread time: 170.922 s
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display: Total thread preprocess time: 16.758 s
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display: Percentage time preprocessing: 9.80%
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display: Effective parallelization: 2.39 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    1 times, average 2.23 sec, max 2.23 sec, min 2.23 sec)
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    2 times, average 1.51 sec, max 1.97 sec, min 1.05 sec)
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 1.22 sec, max 1.22 sec, min 1.22 sec)
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   38 times, average 1.09 sec, max 2.74 sec, min 0.66 sec)
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   29 times, average 1.03 sec, max 1.96 sec, min 0.72 sec)
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 24.31% of total time (compiled   38 times, average 1.09 sec, max 2.74 sec, min 0.66 sec)
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 22.10% of total time (compiled   38 times, average 0.99 sec, max 1.97 sec, min 0.48 sec)
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display:                                                 FLumenCardVS - 17.52% of total time (compiled   29 times, average 1.03 sec, max 1.96 sec, min 0.72 sec)
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.74% of total time (compiled   29 times, average 0.40 sec, max 1.07 sec, min 0.23 sec)
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 2.03% of total time (compiled    6 times, average 0.58 sec, max 0.88 sec, min 0.44 sec)
+[2023.10.08-04.12.06:365][284]LogShaderCompilers: Display: ================================================
+[2023.10.08-04.12.07:270][294]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/Wood2.Wood2
+[2023.10.08-04.12.07:280][294]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-04.12.07:280][294]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-04.12.07:478][294]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.08-04.12.07:479][294]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.12.07:479][294]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.12.07:479][294]MaterialEditorStats: Shader Count: 0
+[2023.10.08-04.12.07:504][294]LogViewport: Scene viewport resized to 387x421, mode Windowed.
+[2023.10.08-04.12.07:614][296]MaterialEditorStats: Base pass shader: 150 instructions
+[2023.10.08-04.12.07:614][296]MaterialEditorStats: Base pass vertex shader: 126 instructions
+[2023.10.08-04.12.07:614][296]MaterialEditorStats: Texture samplers: 4/16
+[2023.10.08-04.12.07:614][296]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.12.07:614][296]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.12.07:614][296]MaterialEditorStats: Shader Count: 4
+[2023.10.08-04.12.18:413][393]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.08-04.12.18:413][393]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.12.18:413][393]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.12.18:413][393]MaterialEditorStats: Shader Count: 0
+[2023.10.08-04.12.18:475][394]MaterialEditorStats: Base pass shader: 150 instructions
+[2023.10.08-04.12.18:475][394]MaterialEditorStats: Base pass vertex shader: 126 instructions
+[2023.10.08-04.12.18:476][394]MaterialEditorStats: Texture samplers: 4/16
+[2023.10.08-04.12.18:476][394]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.12.18:476][394]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.12.18:476][394]MaterialEditorStats: Shader Count: 4
+[2023.10.08-04.12.24:124][455]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.08-04.12.24:124][455]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.12.24:124][455]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.12.24:124][455]MaterialEditorStats: Shader Count: 0
+[2023.10.08-04.12.24:177][456]MaterialEditorStats: Base pass shader: 150 instructions
+[2023.10.08-04.12.24:177][456]MaterialEditorStats: Base pass vertex shader: 126 instructions
+[2023.10.08-04.12.24:177][456]MaterialEditorStats: Texture samplers: 4/16
+[2023.10.08-04.12.24:177][456]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.12.24:177][456]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.12.24:177][456]MaterialEditorStats: Shader Count: 2
+[2023.10.08-04.12.30:691][532]LogMaterialEditor: Saving and Compiling material Wood2
+[2023.10.08-04.12.30:924][532]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.10.08-04.12.31:115][532]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2023.10.08-04.12.31:129][532]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-04.12.31:252][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Wood2" FILE="C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Materials/Wood2.uasset" SILENT=true
+[2023.10.08-04.12.31:255][532]LogSavePackage: Moving output files for package: /Game/Materials/Wood2
+[2023.10.08-04.12.31:255][532]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/Wood228BFEA3E4F8A3807AB0C7792DC5DE0F4.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Materials/Wood2.uasset'
+[2023.10.08-04.12.31:265][532]LogFileHelpers: InternalPromptForCheckoutAndSave took 136 ms (total: 19.9 sec)
+[2023.10.08-04.12.31:266][532]AssetCheck: New page: Asset Save: Wood2
+[2023.10.08-04.12.31:266][532]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/Wood2.Wood2
+[2023.10.08-04.12.31:267][532]MaterialEditorStats: Base pass shader: 150 instructions
+[2023.10.08-04.12.31:267][532]MaterialEditorStats: Base pass vertex shader: 126 instructions
+[2023.10.08-04.12.31:267][532]MaterialEditorStats: MaxSampler: 199 instructions
+[2023.10.08-04.12.31:267][532]MaterialEditorStats: Texture samplers: 5/16
+[2023.10.08-04.12.31:268][532]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.12.31:268][532]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.12.31:268][532]MaterialEditorStats: Shader Count: 20
+[2023.10.08-04.12.38:297][626]LogContentBrowser: Deferred new asset file creation: Wood3
+[2023.10.08-04.12.38:384][626]LogContentBrowser: Creating deferred item: Wood3
+[2023.10.08-04.12.38:481][627]LogContentBrowser: Renaming the item being created (Deferred Item: Wood3).
+[2023.10.08-04.12.39:042][636]LogContentBrowser: Attempting asset rename: Wood3 -> Wood3
+[2023.10.08-04.12.39:062][636]LogContentBrowser: End creating deferred item Wood3
+[2023.10.08-04.12.39:985][647]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/Wood3.Wood3
+[2023.10.08-04.12.39:996][647]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-04.12.39:997][647]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-04.12.40:395][647]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.08-04.12.40:396][647]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.12.40:396][647]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.12.40:396][647]MaterialEditorStats: Shader Count: 0
+[2023.10.08-04.12.40:416][647]LogViewport: Scene viewport resized to 387x421, mode Windowed.
+[2023.10.08-04.12.40:540][649]MaterialEditorStats: Base pass shader: 150 instructions
+[2023.10.08-04.12.40:540][649]MaterialEditorStats: Base pass vertex shader: 126 instructions
+[2023.10.08-04.12.40:540][649]MaterialEditorStats: Texture samplers: 4/16
+[2023.10.08-04.12.40:540][649]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.12.40:540][649]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.12.40:540][649]MaterialEditorStats: Shader Count: 4
+[2023.10.08-04.12.46:060][708]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.08-04.12.46:060][708]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.12.46:060][708]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.12.46:060][708]MaterialEditorStats: Shader Count: 0
+[2023.10.08-04.12.46:112][709]MaterialEditorStats: Base pass shader: 150 instructions
+[2023.10.08-04.12.46:112][709]MaterialEditorStats: Base pass vertex shader: 126 instructions
+[2023.10.08-04.12.46:112][709]MaterialEditorStats: Texture samplers: 4/16
+[2023.10.08-04.12.46:112][709]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.12.46:112][709]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.12.46:112][709]MaterialEditorStats: Shader Count: 4
+[2023.10.08-04.12.51:114][764]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.08-04.12.51:114][764]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.12.51:114][764]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.12.51:114][764]MaterialEditorStats: Shader Count: 0
+[2023.10.08-04.12.51:167][765]MaterialEditorStats: Base pass shader: 150 instructions
+[2023.10.08-04.12.51:167][765]MaterialEditorStats: Base pass vertex shader: 126 instructions
+[2023.10.08-04.12.51:167][765]MaterialEditorStats: Texture samplers: 4/16
+[2023.10.08-04.12.51:167][765]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.12.51:167][765]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.12.51:167][765]MaterialEditorStats: Shader Count: 4
+[2023.10.08-04.12.53:232][785]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.08-04.12.53:232][785]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.12.53:232][785]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.12.53:232][785]MaterialEditorStats: Shader Count: 0
+[2023.10.08-04.12.53:444][787]MaterialEditorStats: Base pass shader: 150 instructions
+[2023.10.08-04.12.53:444][787]MaterialEditorStats: Base pass vertex shader: 126 instructions
+[2023.10.08-04.12.53:444][787]MaterialEditorStats: Texture samplers: 4/16
+[2023.10.08-04.12.53:444][787]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.12.53:444][787]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.12.53:444][787]MaterialEditorStats: Shader Count: 4
+[2023.10.08-04.12.56:259][816]LogEditorTransaction: Undo Move Node
+[2023.10.08-04.12.57:203][827]LogEditorTransaction: Undo Material Editor: Paste
+[2023.10.08-04.12.57:247][827]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.08-04.12.57:247][827]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.12.57:247][827]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.12.57:248][827]MaterialEditorStats: Shader Count: 0
+[2023.10.08-04.12.57:248][827]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.08-04.12.57:248][827]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.12.57:248][827]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.12.57:248][827]MaterialEditorStats: Shader Count: 0
+[2023.10.08-04.12.57:248][827]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.08-04.12.57:248][827]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.12.57:248][827]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.12.57:248][827]MaterialEditorStats: Shader Count: 0
+[2023.10.08-04.12.57:505][829]MaterialEditorStats: Base pass shader: 150 instructions
+[2023.10.08-04.12.57:506][829]MaterialEditorStats: Base pass vertex shader: 126 instructions
+[2023.10.08-04.12.57:506][829]MaterialEditorStats: Texture samplers: 4/16
+[2023.10.08-04.12.57:506][829]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.12.57:506][829]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.12.57:506][829]MaterialEditorStats: Shader Count: 4
+[2023.10.08-04.12.57:628][830]MaterialEditorStats: Base pass shader: 150 instructions
+[2023.10.08-04.12.57:629][830]MaterialEditorStats: Base pass vertex shader: 126 instructions
+[2023.10.08-04.12.57:629][830]MaterialEditorStats: Texture samplers: 4/16
+[2023.10.08-04.12.57:629][830]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.12.57:629][830]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.12.57:629][830]MaterialEditorStats: Shader Count: 4
+[2023.10.08-04.12.57:629][830]MaterialEditorStats: Base pass shader: 150 instructions
+[2023.10.08-04.12.57:629][830]MaterialEditorStats: Base pass vertex shader: 126 instructions
+[2023.10.08-04.12.57:629][830]MaterialEditorStats: Texture samplers: 4/16
+[2023.10.08-04.12.57:629][830]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.12.57:629][830]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.12.57:629][830]MaterialEditorStats: Shader Count: 4
+[2023.10.08-04.13.06:143][927]LogMaterialEditor: Saving and Compiling material Wood3
+[2023.10.08-04.13.06:347][927]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.10.08-04.13.06:518][927]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.10.08-04.13.06:530][927]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-04.13.06:635][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Wood3" FILE="C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Materials/Wood3.uasset" SILENT=true
+[2023.10.08-04.13.06:638][927]LogSavePackage: Moving output files for package: /Game/Materials/Wood3
+[2023.10.08-04.13.06:638][927]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/Wood376B801E541659C124E10DE8F8D358604.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Materials/Wood3.uasset'
+[2023.10.08-04.13.06:649][927]LogFileHelpers: InternalPromptForCheckoutAndSave took 118 ms (total: 20.0 sec)
+[2023.10.08-04.13.06:650][927]AssetCheck: New page: Asset Save: Wood3
+[2023.10.08-04.13.06:650][927]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/Wood3.Wood3
+[2023.10.08-04.13.06:651][927]MaterialEditorStats: Base pass shader: 150 instructions
+[2023.10.08-04.13.06:651][927]MaterialEditorStats: Base pass vertex shader: 126 instructions
+[2023.10.08-04.13.06:651][927]MaterialEditorStats: MaxSampler: 199 instructions
+[2023.10.08-04.13.06:651][927]MaterialEditorStats: Texture samplers: 5/16
+[2023.10.08-04.13.06:651][927]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.13.06:651][927]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.13.06:651][927]MaterialEditorStats: Shader Count: 20
+[2023.10.08-04.13.12:365][961]LogSlate: Window 'Message' being destroyed
+[2023.10.08-04.13.12:375][961]Message dialog closed, result: No, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Materials/Wood1.Wood1
+(Selecting 'No' will cause all changes to be lost!)
+[2023.10.08-04.13.13:705][961]LogSlate: Window 'Message' being destroyed
+[2023.10.08-04.13.13:713][961]Message dialog closed, result: Cancel, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Materials/Wood2.Wood2
+(Selecting 'No' will cause all changes to be lost!)
+[2023.10.08-04.13.24:513][ 37]LogSlate: Window 'Message' being destroyed
+[2023.10.08-04.13.24:521][ 37]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Materials/Wood2.Wood2
+(Selecting 'No' will cause all changes to be lost!)
+[2023.10.08-04.13.24:599][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2023.10.08-04.13.25:125][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.10.08-04.13.25:180][ 37]LogSlate: Window 'Wood3' being destroyed
+[2023.10.08-04.13.25:182][ 37]LogSlate: Window 'Wood3' being destroyed
+[2023.10.08-04.13.25:206][ 37]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-04.13.25:206][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-04.13.25:240][ 37]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-04.13.25:240][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-04.13.25:267][ 37]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-04.13.25:267][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-04.13.56:497][219]LogViewport: Scene viewport resized to 592x333, mode Windowed.
+[2023.10.08-04.13.56:904][224]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.10.08-04.14.12:752][429]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.10.08-04.14.12:752][429]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.10.08-04.14.12:757][429]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B9582B001_1484256909
+[2023.10.08-04.14.12:768][429]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B9582B001_1484256909
+[2023.10.08-04.14.22:284][560]LogViewport: Scene viewport resized to 592x333, mode Windowed.
+[2023.10.08-04.14.27:964][633]Cmd: TRANSACTION UNDO
+[2023.10.08-04.14.27:964][633]LogEditorTransaction: Undo Move Elements
+[2023.10.08-04.14.31:325][680]Cmd: TRANSACTION UNDO
+[2023.10.08-04.14.31:325][680]LogEditorTransaction: Undo Move Elements
+[2023.10.08-04.14.33:547][712]Cmd: TRANSACTION UNDO
+[2023.10.08-04.14.33:547][712]LogEditorTransaction: Undo Move Elements
+[2023.10.08-04.14.39:422][794]Cmd: TRANSACTION UNDO
+[2023.10.08-04.14.39:424][794]LogEditorTransaction: Undo Move Elements
+[2023.10.08-04.14.48:526][924]Cmd: TRANSACTION UNDO
+[2023.10.08-04.14.48:526][924]LogEditorTransaction: Undo Move Elements
+[2023.10.08-04.15.11:304][238]LogViewport: Scene viewport resized to 592x333, mode Windowed.
+[2023.10.08-04.15.38:898][582]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-04.15.38:921][582]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-04.15.38:933][582]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-04.15.38:945][582]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-04.15.38:971][582]LogViewport: Scene viewport resized to 1250x705, mode Windowed.
+[2023.10.08-04.15.41:440][602]LogViewport: Scene viewport resized to 1246x714, mode Windowed.
+[2023.10.08-04.15.41:639][604]LogViewport: Scene viewport resized to 805x449, mode Windowed.
+[2023.10.08-04.15.41:817][605]LogViewport: Scene viewport resized to 795x444, mode Windowed.
+[2023.10.08-04.15.42:577][612]LogSlate: Window 'Viewport 2' being destroyed
+[2023.10.08-04.15.42:589][612]LogViewport: Scene viewport resized to 1000x599, mode Windowed.
+[2023.10.08-04.15.43:876][624]LogViewport: Scene viewport resized to 996x608, mode Windowed.
+[2023.10.08-04.15.44:043][626]LogViewport: Scene viewport resized to 807x486, mode Windowed.
+[2023.10.08-04.15.44:169][627]LogViewport: Scene viewport resized to 795x479, mode Windowed.
+[2023.10.08-04.15.44:987][636]LogViewport: Scene viewport resized to 294x813, mode Windowed.
+[2023.10.08-04.15.45:245][637]LogViewport: Scene viewport resized to 290x809, mode Windowed.
+[2023.10.08-04.15.45:547][640]LogViewport: Scene viewport resized to 294x813, mode Windowed.
+[2023.10.08-04.15.45:678][641]LogViewport: Scene viewport resized to 290x809, mode Windowed.
+[2023.10.08-04.15.45:865][643]LogViewport: Scene viewport resized to 231x640, mode Windowed.
+[2023.10.08-04.15.47:161][658]LogViewport: Scene viewport resized to 592x802, mode Windowed.
+[2023.10.08-04.15.47:497][661]LogViewport: Scene viewport resized to 428x485, mode Windowed.
+[2023.10.08-04.15.47:713][662]LogViewport: Scene viewport resized to 376x385, mode Windowed.
+[2023.10.08-04.15.48:267][668]LogViewport: Scene viewport resized to 235x633, mode Windowed.
+[2023.10.08-04.15.48:350][669]LogViewport: Scene viewport resized to 231x640, mode Windowed.
+[2023.10.08-04.15.48:812][674]LogViewport: Scene viewport resized to 1218x385, mode Windowed.
+[2023.10.08-04.15.50:051][688]LogSlate: Window 'Viewport 2' being destroyed
+[2023.10.08-04.15.50:237][688]LogViewport: Scene viewport resized to 1223x387, mode Windowed.
+[2023.10.08-04.15.50:241][688]LogViewport: Scene viewport resized to 1223x420, mode Windowed.
+[2023.10.08-04.15.52:133][712]LogViewport: Scene viewport resized to 1223x845, mode Windowed.
+[2023.10.08-04.15.52:187][712]LogViewport: Scene viewport resized to 1218x383, mode Windowed.
+[2023.10.08-04.15.52:378][714]LogViewport: Scene viewport resized to 795x238, mode Windowed.
+[2023.10.08-04.15.53:253][723]LogViewport: Scene viewport resized to 610x799, mode Windowed.
+[2023.10.08-04.15.53:339][724]LogViewport: Scene viewport resized to 607x809, mode Windowed.
+[2023.10.08-04.15.53:879][729]LogViewport: Scene viewport resized to 674x845, mode Windowed.
+[2023.10.08-04.15.53:941][729]LogViewport: Scene viewport resized to 674x813, mode Windowed.
+[2023.10.08-04.15.57:332][770]LogViewport: Scene viewport resized to 673x845, mode Windowed.
+[2023.10.08-04.15.57:507][771]LogViewport: Scene viewport resized to 486x845, mode Windowed.
+[2023.10.08-04.15.57:617][771]LogViewport: Scene viewport resized to 863x813, mode Windowed.
+[2023.10.08-04.16.18:995][ 23]LogViewport: Scene viewport resized to 1137x845, mode Windowed.
+[2023.10.08-04.16.49:580][504]LogViewport: Scene viewport resized to 593x333, mode Windowed.
+[2023.10.08-04.17.21:055][680]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2023.10.08-04.17.21:062][680]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/TankGame/A/FN/8HXP9QEKQVJYCWC57Z02Y1_Auto5
+[2023.10.08-04.17.21:062][680]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/8HXP9QEKQVJYCWC57Z02Y1_Auto5C594D16243860CAACDAD05AE0515B9D9.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/Autosaves/Game/__ExternalActors__/Levels/TankGame/A/FN/8HXP9QEKQVJYCWC57Z02Y1_Auto5.uasset'
+[2023.10.08-04.17.21:064][680]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/TankGame' took 0.022
+[2023.10.08-04.17.21:064][680]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.022
+[2023.10.08-04.17.21:065][680]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Wood2] ([1] browsable assets)...
+[2023.10.08-04.17.21:080][680]LogShaderCompilers: Display: ================================================
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display: Total job queries 982, among them cache hits 720 (73.32%)
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display: Tracking 254 distinct input hashes that result in 158 distinct outputs (62.20%)
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display: RAM used: 965.62 KiB of 614.40 MiB budget. Usage: 0.15%
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display: Shaders Compiled: 222
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display: Jobs assigned 222, completed 222 (100%)
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display: Average time worker was idle: 62.27 s
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display: Time job spent in pending queue: average 0.41 s, longest 3.13 s
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display: Job execution time: average 1.07 s, max 4.42 s
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display: Job life time (pending + execution): average 1.48 s, max 4.49
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display: Shader code size: average 7.871 KiB, min 432 B, max 55.484 KiB
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 74.44 s
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display: Jobs were issued in 222 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display: Average processing rate: 2.98 jobs/sec
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display: Total thread time: 171.93 s
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display: Total thread preprocess time: 16.855 s
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display: Percentage time preprocessing: 9.80%
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display: Effective parallelization: 2.31 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    1 times, average 2.23 sec, max 2.23 sec, min 2.23 sec)
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    2 times, average 1.51 sec, max 1.97 sec, min 1.05 sec)
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 1.22 sec, max 1.22 sec, min 1.22 sec)
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   39 times, average 1.08 sec, max 2.74 sec, min 0.66 sec)
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   29 times, average 1.03 sec, max 1.96 sec, min 0.72 sec)
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 24.57% of total time (compiled   39 times, average 1.08 sec, max 2.74 sec, min 0.66 sec)
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 22.16% of total time (compiled   39 times, average 0.98 sec, max 1.97 sec, min 0.32 sec)
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display:                                                 FLumenCardVS - 17.41% of total time (compiled   29 times, average 1.03 sec, max 1.96 sec, min 0.72 sec)
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.70% of total time (compiled   29 times, average 0.40 sec, max 1.07 sec, min 0.23 sec)
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 2.02% of total time (compiled    6 times, average 0.58 sec, max 0.88 sec, min 0.44 sec)
+[2023.10.08-04.17.21:081][680]LogShaderCompilers: Display: ================================================
+[2023.10.08-04.17.21:131][680]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/Wood2.Wood2]
+[2023.10.08-04.17.21:131][680]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Wood2]
+[2023.10.08-04.17.21:131][680]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Wood2" FILE="C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/Autosaves/Game/Materials/Wood2_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2023.10.08-04.17.21:134][680]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/Wood2_Auto5
+[2023.10.08-04.17.21:134][680]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/Wood2_Auto5C2F44DD143BC39F33F392192CCF32ECD.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/Autosaves/Game/Materials/Wood2_Auto5.uasset'
+[2023.10.08-04.17.21:135][680]LogFileHelpers: Auto-saving content packages took 0.071
+[2023.10.08-04.18.37:586][ 83]LogViewport: Scene viewport resized to 593x333, mode Windowed.
+[2023.10.08-04.22.23:560][327]LogContentBrowser: Deferred new asset file creation: Wood4
+[2023.10.08-04.22.23:659][327]LogContentBrowser: Creating deferred item: Wood4
+[2023.10.08-04.22.23:769][328]LogContentBrowser: Renaming the item being created (Deferred Item: Wood4).
+[2023.10.08-04.22.25:065][342]LogContentBrowser: Attempting asset rename: Wood4 -> Wood4
+[2023.10.08-04.22.25:070][342]LogContentBrowser: End creating deferred item Wood4
+[2023.10.08-04.22.25:156][342]LogShaderCompilers: Display: ================================================
+[2023.10.08-04.22.25:156][342]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.08-04.22.25:156][342]LogShaderCompilers: Display: Total job queries 984, among them cache hits 722 (73.37%)
+[2023.10.08-04.22.25:156][342]LogShaderCompilers: Display: Tracking 254 distinct input hashes that result in 158 distinct outputs (62.20%)
+[2023.10.08-04.22.25:156][342]LogShaderCompilers: Display: RAM used: 965.62 KiB of 614.40 MiB budget. Usage: 0.15%
+[2023.10.08-04.22.25:156][342]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.08-04.22.25:156][342]LogShaderCompilers: Display: Shaders Compiled: 222
+[2023.10.08-04.22.25:157][342]LogShaderCompilers: Display: Jobs assigned 222, completed 222 (100%)
+[2023.10.08-04.22.25:157][342]LogShaderCompilers: Display: Average time worker was idle: 62.27 s
+[2023.10.08-04.22.25:157][342]LogShaderCompilers: Display: Time job spent in pending queue: average 0.41 s, longest 3.13 s
+[2023.10.08-04.22.25:157][342]LogShaderCompilers: Display: Job execution time: average 1.07 s, max 4.42 s
+[2023.10.08-04.22.25:157][342]LogShaderCompilers: Display: Job life time (pending + execution): average 1.48 s, max 4.49
+[2023.10.08-04.22.25:157][342]LogShaderCompilers: Display: Shader code size: average 7.871 KiB, min 432 B, max 55.484 KiB
+[2023.10.08-04.22.25:157][342]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 74.44 s
+[2023.10.08-04.22.25:157][342]LogShaderCompilers: Display: Jobs were issued in 222 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.10.08-04.22.25:157][342]LogShaderCompilers: Display: Average processing rate: 2.98 jobs/sec
+[2023.10.08-04.22.25:157][342]LogShaderCompilers: Display: Total thread time: 171.93 s
+[2023.10.08-04.22.25:157][342]LogShaderCompilers: Display: Total thread preprocess time: 16.855 s
+[2023.10.08-04.22.25:157][342]LogShaderCompilers: Display: Percentage time preprocessing: 9.80%
+[2023.10.08-04.22.25:157][342]LogShaderCompilers: Display: Effective parallelization: 2.31 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.10.08-04.22.25:157][342]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.10.08-04.22.25:157][342]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    1 times, average 2.23 sec, max 2.23 sec, min 2.23 sec)
+[2023.10.08-04.22.25:157][342]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    2 times, average 1.51 sec, max 1.97 sec, min 1.05 sec)
+[2023.10.08-04.22.25:157][342]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 1.22 sec, max 1.22 sec, min 1.22 sec)
+[2023.10.08-04.22.25:157][342]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   39 times, average 1.08 sec, max 2.74 sec, min 0.66 sec)
+[2023.10.08-04.22.25:157][342]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   29 times, average 1.03 sec, max 1.96 sec, min 0.72 sec)
+[2023.10.08-04.22.25:157][342]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.10.08-04.22.25:157][342]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 24.57% of total time (compiled   39 times, average 1.08 sec, max 2.74 sec, min 0.66 sec)
+[2023.10.08-04.22.25:157][342]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 22.16% of total time (compiled   39 times, average 0.98 sec, max 1.97 sec, min 0.32 sec)
+[2023.10.08-04.22.25:157][342]LogShaderCompilers: Display:                                                 FLumenCardVS - 17.41% of total time (compiled   29 times, average 1.03 sec, max 1.96 sec, min 0.72 sec)
+[2023.10.08-04.22.25:157][342]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.70% of total time (compiled   29 times, average 0.40 sec, max 1.07 sec, min 0.23 sec)
+[2023.10.08-04.22.25:157][342]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 2.02% of total time (compiled    6 times, average 0.58 sec, max 0.88 sec, min 0.44 sec)
+[2023.10.08-04.22.25:157][342]LogShaderCompilers: Display: ================================================
+[2023.10.08-04.22.26:013][351]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/Wood4.Wood4
+[2023.10.08-04.22.26:022][351]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-04.22.26:022][351]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-04.22.26:327][351]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.08-04.22.26:327][351]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.22.26:327][351]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.22.26:327][351]MaterialEditorStats: Shader Count: 0
+[2023.10.08-04.22.26:349][351]LogViewport: Scene viewport resized to 387x421, mode Windowed.
+[2023.10.08-04.22.26:781][353]MaterialEditorStats: Base pass shader: 150 instructions
+[2023.10.08-04.22.26:781][353]MaterialEditorStats: Base pass vertex shader: 126 instructions
+[2023.10.08-04.22.26:781][353]MaterialEditorStats: Texture samplers: 4/16
+[2023.10.08-04.22.26:781][353]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.22.26:781][353]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.22.26:781][353]MaterialEditorStats: Shader Count: 4
+[2023.10.08-04.22.43:784][494]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.08-04.22.43:784][494]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.22.43:784][494]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.22.43:784][494]MaterialEditorStats: Shader Count: 0
+[2023.10.08-04.22.44:870][504]MaterialEditorStats: Texture samplers: 2/16
+[2023.10.08-04.22.44:870][504]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.22.44:870][504]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.22.44:870][504]MaterialEditorStats: Shader Count: 1
+[2023.10.08-04.22.45:467][509]MaterialEditorStats: Base pass shader: 151 instructions
+[2023.10.08-04.22.45:467][509]MaterialEditorStats: Base pass vertex shader: 126 instructions
+[2023.10.08-04.22.45:467][509]MaterialEditorStats: Texture samplers: 4/16
+[2023.10.08-04.22.45:467][509]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.22.45:467][509]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.22.45:467][509]MaterialEditorStats: Shader Count: 4
+[2023.10.08-04.22.49:326][543]LogMaterialEditor: Saving and Compiling material Wood4
+[2023.10.08-04.22.49:561][543]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.10.08-04.22.50:344][543]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.10.08-04.22.50:354][543]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-04.22.52:428][543]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2023.10.08-04.22.52:776][543]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 2.353350s (0.353350s overbudget)
+[2023.10.08-04.22.52:824][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Wood4" FILE="C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Materials/Wood4.uasset" SILENT=true
+[2023.10.08-04.22.52:826][543]LogSavePackage: Moving output files for package: /Game/Materials/Wood4
+[2023.10.08-04.22.52:826][543]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/Wood40F0631504F99B6B536C9678F5A9567F0.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Materials/Wood4.uasset'
+[2023.10.08-04.22.52:836][543]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.48 sec (total: 22.5 sec)
+[2023.10.08-04.22.52:838][543]AssetCheck: New page: Asset Save: Wood4
+[2023.10.08-04.22.52:838][543]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/Wood4.Wood4
+[2023.10.08-04.22.52:839][543]MaterialEditorStats: Base pass shader: 151 instructions
+[2023.10.08-04.22.52:839][543]MaterialEditorStats: Base pass vertex shader: 126 instructions
+[2023.10.08-04.22.52:839][543]MaterialEditorStats: MaxSampler: 200 instructions
+[2023.10.08-04.22.52:839][543]MaterialEditorStats: Texture samplers: 5/16
+[2023.10.08-04.22.52:839][543]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.10.08-04.22.52:840][543]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2023.10.08-04.22.52:840][543]MaterialEditorStats: Shader Count: 20
+[2023.10.08-04.23.19:739][848]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2023.10.08-04.23.19:739][848]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2023.10.08-04.23.19:742][848]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B9582B001_2031243910
+[2023.10.08-04.23.19:753][848]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B9582B001_2031243910
+[2023.10.08-04.23.22:372][870]Cmd: TRANSACTION UNDO
+[2023.10.08-04.23.22:372][870]LogEditorTransaction: Undo Create Actor
+[2023.10.08-04.23.30:942][960]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cylinder.Cylinder
+[2023.10.08-04.23.30:942][960]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cylinder.Cylinder
+[2023.10.08-04.23.30:945][960]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cylinder.Cylinder as actor: StaticMeshActor /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B9582B001_2042446911
+[2023.10.08-04.23.30:958][960]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cylinder.Cylinder as actor: StaticMeshActor /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B9582B001_2042446911
+[2023.10.08-04.23.50:481][185]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B9582B001_2042446911.StaticMeshComponent0, from: Addition to navoctree)
+[2023.10.08-04.23.51:577][197]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B9582B001_2042446911.StaticMeshComponent0, from: Remove from navoctree)
+[2023.10.08-04.24.07:971][383]Cmd: TRANSACTION UNDO
+[2023.10.08-04.24.07:971][383]LogEditorTransaction: Undo Scale Elements
+[2023.10.08-04.24.09:151][396]Cmd: TRANSACTION UNDO
+[2023.10.08-04.24.09:151][396]LogEditorTransaction: Undo Move Elements
+[2023.10.08-04.24.09:956][405]Cmd: TRANSACTION UNDO
+[2023.10.08-04.24.09:956][405]LogEditorTransaction: Undo Scale Elements
+[2023.10.08-04.24.15:486][531]Cmd: TRANSACTION REDO
+[2023.10.08-04.24.15:486][531]LogEditorTransaction: Redo Scale Elements
+[2023.10.08-04.24.16:463][542]Cmd: TRANSACTION REDO
+[2023.10.08-04.24.16:463][542]LogEditorTransaction: Redo Move Elements
+[2023.10.08-04.24.48:138][881]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-04.24.48:197][881]LogWorldPartition: Actor /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B9582B001_2031243910 is unreachable without properly detaching object /Game/__ExternalActors__/Levels/TankGame/C/K2/YRM0XDVSPOMK4LNSDSTEOG.PackageMetaData in its package
+[2023.10.08-04.24.48:201][881]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.10.08-04.24.48:212][881]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.10.08-04.24.48:219][881]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.10.08-04.24.48:221][881]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/TankGame/9/WF/J1R82UPN2J49MWWEJOV5DN
+[2023.10.08-04.24.48:222][881]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/J1R82UPN2J49MWWEJOV5DN24B8EA61424BB2FC24B0CBB03FD47ABD.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/__ExternalActors__/Levels/TankGame/9/WF/J1R82UPN2J49MWWEJOV5DN.uasset'
+[2023.10.08-04.24.48:235][881]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/TankGame/A/FN/8HXP9QEKQVJYCWC57Z02Y1
+[2023.10.08-04.24.48:235][881]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/8HXP9QEKQVJYCWC57Z02Y1CDFB6FBD4057FF2016639AAB5B323FFC.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/__ExternalActors__/Levels/TankGame/A/FN/8HXP9QEKQVJYCWC57Z02Y1.uasset'
+[2023.10.08-04.24.48:238][881]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/TankGame/C/1A/0PSEGJ92KQOXJHYDGLHKKG
+[2023.10.08-04.24.48:238][881]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/0PSEGJ92KQOXJHYDGLHKKGAFA1F51646DD0FB5F9E073B04864DAB8.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/__ExternalActors__/Levels/TankGame/C/1A/0PSEGJ92KQOXJHYDGLHKKG.uasset'
+[2023.10.08-04.24.48:258][881]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 22.6 sec)
+[2023.10.08-04.24.48:262][881]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.08-04.24.48:262][881]LogContentValidation: Display: Validating /Script/Engine.DirectionalLight /Game/Levels/TankGame.TankGame:PersistentLevel.DirectionalLight_UAID_A85E45CFE40401D200_1470382761
+[2023.10.08-04.24.48:262][881]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B9582B001_1484256909
+[2023.10.08-04.24.48:262][881]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B9582B001_2042446911
+[2023.10.08-04.25.06:407][ 95]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-04.25.06:455][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Wood2" FILE="C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Materials/Wood2.uasset" SILENT=true
+[2023.10.08-04.25.06:458][ 95]LogSavePackage: Moving output files for package: /Game/Materials/Wood2
+[2023.10.08-04.25.06:458][ 95]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/Wood24828D14246459568B6B771AE1BC042F6.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Materials/Wood2.uasset'
+[2023.10.08-04.25.06:465][ 95]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 22.7 sec)
+[2023.10.08-04.25.06:467][ 95]AssetCheck: New page: Asset Save: Wood2
+[2023.10.08-04.25.06:467][ 95]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/Wood2.Wood2
+[2023.10.08-04.25.31:159][360]LogSlate: Window 'New Level Instance' being destroyed
+[2023.10.08-04.25.31:177][360]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-04.25.31:177][360]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-04.25.31:178][360]LogWorldPartition: ULevel::OnLevelLoaded(Untitled)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2023.10.08-04.25.31:178][360]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-04.25.31:178][360]LogWorldPartition: UWorldPartition::Initialize : World = Untitled, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-04.25.31:178][360]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Untitled_19 is in the /Temp path, will not scan.
+[2023.10.08-04.25.31:178][360]LogContentBundle: [Untitled(Standalone)] Creating new contrainer.
+[2023.10.08-04.25.31:178][360]LogWorldPartition: Display: WorldPartition initialize took 150 us (total: 490 ms)
+[2023.10.08-04.25.35:288][360]LogSlate: Window 'Save Level As' being destroyed
+[2023.10.08-04.25.35:355][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Prefabs/Wall1" FILE="C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Prefabs/Wall1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.08-04.25.35:365][360]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.10.08-04.25.35:371][360]LogSavePackage: Moving output files for package: /Game/Prefabs/Wall1
+[2023.10.08-04.25.35:371][360]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/Wall19CE33B8549587B7E6840A5B921A75AA2.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Prefabs/Wall1.umap'
+[2023.10.08-04.25.35:372][360]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/Prefabs/Wall1/9/X3/XMW9OYH88AY0TAQH39PUSZ
+/Game/__ExternalActors__/Prefabs/Wall1/5/D6/WGFZVXPM7XGF10N6XP0AOY
+[2023.10.08-04.25.35:372][360]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-04.25.35:374][360]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Prefabs/Wall1/9/X3/XMW9OYH88AY0TAQH39PUSZ
+[2023.10.08-04.25.35:374][360]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/XMW9OYH88AY0TAQH39PUSZ6890294145FD22A331D355A4E92398DC.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/__ExternalActors__/Prefabs/Wall1/9/X3/XMW9OYH88AY0TAQH39PUSZ.uasset'
+[2023.10.08-04.25.35:377][360]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Prefabs/Wall1/5/D6/WGFZVXPM7XGF10N6XP0AOY
+[2023.10.08-04.25.35:377][360]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/WGFZVXPM7XGF10N6XP0AOYCDFA18524DA65C16073B0B9B1334CB73.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/__ExternalActors__/Prefabs/Wall1/5/D6/WGFZVXPM7XGF10N6XP0AOY.uasset'
+[2023.10.08-04.25.35:378][360]LogFileHelpers: InternalPromptForCheckoutAndSave took 5 ms (total: 22.7 sec)
+[2023.10.08-04.25.35:378][360]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/Prefabs/Wall1/9/X3/XMW9OYH88AY0TAQH39PUSZ
+/Game/__ExternalActors__/Prefabs/Wall1/5/D6/WGFZVXPM7XGF10N6XP0AOY
+[2023.10.08-04.25.35:390][360]LogFileHelpers: Saving map 'Wall1' took 0.090
+[2023.10.08-04.25.35:391][360]LogWorld: UWorld::CleanupWorld for Wall1, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-04.25.35:391][360]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-04.25.35:391][360]LogContentBundle: [Wall1(Standalone)] Deleting container.
+[2023.10.08-04.25.35:438][360]LogWorldPartition: ULevel::OnLevelLoaded(Wall1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=0, InitializeForEditor=1, InitializeForGame=0)
+[2023.10.08-04.25.35:438][360]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-04.25.35:438][360]LogWorldPartition: UWorldPartition::Initialize : World = Wall1, World Type = Editor, IsMainWorldPartition = 0, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-04.25.35:439][360]LogWorldPartition: Display: WorldPartition initialize took 452 us (total: 491 ms)
+[2023.10.08-04.25.35:445][360]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.08-04.25.35:446][360]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.08-04.25.35:454][360]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.10.08-04.25.35:455][360]LogEditorActor: Deleted 2 Actors (0.011 secs)
+[2023.10.08-04.25.35:546][360]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.10.08-04.25.35:550][360]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-04.25.35:610][360]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.10.08-04.25.35:617][360]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.10.08-04.25.35:623][360]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.10.08-04.25.35:626][360]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Prefabs/Wall1/3/XD/8TJ5861VTJ3GGXIOE32BV4
+[2023.10.08-04.25.35:627][360]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/8TJ5861VTJ3GGXIOE32BV49DEC7D6B4C774A0A33D8FD8A84E031BD.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/__ExternalActors__/Prefabs/Wall1/3/XD/8TJ5861VTJ3GGXIOE32BV4.uasset'
+[2023.10.08-04.25.35:629][360]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Prefabs/Wall1/2/N3/3V7C6Z9Z8ODW5I1RJEEX25
+[2023.10.08-04.25.35:630][360]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/3V7C6Z9Z8ODW5I1RJEEX25BB51250D40585307A2603F9068064B82.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/__ExternalActors__/Prefabs/Wall1/2/N3/3V7C6Z9Z8ODW5I1RJEEX25.uasset'
+[2023.10.08-04.25.35:639][360]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 22.8 sec)
+[2023.10.08-04.25.35:690][360]LogWorld: UWorld::CleanupWorld for Wall1, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-04.25.35:690][360]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-04.25.35:696][360]LogWorldPartition: Actor /Game/Levels/TankGame.TankGame:PersistentLevel.Actor_UAID_601895280B9581B001_1919563731 is unreachable without properly detaching object /Game/__ExternalActors__/Levels/TankGame/6/63/W7KYWP1KKIRLLVNDCNALRJ.PackageMetaData in its package
+[2023.10.08-04.25.35:698][360]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.10.08-04.25.35:705][360]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.10.08-04.25.35:706][360]MapCheck: New page: Map Check
+[2023.10.08-04.25.35:706][360]LightingResults: New page: Lighting Build
+[2023.10.08-04.25.35:711][360]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.10.08-04.25.35:725][360]LogStreaming: Display: ULevelStreaming::RequestLevel(/Temp/Game/Prefabs/Wall1_LevelInstance_9a4c3056e69288cd_0) is flushing async loading
+[2023.10.08-04.25.35:726][360]LogStreaming: Display: FlushAsyncLoading(): 1 QueuedPackages, 0 AsyncPackages
+[2023.10.08-04.25.35:727][360]LogWorldPartition: ULevel::OnLevelLoaded(Wall1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=0, InitializeForEditor=1, InitializeForGame=0)
+[2023.10.08-04.25.35:727][360]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-04.25.35:727][360]LogWorldPartition: UWorldPartition::Initialize : World = Wall1, World Type = Editor, IsMainWorldPartition = 0, Location = V(X=-365.00, Y=30.00, Z=-50.00), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-04.25.35:727][360]LogActorComponent: ReregisterComponent: (/Temp/Game/Prefabs/Wall1_LevelInstance_9a4c3056e69288cd_0.Wall1:PersistentLevel.Brush_0.BrushComponent0) Not currently registered. Aborting.
+[2023.10.08-04.25.35:727][360]LogUObjectGlobals: BeginLoad(/Game/__ExternalActors__/Prefabs/Wall1/3/XD/8TJ5861VTJ3GGXIOE32BV4) is flushing async loading
+[2023.10.08-04.25.35:730][360]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 494 ms)
+[2023.10.08-04.25.35:731][360]LogLevelInstance: Loaded 1 levels in 0.006 seconds
+[2023.10.08-04.25.35:745][360]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-04.25.35:802][360]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/TankGame/3/KI/JS9CGASEBA1NR81HX8KEMB
+[2023.10.08-04.25.35:802][360]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/JS9CGASEBA1NR81HX8KEMB9BF19EF74CD305519123BBAFCFF5C981.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/__ExternalActors__/Levels/TankGame/3/KI/JS9CGASEBA1NR81HX8KEMB.uasset'
+[2023.10.08-04.25.35:818][360]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 22.8 sec)
+[2023.10.08-04.25.35:822][360]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.08-04.25.35:822][360]LogContentValidation: Display: Validating /Script/Engine.LevelInstance /Game/Levels/TankGame.TankGame:PersistentLevel.LevelInstance_UAID_601895280B9583B001_1093286091
+[2023.10.08-04.25.59:058][631]Cmd: DUPLICATE
+[2023.10.08-04.25.59:058][631]Cmd: ACTOR DUPLICATE
+[2023.10.08-04.25.59:402][631]LogStreaming: Display: ULevelStreaming::RequestLevel(/Temp/Game/Prefabs/Wall1_LevelInstance_058b1ae16e88ac3f_0) is flushing async loading
+[2023.10.08-04.25.59:402][631]LogStreaming: Display: FlushAsyncLoading(): 1 QueuedPackages, 0 AsyncPackages
+[2023.10.08-04.25.59:404][631]LogWorldPartition: ULevel::OnLevelLoaded(Wall1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=0, InitializeForEditor=1, InitializeForGame=0)
+[2023.10.08-04.25.59:404][631]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-04.25.59:404][631]LogWorldPartition: UWorldPartition::Initialize : World = Wall1, World Type = Editor, IsMainWorldPartition = 0, Location = V(X=-355.00, Y=40.00, Z=-50.00), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-04.25.59:404][631]LogActorComponent: ReregisterComponent: (/Temp/Game/Prefabs/Wall1_LevelInstance_058b1ae16e88ac3f_0.Wall1:PersistentLevel.Brush_0.BrushComponent0) Not currently registered. Aborting.
+[2023.10.08-04.25.59:404][631]LogUObjectGlobals: BeginLoad(/Game/__ExternalActors__/Prefabs/Wall1/3/XD/8TJ5861VTJ3GGXIOE32BV4) is flushing async loading
+[2023.10.08-04.25.59:405][631]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 495 ms)
+[2023.10.08-04.25.59:406][631]LogLevelInstance: Loaded 1 levels in 0.005 seconds
+[2023.10.08-04.26.45:740][ 10]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Temp/Game/Prefabs/Wall1_LevelInstance_9a4c3056e69288cd_0.Wall1:PersistentLevel.StaticMeshActor_UAID_601895280B9583B001_1093218089.StaticMeshComponent0, from: Addition to navoctree)
+[2023.10.08-04.26.45:740][ 10]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Temp/Game/Prefabs/Wall1_LevelInstance_9a4c3056e69288cd_0.Wall1:PersistentLevel.StaticMeshActor_UAID_601895280B9583B001_1093219090.StaticMeshComponent0, from: Addition to navoctree)
+[2023.10.08-04.26.45:740][ 10]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Temp/Game/Prefabs/Wall1_LevelInstance_058b1ae16e88ac3f_0.Wall1:PersistentLevel.StaticMeshActor_UAID_601895280B9583B001_1093218089.StaticMeshComponent0, from: Addition to navoctree)
+[2023.10.08-04.26.45:740][ 10]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Temp/Game/Prefabs/Wall1_LevelInstance_058b1ae16e88ac3f_0.Wall1:PersistentLevel.StaticMeshActor_UAID_601895280B9583B001_1093219090.StaticMeshComponent0, from: Addition to navoctree)
+[2023.10.08-04.26.46:651][ 21]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Temp/Game/Prefabs/Wall1_LevelInstance_9a4c3056e69288cd_0.Wall1:PersistentLevel.StaticMeshActor_UAID_601895280B9583B001_1093218089.StaticMeshComponent0, from: Remove from navoctree)
+[2023.10.08-04.26.46:652][ 21]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Temp/Game/Prefabs/Wall1_LevelInstance_9a4c3056e69288cd_0.Wall1:PersistentLevel.StaticMeshActor_UAID_601895280B9583B001_1093219090.StaticMeshComponent0, from: Remove from navoctree)
+[2023.10.08-04.26.46:652][ 21]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Temp/Game/Prefabs/Wall1_LevelInstance_058b1ae16e88ac3f_0.Wall1:PersistentLevel.StaticMeshActor_UAID_601895280B9583B001_1093218089.StaticMeshComponent0, from: Remove from navoctree)
+[2023.10.08-04.26.46:652][ 21]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Temp/Game/Prefabs/Wall1_LevelInstance_058b1ae16e88ac3f_0.Wall1:PersistentLevel.StaticMeshActor_UAID_601895280B9583B001_1093219090.StaticMeshComponent0, from: Remove from navoctree)
+[2023.10.08-04.26.48:053][ 36]Cmd: TRANSACTION UNDO
+[2023.10.08-04.26.48:053][ 36]LogEditorTransaction: Undo Scale Elements
+[2023.10.08-04.26.53:671][ 97]Cmd: TRANSACTION UNDO
+[2023.10.08-04.26.53:671][ 97]LogEditorTransaction: Undo Clicking on Actors
+[2023.10.08-04.27.13:181][312]Cmd: TRANSACTION UNDO
+[2023.10.08-04.27.13:181][312]LogEditorTransaction: Undo Scale Elements
+[2023.10.08-04.27.14:316][324]Cmd: TRANSACTION UNDO
+[2023.10.08-04.27.14:317][324]LogEditorTransaction: Undo Scale Elements
+[2023.10.08-04.27.18:846][377]Cmd: TRANSACTION UNDO
+[2023.10.08-04.27.18:846][377]LogEditorTransaction: Undo Clicking on Actors
+[2023.10.08-04.27.55:822][804]Cmd: DUPLICATE
+[2023.10.08-04.27.55:822][804]Cmd: ACTOR DUPLICATE
+[2023.10.08-04.27.55:976][804]LogStreaming: Display: ULevelStreaming::RequestLevel(/Temp/Game/Prefabs/Wall1_LevelInstance_4a8a4d13ada361f1_0) is flushing async loading
+[2023.10.08-04.27.55:976][804]LogStreaming: Display: FlushAsyncLoading(): 1 QueuedPackages, 0 AsyncPackages
+[2023.10.08-04.27.55:978][804]LogWorldPartition: ULevel::OnLevelLoaded(Wall1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=0, InitializeForEditor=1, InitializeForGame=0)
+[2023.10.08-04.27.55:978][804]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-04.27.55:978][804]LogWorldPartition: UWorldPartition::Initialize : World = Wall1, World Type = Editor, IsMainWorldPartition = 0, Location = V(X=1522.50, Y=47.50, Z=-50.00), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-04.27.55:979][804]LogActorComponent: ReregisterComponent: (/Temp/Game/Prefabs/Wall1_LevelInstance_4a8a4d13ada361f1_0.Wall1:PersistentLevel.Brush_0.BrushComponent0) Not currently registered. Aborting.
+[2023.10.08-04.27.55:979][804]LogUObjectGlobals: BeginLoad(/Game/__ExternalActors__/Prefabs/Wall1/3/XD/8TJ5861VTJ3GGXIOE32BV4) is flushing async loading
+[2023.10.08-04.27.55:981][804]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 498 ms)
+[2023.10.08-04.27.55:982][804]LogLevelInstance: Loaded 1 levels in 0.006 seconds
+[2023.10.08-04.28.05:228][909]Cmd: TRANSACTION UNDO
+[2023.10.08-04.28.05:229][909]LogEditorTransaction: Undo Move Elements
+[2023.10.08-04.28.06:439][922]Cmd: TRANSACTION UNDO
+[2023.10.08-04.28.06:439][922]LogEditorTransaction: Undo Duplicate Elements
+[2023.10.08-04.28.06:599][922]LogWorld: UWorld::CleanupWorld for Wall1, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-04.28.06:599][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-04.28.06:606][922]LogWorldPartition: Actor /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B9582B001_1484256909 is unreachable without properly detaching object /Game/__ExternalActors__/Levels/TankGame/A/FN/8HXP9QEKQVJYCWC57Z02Y1.PackageMetaData in its package
+[2023.10.08-04.28.06:606][922]LogWorldPartition: Actor /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B9582B001_2042446911 is unreachable without properly detaching object /Game/__ExternalActors__/Levels/TankGame/C/1A/0PSEGJ92KQOXJHYDGLHKKG.PackageMetaData in its package
+[2023.10.08-04.28.06:608][922]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.10.08-04.28.06:620][922]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.10.08-04.28.06:621][922]MapCheck: New page: Map Check
+[2023.10.08-04.28.06:621][922]LightingResults: New page: Lighting Build
+[2023.10.08-04.28.06:629][922]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.10.08-04.28.06:630][922]LogLevelInstance: Unloaded 1 levels in 0.032 seconds
