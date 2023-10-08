@@ -1345,3 +1345,121 @@ LogInit: Object subsystem initialized
 [2023.10.08-18.32.51:783][850]LogFileHelpers: InternalPromptForCheckoutAndSave took 166 ms (total: 1.12 sec)
 [2023.10.08-18.32.51:792][850]AssetCheck: New page: Asset Save: TankGame
 [2023.10.08-18.32.51:792][850]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TankGame.TankGame
+[2023.10.08-18.36.33:412][780]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Cirrus Logic Superior High Definition Audio), InstanceID=1
+[2023.10.08-18.36.33:610][780]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=15072
+[2023.10.08-18.36.34:031][781]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{0346d1c4-8d05-4210-bd4c-9890b27285c7}, Name=Speakers (Cirrus Logic Superior High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=25.31
+[2023.10.08-18.36.34:032][781]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.10.08-18.36.34:035][781]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.10.08-19.28.05:689][457]LogDerivedDataCache: C:/Users/alexs/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.435 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1337 files in 2153 folders with total size 34 MiB.
+[2023.10.08-20.28.05:356][291]LogDerivedDataCache: C:/Users/alexs/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.101 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1337 files in 2153 folders with total size 34 MiB.
+[2023.10.08-21.14.51:058][727]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (McChickens), InstanceID=1
+[2023.10.08-21.14.51:082][727]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=15072
+[2023.10.08-21.14.51:345][729]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{a87392a3-5eda-49b3-bb96-e937041f10e6}, Name=Headphones (McChickens)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=174.91
+[2023.10.08-21.14.51:346][729]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.10.08-21.14.51:352][729]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.10.08-21.17.54:271][702]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2023.10.08-21.18.47:637][402]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 2
+[2023.10.08-21.18.49:366][425]Cmd: TRANSACTION UNDO
+[2023.10.08-21.18.49:366][425]LogEditorTransaction: Undo Modifier [Edit]
+[2023.10.08-21.20.08:588][305]Cmd: TRANSACTION UNDO
+[2023.10.08-21.20.08:588][305]LogEditorTransaction: Undo Clicking on Elements
+[2023.10.08-21.20.09:876][328]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.10.08-21.20.09:884][328]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/TankGame_Auto1
+[2023.10.08-21.20.09:884][328]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/TankGame_Auto1D213A1EE492C0910BF03408393A6D127.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/Autosaves/Game/Levels/TankGame_Auto1.umap'
+[2023.10.08-21.20.09:895][328]LogAssetRegistry: Warning: ScanPathsSynchronous: C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/Autosaves/Game/Levels/TankGame_Auto1.umap is in the /Temp path, will not scan.
+[2023.10.08-21.20.09:895][328]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Levels/TankGame_Auto1 is in the /Temp path, will not scan.
+[2023.10.08-21.20.09:895][328]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Levels/TankGame_Auto1 is in the /Temp path, will not scan.
+[2023.10.08-21.20.09:898][328]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/TankGame' took 0.031
+[2023.10.08-21.20.09:898][328]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.031
+[2023.10.08-21.20.51:169][875]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-21.20.51:317][875]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.10.08-21.20.51:326][875]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.10.08-21.20.51:334][875]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.10.08-21.20.51:335][875]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TankGame" FILE="C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Levels/TankGame.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.08-21.20.51:364][875]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.10.08-21.20.51:370][875]LogSavePackage: Moving output files for package: /Game/Levels/TankGame
+[2023.10.08-21.20.51:370][875]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/TankGameB72FEDDA4B68CC210065DE8570EEC7FE.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Levels/TankGame.umap'
+[2023.10.08-21.20.51:379][875]LogFileHelpers: Saving map 'TankGame' took 0.045
+[2023.10.08-21.20.51:391][875]LogFileHelpers: InternalPromptForCheckoutAndSave took 220 ms (total: 1.34 sec)
+[2023.10.08-21.20.51:394][875]AssetCheck: New page: Asset Save: TankGame
+[2023.10.08-21.20.51:394][875]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TankGame.TankGame
+[2023.10.08-21.20.56:277][952]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-21.20.56:278][952]LogWorldPartition: ULevel::OnLevelLoaded(Wall3)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2023.10.08-21.20.56:278][952]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-21.20.56:278][952]LogWorldPartition: UWorldPartition::Initialize : World = Wall3, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-21.20.56:280][952]LogContentBundle: [Wall3(Standalone)] Creating new contrainer.
+[2023.10.08-21.20.56:280][952]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 5.18 sec)
+[2023.10.08-21.20.56:777][953]LogActorFactory: Actor Factory attempting to spawn World /Game/Prefabs/Wall3.Wall3
+[2023.10.08-21.20.56:777][953]LogActorFactory: Actor Factory attempting to spawn World /Game/Prefabs/Wall3.Wall3
+[2023.10.08-21.20.57:391][966]LogActorFactory: Actor Factory attempting to spawn World /Game/Prefabs/Wall3.Wall3
+[2023.10.08-21.20.57:391][966]LogActorFactory: Actor Factory attempting to spawn World /Game/Prefabs/Wall3.Wall3
+[2023.10.08-21.20.57:412][966]LogStreaming: Display: ULevelStreaming::RequestLevel(/Temp/Game/Prefabs/Wall3_LevelInstance_30e9a746ea083589_0) is flushing async loading
+[2023.10.08-21.20.57:412][966]LogStreaming: Display: FlushAsyncLoading(): 1 QueuedPackages, 0 AsyncPackages
+[2023.10.08-21.20.57:414][966]LogWorldPartition: ULevel::OnLevelLoaded(Wall3)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=0, InitializeForEditor=1, InitializeForGame=0)
+[2023.10.08-21.20.57:414][966]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-21.20.57:414][966]LogWorldPartition: UWorldPartition::Initialize : World = Wall3, World Type = Editor, IsMainWorldPartition = 0, Location = V(X=1410.00, Y=-1140.00, Z=-50.00), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-21.20.57:414][966]LogActorComponent: ReregisterComponent: (/Temp/Game/Prefabs/Wall3_LevelInstance_30e9a746ea083589_0.Wall3:PersistentLevel.Brush_0.BrushComponent0) Not currently registered. Aborting.
+[2023.10.08-21.20.57:414][966]LogUObjectGlobals: BeginLoad(/Game/__ExternalActors__/Prefabs/Wall3/3/QX/4WRQAYMXCX15ZBSN5DMI7O) is flushing async loading
+[2023.10.08-21.20.57:415][966]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 5.18 sec)
+[2023.10.08-21.20.57:416][966]LogLevelInstance: Loaded 1 levels in 0.005 seconds
+[2023.10.08-21.20.59:553][996]Cmd: TRANSACTION UNDO
+[2023.10.08-21.20.59:553][996]LogEditorTransaction: Undo Create Actors
+[2023.10.08-21.21.00:553][ 24]LogWorld: UWorld::CleanupWorld for Wall3, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-21.21.00:553][ 24]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-21.21.00:560][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.10.08-21.21.00:570][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2023.10.08-21.21.00:570][ 24]MapCheck: New page: Map Check
+[2023.10.08-21.21.00:570][ 24]LightingResults: New page: Lighting Build
+[2023.10.08-21.21.00:576][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.10.08-21.21.00:577][ 24]LogLevelInstance: Unloaded 1 levels in 0.025 seconds
+[2023.10.08-21.21.03:260][ 63]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-21.21.03:260][ 63]LogWorldPartition: ULevel::OnLevelLoaded(Wall4)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2023.10.08-21.21.03:260][ 63]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-21.21.03:260][ 63]LogWorldPartition: UWorldPartition::Initialize : World = Wall4, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-21.21.03:261][ 63]LogContentBundle: [Wall4(Standalone)] Creating new contrainer.
+[2023.10.08-21.21.03:261][ 63]LogWorldPartition: Display: WorldPartition initialize took 534 us (total: 5.18 sec)
+[2023.10.08-21.21.03:628][ 72]LogActorFactory: Actor Factory attempting to spawn World /Game/Prefabs/Wall4.Wall4
+[2023.10.08-21.21.03:628][ 72]LogActorFactory: Actor Factory attempting to spawn World /Game/Prefabs/Wall4.Wall4
+[2023.10.08-21.21.04:476][ 89]LogActorFactory: Actor Factory attempting to spawn World /Game/Prefabs/Wall4.Wall4
+[2023.10.08-21.21.04:476][ 89]LogActorFactory: Actor Factory attempting to spawn World /Game/Prefabs/Wall4.Wall4
+[2023.10.08-21.21.04:500][ 89]LogStreaming: Display: ULevelStreaming::RequestLevel(/Temp/Game/Prefabs/Wall4_LevelInstance_a4d471375a767349_0) is flushing async loading
+[2023.10.08-21.21.04:500][ 89]LogStreaming: Display: FlushAsyncLoading(): 1 QueuedPackages, 0 AsyncPackages
+[2023.10.08-21.21.04:502][ 89]LogWorldPartition: ULevel::OnLevelLoaded(Wall4)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=0, InitializeForEditor=1, InitializeForGame=0)
+[2023.10.08-21.21.04:502][ 89]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-21.21.04:502][ 89]LogWorldPartition: UWorldPartition::Initialize : World = Wall4, World Type = Editor, IsMainWorldPartition = 0, Location = V(X=1380.00, Y=-1210.00, Z=-50.00), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-21.21.04:503][ 89]LogActorComponent: ReregisterComponent: (/Temp/Game/Prefabs/Wall4_LevelInstance_a4d471375a767349_0.Wall4:PersistentLevel.Brush_0.BrushComponent0) Not currently registered. Aborting.
+[2023.10.08-21.21.04:503][ 89]LogUObjectGlobals: BeginLoad(/Game/__ExternalActors__/Prefabs/Wall4/4/KL/AI586NQKL41GO57XWM06PU) is flushing async loading
+[2023.10.08-21.21.04:505][ 89]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 5.18 sec)
+[2023.10.08-21.21.04:506][ 89]LogLevelInstance: Loaded 1 levels in 0.007 seconds
+[2023.10.08-21.22.33:649][301]LogViewport: Scene viewport resized to 592x333, mode Windowed.
+[2023.10.08-21.23.40:080][999]Cmd: DUPLICATE
+[2023.10.08-21.23.40:080][999]Cmd: ACTOR DUPLICATE
+[2023.10.08-21.24.13:142][522]LogShaderCompilers: Display: ================================================
+[2023.10.08-21.24.13:142][522]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.08-21.24.13:142][522]LogShaderCompilers: Display: Total job queries 50, among them cache hits 16 (32.00%)
+[2023.10.08-21.24.13:142][522]LogShaderCompilers: Display: Tracking 34 distinct input hashes that result in 29 distinct outputs (85.29%)
+[2023.10.08-21.24.13:142][522]LogShaderCompilers: Display: RAM used: 67.17 KiB of 614.40 MiB budget. Usage: 0.01%
+[2023.10.08-21.24.13:142][522]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.08-21.24.13:142][522]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.10.08-21.24.13:142][522]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2023.10.08-21.24.13:142][522]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.10.08-21.24.13:142][522]LogShaderCompilers: Display: ================================================
+[2023.10.08-21.25.21:718][209]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-21.25.21:794][209]LogWorldPartition: Actor /Game/Levels/TankGame.TankGame:PersistentLevel.LevelInstance_UAID_601895280B95BBB001_1885611929 is unreachable without properly detaching object /Game/__ExternalActors__/Levels/TankGame/6/5E/6R5NNC9FIJVU15Q41A4DY4.PackageMetaData in its package
+[2023.10.08-21.25.21:799][209]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.10.08-21.25.21:810][209]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.10.08-21.25.23:326][209]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.10.08-21.25.23:328][209]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TankGame" FILE="C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Levels/TankGame.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.08-21.25.23:362][209]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.10.08-21.25.23:368][209]LogSavePackage: Moving output files for package: /Game/Levels/TankGame
+[2023.10.08-21.25.23:369][209]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/TankGame531B09534DF2EB7FD69D8595634C4925.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Levels/TankGame.umap'
+[2023.10.08-21.25.23:378][209]LogFileHelpers: Saving map 'TankGame' took 0.050
+[2023.10.08-21.25.23:399][209]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/TankGame/5/9O/44AH0FHG677R8S7DAH8VYJ
+[2023.10.08-21.25.23:399][209]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/44AH0FHG677R8S7DAH8VYJ0E3DC3114751E94480450980124E5A0B.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/__ExternalActors__/Levels/TankGame/5/9O/44AH0FHG677R8S7DAH8VYJ.uasset'
+[2023.10.08-21.25.23:402][209]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/TankGame/D/GJ/QFNKI2CMNYYENJT8943DF8
+[2023.10.08-21.25.23:402][209]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/QFNKI2CMNYYENJT8943DF84CF12F484CD0ADBC7D829996D859187D.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/__ExternalActors__/Levels/TankGame/D/GJ/QFNKI2CMNYYENJT8943DF8.uasset'
+[2023.10.08-21.25.23:416][209]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.69 sec (total: 3.04 sec)
+[2023.10.08-21.25.23:419][209]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.08-21.25.23:419][209]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TankGame.TankGame
+[2023.10.08-21.25.23:419][209]LogContentValidation: Display: Validating /Script/Engine.LevelInstance /Game/Levels/TankGame.TankGame:PersistentLevel.LevelInstance_UAID_601895280B95BBB001_1892696930
+[2023.10.08-21.25.23:419][209]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95BBB001_2050035931
