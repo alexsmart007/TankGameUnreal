@@ -1521,3 +1521,37 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.10.09-00.36.38:538][647]LogContentValidation: Display: Validating /Script/Engine.LevelInstance /Game/Levels/TankGame.TankGame:PersistentLevel.LevelInstance_UAID_601895280B95C5B001_1996349690
 [2023.10.09-00.36.38:538][647]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95C6B001_1390361869
 [2023.10.09-00.36.40:531][666]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/Prefabs/Wall5 does not exist, will not scan.
+[2023.10.09-00.42.00:672][ 34]Cmd: DUPLICATE
+[2023.10.09-00.42.00:672][ 34]Cmd: ACTOR DUPLICATE
+[2023.10.09-00.43.58:408][309]Cmd: DELETE
+[2023.10.09-00.43.58:408][309]Cmd: ACTOR DELETE
+[2023.10.09-00.44.00:615][335]Cmd: DELETE
+[2023.10.09-00.44.00:616][335]Cmd: ACTOR DELETE
+[2023.10.09-00.44.09:454][444]LogViewport: Scene viewport resized to 592x333, mode Windowed.
+[2023.10.09-00.44.20:811][572]Cmd: TRANSACTION UNDO
+[2023.10.09-00.44.20:811][572]LogEditorTransaction: Undo Move Elements
+[2023.10.09-00.44.22:811][620]Cmd: TRANSACTION UNDO
+[2023.10.09-00.44.22:811][620]LogEditorTransaction: Undo Clicking on Actors
+[2023.10.09-00.44.24:296][642]Cmd: TRANSACTION REDO
+[2023.10.09-00.44.24:296][642]LogEditorTransaction: Redo Clicking on Actors
+[2023.10.09-00.44.24:641][643]LogViewport: Scene viewport resized to 592x333, mode Windowed.
+[2023.10.09-00.44.27:607][678]Cmd: TRANSACTION UNDO
+[2023.10.09-00.44.27:607][678]LogEditorTransaction: Undo Move Elements
+[2023.10.09-00.45.29:689][355]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.09-00.45.31:486][355]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.10.09-00.45.31:497][355]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.10.09-00.45.31:503][355]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2023.10.09-00.45.31:504][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TankGame" FILE="C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Levels/TankGame.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.09-00.45.31:527][355]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.10.09-00.45.31:536][355]LogSavePackage: Moving output files for package: /Game/Levels/TankGame
+[2023.10.09-00.45.31:537][355]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/TankGame158F54C24A2C963CB34AEA9D91DF318C.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Levels/TankGame.umap'
+[2023.10.09-00.45.31:544][355]LogFileHelpers: Saving map 'TankGame' took 0.041
+[2023.10.09-00.45.31:547][355]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/TankGame/C/HW/LNHMA55GKS6Q6OPVEJG1T3
+[2023.10.09-00.45.31:547][355]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/LNHMA55GKS6Q6OPVEJG1T37BFABE1B488BD6FF76033DBA065A9A0A.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/__ExternalActors__/Levels/TankGame/C/HW/LNHMA55GKS6Q6OPVEJG1T3.uasset'
+[2023.10.09-00.45.31:552][355]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/TankGame/7/BA/FDI6R3RN2SM1MH0ZT9B7PT
+[2023.10.09-00.45.31:552][355]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/FDI6R3RN2SM1MH0ZT9B7PT245F10E44E0E935312BD4E80DB9FF9A5.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/__ExternalActors__/Levels/TankGame/7/BA/FDI6R3RN2SM1MH0ZT9B7PT.uasset'
+[2023.10.09-00.45.31:566][355]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.87 sec (total: 4.32 sec)
+[2023.10.09-00.45.31:568][355]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.09-00.45.31:568][355]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TankGame.TankGame
+[2023.10.09-00.45.31:568][355]LogContentValidation: Display: Validating /Script/Engine.CameraActor /Game/Levels/TankGame.TankGame:PersistentLevel.CameraActor_UAID_601895280B9581B001_1983774732
+[2023.10.09-00.45.31:568][355]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95C6B001_2137739870
