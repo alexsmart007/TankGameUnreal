@@ -1623,3 +1623,145 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.10.09-02.29.16:384][ 76]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95CCB001_1785375927
 [2023.10.09-02.29.16:384][ 76]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95CCB001_1940264928
 [2023.10.09-02.29.16:384][ 76]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95CCB001_1986989929
+[2023.10.09-02.29.48:238][217]LogViewport: Scene viewport resized to 592x333, mode Windowed.
+[2023.10.09-02.31.08:504][104]LogViewport: Scene viewport resized to 592x333, mode Windowed.
+[2023.10.09-02.31.09:340][114]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.09-02.31.09:506][114]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/TankGame/C/HW/LNHMA55GKS6Q6OPVEJG1T3
+[2023.10.09-02.31.09:507][114]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/LNHMA55GKS6Q6OPVEJG1T31C9B900243122D941E94C6A3C5DA453B.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/__ExternalActors__/Levels/TankGame/C/HW/LNHMA55GKS6Q6OPVEJG1T3.uasset'
+[2023.10.09-02.31.09:520][114]LogFileHelpers: InternalPromptForCheckoutAndSave took 180 ms (total: 4.89 sec)
+[2023.10.09-02.31.09:522][114]AssetCheck: New page: Asset Save: CameraActor_UAID_601895280B9581B001_1983774732
+[2023.10.09-02.31.09:522][114]LogContentValidation: Display: Validating /Script/Engine.CameraActor /Game/Levels/TankGame.TankGame:PersistentLevel.CameraActor_UAID_601895280B9581B001_1983774732
+[2023.10.09-02.32.07:658][658]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2023.10.09-02.32.35:601][308]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.10.09-02.32.35:716][308]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.10.09-02.32.35:724][308]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.10.09-02.32.35:765][310]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.10.09-02.32.46:508][425]LogContentBrowser: Attempting asset rename: NewBlueprint -> MovementControl
+[2023.10.09-02.32.47:221][425]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.10.09-02.32.48:536][440]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Scripts/MovementControl.MovementControl
+[2023.10.09-02.32.48:647][440]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.09-02.32.48:649][440]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.09-02.32.48:734][440]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2023.10.09-02.32.50:618][440]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2023.10.09-02.32.51:100][440]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.481422s
+[2023.10.09-02.32.54:124][440]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 5.562024s (3.562024s overbudget)
+[2023.10.09-02.32.54:872][440]LogViewport: Scene viewport resized to 713x418, mode Windowed.
+[2023.10.09-02.32.55:489][444]LogMeshUtilities: Finished distance field build in 2.0s - 126x126x21 sparse distance field, 0.6Mb total, 0.0Mb always loaded, 100% occupied, 4 triangles, PhAT_FloorBox
+[2023.10.09-02.32.59:666][483]LogViewport: Scene viewport resized to 1139x813, mode Windowed.
+[2023.10.09-02.33.02:472][506]LogSlate: Took 0.016614 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.10.09-02.33.07:462][552]LogSlate: Window 'MovementControl' being destroyed
+[2023.10.09-02.33.07:475][552]LogSlate: Window 'MovementControl' being destroyed
+[2023.10.09-02.33.07:547][552]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.10.09-02.33.07:547][552]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.09-02.38.17:582][495]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2023.10.09-02.38.17:587][495]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/TankGame' took 1.817
+[2023.10.09-02.38.17:590][495]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Scripts/MovementControl] ([2] browsable assets)...
+[2023.10.09-02.38.17:590][495]OBJ SavePackage: Finished generating thumbnails for package [/Game/Scripts/MovementControl]
+[2023.10.09-02.38.17:746][495]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Scripts/MovementControl_Auto3
+[2023.10.09-02.38.17:746][495]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/MovementControl_Auto33DBA0B5444D075EA5F04658950C967A4.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/Autosaves/Game/Scripts/MovementControl_Auto3.uasset'
+[2023.10.09-02.38.17:747][495]LogFileHelpers: Auto-saving content packages took 0.159
+[2023.10.09-02.39.52:966][803]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2023.10.09-02.39.55:789][803]LogSlate: Window 'Delete Assets' being destroyed
+[2023.10.09-02.39.55:964][803]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.10.09-02.39.55:983][803]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.10.09-02.39.56:006][803]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.10.09-02.41.11:605][268]LogSlate: Window 'Editor Preferences' being destroyed
+[2023.10.09-02.41.11:614][268]LogSlate: Window 'Editor Preferences' being destroyed
+[2023.10.09-02.41.27:333][822]LogSlate: External Image Picker: DecompressImage failed
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display: ================================================
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display: Total job queries 57, among them cache hits 12 (21.05%)
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display: Tracking 43 distinct input hashes that result in 35 distinct outputs (81.40%)
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display: RAM used: 81.07 KiB of 614.40 MiB budget. Usage: 0.01%
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display: Shaders Compiled: 3
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display: Jobs assigned 5, completed 3 (60.00%)
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display: Time job spent in pending queue: average 0.91 s, longest 4.52 s
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display: Job execution time: average 4.52 s, max 4.52 s
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display: Job life time (pending + execution): average 4.52 s, max 4.53
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display: Shader code size: average 3.75 KiB, min 2.535 KiB, max 4.465 KiB
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.53 s
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display: Jobs were issued in 5 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display: Average processing rate: 0.66 jobs/sec
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display: Total thread time: 2.184 s
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display: Total thread preprocess time: 0.243 s
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display: Percentage time preprocessing: 11.14%
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display: Effective parallelization: 0.48 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display: Top 3 most expensive shader types by average time:
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.75 sec, max 0.75 sec, min 0.75 sec)
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.73 sec, max 0.73 sec, min 0.73 sec)
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.70 sec, max 0.70 sec, min 0.70 sec)
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display: Top 3 shader types by total compile time:
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 34.40% of total time (compiled    1 times, average 0.75 sec, max 0.75 sec, min 0.75 sec)
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 33.50% of total time (compiled    1 times, average 0.73 sec, max 0.73 sec, min 0.73 sec)
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display:                                                 FLumenCardVS - 32.10% of total time (compiled    1 times, average 0.70 sec, max 0.70 sec, min 0.70 sec)
+[2023.10.09-02.41.35:822][ 91]LogShaderCompilers: Display: ================================================
+[2023.10.09-02.46.59:944][444]LogSlate: Window 'Project Settings' being destroyed
+[2023.10.09-02.46.59:955][444]LogSlate: Window 'Project Settings' being destroyed
+[2023.10.09-02.48.34:219][905]LogSlate: Window 'Plugins' being destroyed
+[2023.10.09-02.48.34:293][905]LogSlate: Window 'Plugins' being destroyed
+[2023.10.09-02.48.34:396][905]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2023.10.09-02.49.59:860][286]LogSlate: External Image Picker: DecompressImage failed
+[2023.10.09-02.52.18:741][823]LogSlate: Window 'Project Settings' being destroyed
+[2023.10.09-02.52.18:761][823]LogSlate: Window 'Project Settings' being destroyed
+[2023.10.09-02.52.56:217][637]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2023.10.09-02.52.56:230][637]LogContentBrowser: Creating deferred item: NewInputAction
+[2023.10.09-02.52.57:878][639]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2023.10.09-02.53.12:462][696]LogContentBrowser: Attempting asset rename: NewInputAction -> NewInputAction
+[2023.10.09-02.53.12:794][696]LogContentBrowser: End creating deferred item NewInputAction
+[2023.10.09-02.53.40:896][791]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2023.10.09-02.53.40:902][791]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/TankGame' took 1.533
+[2023.10.09-02.53.40:904][791]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Scripts/NewInputAction] ([1] browsable assets)...
+[2023.10.09-02.53.40:904][791]OBJ SavePackage: Finished generating thumbnails for package [/Game/Scripts/NewInputAction]
+[2023.10.09-02.53.40:907][791]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Scripts/NewInputAction_Auto4
+[2023.10.09-02.53.40:907][791]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/NewInputAction_Auto4BD9740BB452B2609857F76B5D68BBD98.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/Autosaves/Game/Scripts/NewInputAction_Auto4.uasset'
+[2023.10.09-02.53.40:908][791]LogFileHelpers: Auto-saving content packages took 0.004
+[2023.10.09-02.58.43:586][700]LogContentBrowser: Attempting asset rename: NewInputAction -> NewInputAction
+[2023.10.09-02.59.20:144][211]LogContentBrowser: Attempting asset rename: NewInputAction -> Player
+[2023.10.09-02.59.22:238][211]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.09-02.59.22:314][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripts/Player" FILE="C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Scripts/Player.uasset" SILENT=true
+[2023.10.09-02.59.22:315][211]LogSavePackage: Moving output files for package: /Game/Scripts/Player
+[2023.10.09-02.59.22:316][211]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/Player117EFC764A23BE90743F449CBA30827F.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Scripts/Player.uasset'
+[2023.10.09-02.59.22:339][211]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 4.99 sec)
+[2023.10.09-02.59.22:374][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2023.10.09-02.59.22:398][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.10.09-02.59.22:416][211]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.10.09-02.59.22:419][211]AssetCheck: New page: Asset Save: Player
+[2023.10.09-02.59.22:419][211]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/Scripts/Player.Player
+[2023.10.09-02.59.24:470][236]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Scripts/Player.Player
+[2023.10.09-03.02.30:241][  4]LogSlate: Window 'Player' being destroyed
+[2023.10.09-03.02.43:714][256]LogContentBrowser: Attempting asset rename: Player -> Movement
+[2023.10.09-03.02.43:786][256]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.09-03.02.43:905][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripts/Movement" FILE="C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Scripts/Movement.uasset" SILENT=true
+[2023.10.09-03.02.43:906][256]LogSavePackage: Moving output files for package: /Game/Scripts/Movement
+[2023.10.09-03.02.43:906][256]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/MovementC044673E44EBE754E041069D43B2C3AF.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Scripts/Movement.uasset'
+[2023.10.09-03.02.43:918][256]LogFileHelpers: InternalPromptForCheckoutAndSave took 132 ms (total: 5.12 sec)
+[2023.10.09-03.02.43:952][256]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.10.09-03.02.43:970][256]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.10.09-03.02.43:988][256]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.10.09-03.02.43:990][256]AssetCheck: New page: Asset Save: Movement
+[2023.10.09-03.02.43:990][256]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/Scripts/Movement.Movement
+[2023.10.09-03.02.56:995][904]LogContentBrowser: Deferred new asset file creation: NewInputMappingContext
+[2023.10.09-03.02.57:007][904]LogContentBrowser: Creating deferred item: NewInputMappingContext
+[2023.10.09-03.02.58:630][905]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputMappingContext).
+[2023.10.09-03.03.04:783][975]LogContentBrowser: Attempting asset rename: NewInputMappingContext -> PlayerInput
+[2023.10.09-03.03.04:785][975]LogContentBrowser: End creating deferred item NewInputMappingContext
+[2023.10.09-03.03.05:822][987]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/Scripts/PlayerInput.PlayerInput
+[2023.10.09-03.03.11:845][ 48]LogSlate: Took 0.027362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.10.09-03.03.43:986][262]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.10.09-03.03.43:991][262]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/TankGame' took 0.034
+[2023.10.09-03.03.43:992][262]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Scripts/PlayerInput] ([1] browsable assets)...
+[2023.10.09-03.03.43:992][262]OBJ SavePackage: Finished generating thumbnails for package [/Game/Scripts/PlayerInput]
+[2023.10.09-03.03.43:992][262]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Scripts/PlayerInput_Auto5
+[2023.10.09-03.03.43:992][262]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/PlayerInput_Auto549E3FD7144F3FC518B4218A62D95F885.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/Autosaves/Game/Scripts/PlayerInput_Auto5.uasset'
+[2023.10.09-03.03.43:994][262]LogFileHelpers: Auto-saving content packages took 0.002
+[2023.10.09-03.04.01:856][418]LogSlate: Window 'Save Asset As' being destroyed
+[2023.10.09-03.09.16:021][516]LogDerivedDataCache: C:/Users/alexs/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.156 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1359 files in 2179 folders with total size 34 MiB.
+[2023.10.09-03.11.35:858][896]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.09-03.11.35:895][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripts/PlayerInput" FILE="C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Scripts/PlayerInput.uasset" SILENT=true
+[2023.10.09-03.11.35:932][896]LogSavePackage: Moving output files for package: /Game/Scripts/PlayerInput
+[2023.10.09-03.11.35:932][896]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/PlayerInputFD42CADF4EFFEBCEB6FD2890940E78F0.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Scripts/PlayerInput.uasset'
+[2023.10.09-03.11.35:943][896]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 5.21 sec)
+[2023.10.09-03.11.35:943][896]AssetCheck: New page: Asset Save: PlayerInput
+[2023.10.09-03.11.35:943][896]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Scripts/PlayerInput.PlayerInput
