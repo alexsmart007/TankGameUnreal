@@ -1765,3 +1765,176 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.10.09-03.11.35:943][896]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 5.21 sec)
 [2023.10.09-03.11.35:943][896]AssetCheck: New page: Asset Save: PlayerInput
 [2023.10.09-03.11.35:943][896]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Scripts/PlayerInput.PlayerInput
+[2023.10.09-03.13.12:588][244]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Cirrus Logic Superior High Definition Audio), InstanceID=1
+[2023.10.09-03.13.12:811][244]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=924
+[2023.10.09-03.13.13:146][245]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{0346d1c4-8d05-4210-bd4c-9890b27285c7}, Name=Speakers (Cirrus Logic Superior High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=39.67
+[2023.10.09-03.13.13:147][245]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.10.09-03.13.13:149][245]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.10.09-03.18.22:660][263]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.10.09-03.18.22:705][263]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=924
+[2023.10.09-03.18.23:040][264]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{0346d1c4-8d05-4210-bd4c-9890b27285c7}, Name=Speakers (Cirrus Logic Superior High Definition Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=32.99
+[2023.10.09-03.18.23:040][264]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.10.09-03.18.23:042][264]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.10.09-23.11.51:115][269]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.10.09-23.11.52:284][269]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2023.10.09-23.11.52:381][269]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/TankGame' took 0.300
+[2023.10.09-23.11.52:413][269]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Scripts/Shoot] ([1] browsable assets)...
+[2023.10.09-23.11.52:413][269]OBJ SavePackage: Finished generating thumbnails for package [/Game/Scripts/Shoot]
+[2023.10.09-23.11.52:413][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripts/Shoot" FILE="C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/Autosaves/Game/Scripts/Shoot_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2023.10.09-23.11.52:501][269]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Scripts/Shoot_Auto6
+[2023.10.09-23.11.52:501][269]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/Shoot_Auto671765C1F4149E4112C7F2582403B8040.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/Autosaves/Game/Scripts/Shoot_Auto6.uasset'
+[2023.10.09-23.11.52:502][269]LogFileHelpers: Auto-saving content packages took 0.118
+[2023.10.09-23.11.53:226][270]Could not fetch the local adapter addresses
+[2023.10.09-23.11.53:226][270]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2023.10.09-23.11.53:332][271]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.10.09-23.11.53:332][271]LogHttp: Warning: 0000045DA0286400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.09-23.11.53:332][271]LogHttp: Warning: 0000045DA0286400: libcurl info message cache 0 (Too old connection (71616 seconds idle), disconnect it)
+[2023.10.09-23.11.53:332][271]LogHttp: Warning: 0000045DA0286400: libcurl info message cache 1 (Connection 1 seems to be dead)
+[2023.10.09-23.11.53:332][271]LogHttp: Warning: 0000045DA0286400: libcurl info message cache 2 (Closing connection 1)
+[2023.10.09-23.11.53:332][271]LogHttp: Warning: 0000045DA0286400: libcurl info message cache 3 (Hostname in DNS cache was stale, zapped)
+[2023.10.09-23.11.53:332][271]LogHttp: Warning: 0000045DA0286400: libcurl info message cache 4 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.09-23.11.53:332][271]LogHttp: Warning: 0000045DA0286400: libcurl info message cache 5 (Closing connection 2)
+[2023.10.09-23.11.53:332][271]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B154267DF-41F8-36C4-C47E-7586C7E01532%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=e963a22e47962cb9fd6b8a8ee11347de%7Cbab2435da7f64a1da28a0e2ad7ddf98e%7C931225d2-27bd-48ba-a082-becb9bc1277f&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.09-23.11.54:537][274]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=E241i-B1 (HD Audio Driver for Display Audio), InstanceID=1
+[2023.10.09-23.11.54:644][274]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=924
+[2023.10.09-23.11.54:981][275]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{821a580d-29ef-4cfb-b057-a076611ad705}, Name=E241i-B1 (HD Audio Driver for Display Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=213.09
+[2023.10.09-23.11.54:981][275]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.10.09-23.11.54:985][275]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.10.09-23.11.56:165][277]LogUdpMessaging: Display: Added local interface '192.168.0.103' to multicast group '230.0.0.1:6666'
+[2023.10.09-23.13.08:377][494]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (McChickens), InstanceID=1
+[2023.10.09-23.13.08:636][494]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=924
+[2023.10.09-23.13.09:304][496]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{a87392a3-5eda-49b3-bb96-e937041f10e6}, Name=Headphones (McChickens)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=377.93
+[2023.10.09-23.13.09:304][496]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.10.09-23.13.09:307][496]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.10.09-23.13.50:793][617]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=H32S17 (HD Audio Driver for Display Audio), InstanceID=1
+[2023.10.09-23.13.50:874][617]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=924
+[2023.10.09-23.13.51:210][618]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{59018cca-7bb4-4155-9f11-b9806dd27a0c}, Name=H32S17 (HD Audio Driver for Display Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=157.77
+[2023.10.09-23.13.51:210][618]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.10.09-23.13.51:214][618]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.10.09-23.16.03:868][ 16]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (McChickens), InstanceID=1
+[2023.10.09-23.16.04:733][ 16]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=924
+[2023.10.09-23.16.05:040][ 17]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{a87392a3-5eda-49b3-bb96-e937041f10e6}, Name=Headphones (McChickens)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=287.33
+[2023.10.09-23.16.05:041][ 17]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.10.09-23.16.05:045][ 17]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.10.09-23.19.07:599][562]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=H32S17 (HD Audio Driver for Display Audio), InstanceID=1
+[2023.10.09-23.19.07:836][562]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=924
+[2023.10.09-23.19.08:173][563]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{59018cca-7bb4-4155-9f11-b9806dd27a0c}, Name=H32S17 (HD Audio Driver for Display Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=56.41
+[2023.10.09-23.19.08:173][563]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.10.09-23.19.08:176][563]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.10.09-23.24.22:314][505]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (McChickens), InstanceID=1
+[2023.10.09-23.24.23:209][505]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=924
+[2023.10.09-23.24.23:851][507]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{a87392a3-5eda-49b3-bb96-e937041f10e6}, Name=Headphones (McChickens)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=330.33
+[2023.10.09-23.24.23:851][507]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.10.09-23.24.23:858][508]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.10.09-23.37.51:556][ 22]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Cirrus Logic Superior High Definition Audio), InstanceID=1
+[2023.10.09-23.37.51:592][ 22]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=924
+[2023.10.09-23.37.51:924][ 23]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{0346d1c4-8d05-4210-bd4c-9890b27285c7}, Name=Speakers (Cirrus Logic Superior High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=131.65
+[2023.10.09-23.37.51:924][ 23]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.10.09-23.37.51:927][ 23]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.10.10-11.34.04:635][ 37]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.10.10-11.34.05:022][ 39]LogHttp: Warning: 0000045DA0288200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.10-11.34.05:022][ 39]LogHttp: Warning: 0000045DA0288200: libcurl info message cache 0 (Too old connection (42978 seconds idle), disconnect it)
+[2023.10.10-11.34.05:022][ 39]LogHttp: Warning: 0000045DA0288200: libcurl info message cache 1 (Connection 4 seems to be dead)
+[2023.10.10-11.34.05:022][ 39]LogHttp: Warning: 0000045DA0288200: libcurl info message cache 2 (Closing connection 4)
+[2023.10.10-11.34.05:022][ 39]LogHttp: Warning: 0000045DA0288200: libcurl info message cache 3 (Hostname in DNS cache was stale, zapped)
+[2023.10.10-11.34.05:022][ 39]LogHttp: Warning: 0000045DA0288200: libcurl info message cache 4 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.10-11.34.05:022][ 39]LogHttp: Warning: 0000045DA0288200: libcurl info message cache 5 (Closing connection 5)
+[2023.10.10-11.34.05:022][ 39]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B154267DF-41F8-36C4-C47E-7586C7E01532%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=e963a22e47962cb9fd6b8a8ee11347de%7Cbab2435da7f64a1da28a0e2ad7ddf98e%7C931225d2-27bd-48ba-a082-becb9bc1277f&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.10-11.34.05:962][ 41]Could not fetch the local adapter addresses
+[2023.10.10-11.34.05:962][ 41]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2023.10.10-11.34.06:028][ 42]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.10.10-11.34.08:778][ 47]LogUdpMessaging: Display: Added local interface '192.168.0.103' to multicast group '230.0.0.1:6666'
+[2023.10.10-11.34.24:470][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2023.10.10-11.34.26:417][ 94]LogSlate: Window 'Save Content' being destroyed
+[2023.10.10-11.34.26:452][ 94]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.10-11.34.26:486][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripts/Shoot" FILE="C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Scripts/Shoot.uasset" SILENT=true
+[2023.10.10-11.34.26:495][ 94]LogSavePackage: Moving output files for package: /Game/Scripts/Shoot
+[2023.10.10-11.34.26:495][ 94]LogSavePackage: Moving 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Saved/Shoot9B763B0C4126D3DECABC6DA2C99F5419.tmp' to 'C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Scripts/Shoot.uasset'
+[2023.10.10-11.34.26:592][ 94]LogFileHelpers: InternalPromptForCheckoutAndSave took 140 ms (total: 5.35 sec)
+[2023.10.10-11.34.26:642][ 94]LogStall: Shutdown...
+[2023.10.10-11.34.26:655][ 94]LogStall: Shutdown complete.
+[2023.10.10-11.34.26:702][ 94]LogSlate: Window 'PlayerInput' being destroyed
+[2023.10.10-11.34.27:168][ 94]LogSlate: Window 'TankGame - Unreal Editor' being destroyed
+[2023.10.10-11.34.27:974][ 94]AssetCheck: New page: Asset Save: Shoot
+[2023.10.10-11.34.27:974][ 94]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/Scripts/Shoot.Shoot
+[2023.10.10-11.34.28:017][ 95]Cmd: QUIT_EDITOR
+[2023.10.10-11.34.28:017][ 95]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2023.10.10-11.34.28:178][ 95]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2023.10.10-11.34.28:269][ 95]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2023.10.10-11.34.28:281][ 95]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2023.10.10-11.34.28:651][ 95]LogWorld: UWorld::CleanupWorld for TankGame, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-11.34.28:767][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-11.34.28:962][ 95]LogContentBundle: [TankGame(Standalone)] Deleting container.
+[2023.10.10-11.34.28:997][ 95]LogWorld: UWorld::CleanupWorld for Wall1, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-11.34.28:997][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-11.34.29:034][ 95]LogWorld: UWorld::CleanupWorld for Wall4, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-11.34.29:034][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-11.34.29:034][ 95]LogWorld: UWorld::CleanupWorld for Wall3, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-11.34.29:034][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-11.34.29:034][ 95]LogWorld: UWorld::CleanupWorld for Wall2, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-11.34.29:034][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-11.34.29:034][ 95]LogWorld: UWorld::CleanupWorld for Wall4, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-11.34.29:034][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-11.34.29:034][ 95]LogWorld: UWorld::CleanupWorld for Wall2, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-11.34.29:034][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-11.34.29:034][ 95]LogWorld: UWorld::CleanupWorld for Wall1, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-11.34.29:034][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-11.34.29:034][ 95]LogWorld: UWorld::CleanupWorld for Wall4, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-11.34.29:034][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-11.34.29:034][ 95]LogWorld: UWorld::CleanupWorld for Wall2, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-11.34.29:034][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-11.34.29:034][ 95]LogWorld: UWorld::CleanupWorld for EnemyTank, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-11.34.29:034][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-11.34.29:034][ 95]LogWorld: UWorld::CleanupWorld for PlayerTank, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-11.34.29:034][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-11.34.29:034][ 95]LogWorld: UWorld::CleanupWorld for Wall3, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-11.34.29:034][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-11.34.29:034][ 95]LogWorld: UWorld::CleanupWorld for Wall4, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-11.34.29:034][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-11.34.29:034][ 95]LogWorld: UWorld::CleanupWorld for Wall4, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-11.34.29:034][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-11.34.29:034][ 95]LogWorld: UWorld::CleanupWorld for Wall3, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-11.34.29:034][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-11.34.29:206][ 95]LogWorld: UWorld::CleanupWorld for Wall3, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-11.34.29:206][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-11.34.29:206][ 95]LogContentBundle: [Wall3(Standalone)] Deleting container.
+[2023.10.10-11.34.29:206][ 95]LogWorld: UWorld::CleanupWorld for Wall4, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-11.34.29:206][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-11.34.29:206][ 95]LogContentBundle: [Wall4(Standalone)] Deleting container.
+[2023.10.10-11.34.30:154][ 95]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2023.10.10-11.34.31:049][ 95]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2023.10.10-11.34.31:050][ 95]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2023.10.10-11.34.31:050][ 95]LogAudio: Display: Audio Device unregistered from world 'TankGame'.
+[2023.10.10-11.34.31:088][ 95]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2023.10.10-11.34.31:194][ 95]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.10.10-11.34.31:197][ 95]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.10.10-11.34.31:258][ 95]LogAudio: Display: Audio Device Manager Shutdown
+[2023.10.10-11.34.31:259][ 95]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2023.10.10-11.34.31:381][ 95]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2023.10.10-11.34.31:419][ 95]LogExit: Preparing to exit.
+[2023.10.10-11.34.32:539][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2023.10.10-11.34.32:552][ 95]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.10.10-11.34.32:553][ 95]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.10.10-11.34.32:571][ 95]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.10.10-11.34.32:574][ 95]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.10.10-11.34.32:574][ 95]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.10.10-11.34.32:574][ 95]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.10.10-11.34.32:574][ 95]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.10.10-11.34.32:575][ 95]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.10.10-11.34.32:575][ 95]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.10.10-11.34.32:575][ 95]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.10.10-11.34.32:575][ 95]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.10.10-11.34.32:575][ 95]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.10.10-11.34.32:576][ 95]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.10.10-11.34.32:576][ 95]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.10.10-11.34.32:576][ 95]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.10.10-11.34.32:576][ 95]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.10.10-11.34.32:588][ 95]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.10.10-11.34.32:588][ 95]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.10.10-11.34.32:592][ 95]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.10.10-11.34.32:593][ 95]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.10.10-11.34.35:588][ 95]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-11.34.35:588][ 95]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-11.34.36:675][ 95]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2023.10.10-11.34.38:785][ 95]LogExit: Editor shut down
+[2023.10.10-11.34.38:806][ 95]LogExit: Transaction tracking system shut down
