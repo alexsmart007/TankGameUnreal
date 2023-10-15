@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\alexs\\documents\\unreal projects\\tankgameunreal\\tankgame\\source\\tankgame\\tankgame.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\alexs\\documents\\unreal projects\\tankgameunreal\\tankgame\\intermediate\\build\\win64\\x64\\tankgameeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\alexs\\documents\\unreal projects\\tankgameunreal\\tankgame\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tankgame\\definitions.tankgame.h",
+            "c:\\users\\alexs\\documents\\unreal projects\\tankgameunreal\\tankgame\\source\\tankgame\\tankgame.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

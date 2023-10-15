@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\alexs\\documents\\unreal projects\\tankgameunreal\\tankgame\\source\\tankgame\\private\\tank.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\alexs\\documents\\unreal projects\\tankgameunreal\\tankgame\\intermediate\\build\\win64\\x64\\tankgameeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\alexs\\documents\\unreal projects\\tankgameunreal\\tankgame\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tankgame\\definitions.tankgame.h",
+            "c:\\users\\alexs\\documents\\unreal projects\\tankgameunreal\\tankgame\\source\\tankgame\\public\\tank.h",
+            "d:\\program files (x86)\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "d:\\program files (x86)\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "d:\\program files (x86)\\ue_5.3\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "d:\\program files (x86)\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "d:\\program files (x86)\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "d:\\program files (x86)\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "d:\\program files (x86)\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "d:\\program files (x86)\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "c:\\users\\alexs\\documents\\unreal projects\\tankgameunreal\\tankgame\\intermediate\\build\\win64\\unrealeditor\\inc\\tankgame\\uht\\tank.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,11 +1,11 @@
-"C:\Users\alexs\Documents\Unreal Projects\TankGame\Source\TankGame\TankGame.cpp"
-/FI"C:\Users\alexs\Documents\Unreal Projects\TankGame\Intermediate\Build\Win64\x64\TankGameEditor\Development\Engine\SharedPCH.Engine.Cpp20.h"
-/FI"C:\Users\alexs\Documents\Unreal Projects\TankGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\TankGame\Definitions.TankGame.h"
-/Yu"C:\Users\alexs\Documents\Unreal Projects\TankGame\Intermediate\Build\Win64\x64\TankGameEditor\Development\Engine\SharedPCH.Engine.Cpp20.h"
-/Fp"C:\Users\alexs\Documents\Unreal Projects\TankGame\Intermediate\Build\Win64\x64\TankGameEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.pch"
-/Fo"C:\Users\alexs\Documents\Unreal Projects\TankGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\TankGame\TankGame.cpp.obj"
-/sourceDependencies "C:\Users\alexs\Documents\Unreal Projects\TankGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\TankGame\TankGame.cpp.dep.json"
-@"C:\Users\alexs\Documents\Unreal Projects\TankGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\TankGame\TankGame.Shared.rsp"
+"C:\Users\alexs\Documents\Unreal Projects\TankGameUnreal\TankGame\Source\TankGame\TankGame.cpp"
+/FI"C:\Users\alexs\Documents\Unreal Projects\TankGameUnreal\TankGame\Intermediate\Build\Win64\x64\TankGameEditor\Development\Engine\SharedPCH.Engine.Cpp20.h"
+/FI"C:\Users\alexs\Documents\Unreal Projects\TankGameUnreal\TankGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\TankGame\Definitions.TankGame.h"
+/Yu"C:\Users\alexs\Documents\Unreal Projects\TankGameUnreal\TankGame\Intermediate\Build\Win64\x64\TankGameEditor\Development\Engine\SharedPCH.Engine.Cpp20.h"
+/Fp"C:\Users\alexs\Documents\Unreal Projects\TankGameUnreal\TankGame\Intermediate\Build\Win64\x64\TankGameEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.pch"
+/Fo"C:\Users\alexs\Documents\Unreal Projects\TankGameUnreal\TankGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\TankGame\TankGame.cpp.obj"
+/sourceDependencies "C:\Users\alexs\Documents\Unreal Projects\TankGameUnreal\TankGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\TankGame\TankGame.cpp.dep.json"
+@"C:\Users\alexs\Documents\Unreal Projects\TankGameUnreal\TankGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\TankGame\TankGame.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

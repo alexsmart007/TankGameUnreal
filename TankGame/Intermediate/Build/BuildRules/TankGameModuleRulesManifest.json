@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\alexs\\Documents\\Unreal Projects\\TankGame\\Source\\TankGame\\TankGame.Build.cs",
-		"C:\\Users\\alexs\\Documents\\Unreal Projects\\TankGame\\Source\\TankGame.Target.cs",
-		"C:\\Users\\alexs\\Documents\\Unreal Projects\\TankGame\\Source\\TankGameEditor.Target.cs"
+		"C:\\Users\\alexs\\Documents\\Unreal Projects\\TankGameUnreal\\TankGame\\Source\\TankGame\\TankGame.Build.cs",
+		"C:\\Users\\alexs\\Documents\\Unreal Projects\\TankGameUnreal\\TankGame\\Source\\TankGame.Target.cs",
+		"C:\\Users\\alexs\\Documents\\Unreal Projects\\TankGameUnreal\\TankGame\\Source\\TankGameEditor.Target.cs"
 	],
 	"EngineVersion": "5.3.1"
 }

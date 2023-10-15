@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u0/os3c0NQ1R0xhSYGNVPs/bzeSTQM6Iv3hlW1PLlRp9sGlmu0PscHM0PuVoXj5LH4zYsLAjNIoeaNZlAK7PlA==",
+  "dgSpecHash": "kktDCyGEC6K0OCjbXwqr7Hv5fJFdyXWofc8NH1pN+D50v8g1arqOEcJ4tcc2dZzsSl8DPOO2b6P90AFyBvza2Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexs\\Documents\\Unreal Projects\\TankGame\\Intermediate\\Build\\BuildRulesProjects\\TankGameModuleRules\\TankGameModuleRules.csproj",
+  "projectFilePath": "C:\\Users\\alexs\\Documents\\Unreal Projects\\TankGameUnreal\\TankGame\\Intermediate\\Build\\BuildRulesProjects\\TankGameModuleRules\\TankGameModuleRules.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexs\\.nuget\\packages\\blake3\\0.5.1\\blake3.0.5.1.nupkg.sha512",
     "C:\\Users\\alexs\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",

@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TankGameModuleRules
-build_property.ProjectDir = C:\Users\alexs\Documents\Unreal Projects\TankGame\Intermediate\Build\BuildRulesProjects\TankGameModuleRules\
+build_property.ProjectDir = C:\Users\alexs\Documents\Unreal Projects\TankGameUnreal\TankGame\Intermediate\Build\BuildRulesProjects\TankGameModuleRules\
