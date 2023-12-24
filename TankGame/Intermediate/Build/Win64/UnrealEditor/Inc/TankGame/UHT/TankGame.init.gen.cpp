@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodeTankGame_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x69DABD55,
-				0x16D42557,
+				0xC3DA300F,
+				0xDD4F315A,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_TankGame.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_TankGame.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_TankGame(Z_Construct_UPackage__Script_TankGame, TEXT("/Script/TankGame"), Z_Registration_Info_UPackage__Script_TankGame, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x69DABD55, 0x16D42557));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_TankGame(Z_Construct_UPackage__Script_TankGame, TEXT("/Script/TankGame"), Z_Registration_Info_UPackage__Script_TankGame, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xC3DA300F, 0xDD4F315A));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

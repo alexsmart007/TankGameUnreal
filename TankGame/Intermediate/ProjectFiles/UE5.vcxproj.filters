@@ -3925,54 +3925,6 @@
     <None Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\BlueprintFileUtils\BlueprintFileUtils.uplugin">
       <Filter>Plugins\BlueprintFileUtils</Filter>
     </None>
-    <Filter Include="Plugins\Bridge">
-      <UniqueIdentifier>{489C80BB-D202-32EC-A281-888A7D159326}</UniqueIdentifier>
-    </Filter>
-    <None Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Bridge.uplugin">
-      <Filter>Plugins\Bridge</Filter>
-    </None>
-    <Filter Include="Plugins\Bridge\Config">
-      <UniqueIdentifier>{CFC9C3C3-6A9F-328F-9978-3AF0C2A1AEAF}</UniqueIdentifier>
-    </Filter>
-    <None Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Config\BaseBridge.ini">
-      <Filter>Plugins\Bridge\Config</Filter>
-    </None>
-    <Filter Include="Plugins\Bridge\Resources">
-      <UniqueIdentifier>{94E78AEC-6754-3241-8E19-3FB00A6F7B3B}</UniqueIdentifier>
-    </Filter>
-    <None Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Resources\ButtonIcon_40x.png">
-      <Filter>Plugins\Bridge\Resources</Filter>
-    </None>
-    <None Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Resources\Icon128.png">
-      <Filter>Plugins\Bridge\Resources</Filter>
-    </None>
-    <None Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Resources\Icon40x40.png">
-      <Filter>Plugins\Bridge\Resources</Filter>
-    </None>
-    <None Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Resources\Logo32x32.png">
-      <Filter>Plugins\Bridge\Resources</Filter>
-    </None>
-    <None Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Resources\Logo80x80.png">
-      <Filter>Plugins\Bridge\Resources</Filter>
-    </None>
-    <None Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Resources\QuixelBridgeB.svg">
-      <Filter>Plugins\Bridge\Resources</Filter>
-    </None>
-    <Filter Include="Plugins\Bridge\Resources\Megascans">
-      <UniqueIdentifier>{94711761-726E-37CD-8726-805DCB590C55}</UniqueIdentifier>
-    </Filter>
-    <None Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Resources\Megascans\Icon128.png">
-      <Filter>Plugins\Bridge\Resources\Megascans</Filter>
-    </None>
-    <None Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Resources\Megascans\Icon40x40.png">
-      <Filter>Plugins\Bridge\Resources\Megascans</Filter>
-    </None>
-    <None Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Resources\Megascans\Logo32x32.png">
-      <Filter>Plugins\Bridge\Resources\Megascans</Filter>
-    </None>
-    <None Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Resources\Megascans\Logo80x80.png">
-      <Filter>Plugins\Bridge\Resources\Megascans</Filter>
-    </None>
     <Filter Include="Plugins\Cameras">
       <UniqueIdentifier>{F9E8AC50-14CC-3467-A612-4F50EAC06658}</UniqueIdentifier>
     </Filter>
@@ -9297,6 +9249,15 @@
     </Filter>
     <None Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\LightWeightInstancesEditor\Resources\Icon128.png">
       <Filter>Plugins\LightWeightInstancesEditor\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace">
+      <UniqueIdentifier>{1E520605-3A0C-397B-A124-81C6D67B82FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Marketplace\VisualStudioTools">
+      <UniqueIdentifier>{47BD3FFE-620A-35F3-A960-189499883643}</UniqueIdentifier>
+    </Filter>
+    <None Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Marketplace\VisualStudioTools\VisualStudioTools.uplugin">
+      <Filter>Plugins\Marketplace\VisualStudioTools</Filter>
     </None>
     <Filter Include="Plugins\Media">
       <UniqueIdentifier>{EFC0DBFF-6FDA-393C-AC79-85C04FCB8860}</UniqueIdentifier>
@@ -106702,240 +106663,6 @@
     <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\BlueprintFileUtils\Source\BlueprintFileUtils\Public\BlueprintFileUtilsBPLibrary.h">
       <Filter>Plugins\BlueprintFileUtils\Source\BlueprintFileUtils\Public</Filter>
     </ClInclude>
-    <Filter Include="Plugins\Bridge\Source">
-      <UniqueIdentifier>{5CA53309-9F96-38E5-BAED-4C96B89B875B}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Plugins\Bridge\Source\Bridge">
-      <UniqueIdentifier>{26F35D92-14A0-3EEE-B8A2-E62529BA1D5B}</UniqueIdentifier>
-    </Filter>
-    <None Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\Bridge\Bridge.Build.cs">
-      <Filter>Plugins\Bridge\Source\Bridge</Filter>
-    </None>
-    <Filter Include="Plugins\Bridge\Source\Bridge\Private">
-      <UniqueIdentifier>{14674C8D-1BD2-3F2F-ACBF-5F2002D0A97B}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\Bridge\Private\BridgeModule.cpp">
-      <Filter>Plugins\Bridge\Source\Bridge\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\Bridge\Private\NodeCommManager.cpp">
-      <Filter>Plugins\Bridge\Source\Bridge\Private</Filter>
-    </ClCompile>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\Bridge\Private\NodeCommManager.h">
-      <Filter>Plugins\Bridge\Source\Bridge\Private</Filter>
-    </ClInclude>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\Bridge\Private\NodePort.cpp">
-      <Filter>Plugins\Bridge\Source\Bridge\Private</Filter>
-    </ClCompile>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\Bridge\Private\NodePort.h">
-      <Filter>Plugins\Bridge\Source\Bridge\Private</Filter>
-    </ClInclude>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\Bridge\Private\NodeProcess.cpp">
-      <Filter>Plugins\Bridge\Source\Bridge\Private</Filter>
-    </ClCompile>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\Bridge\Private\NodeProcess.h">
-      <Filter>Plugins\Bridge\Source\Bridge\Private</Filter>
-    </ClInclude>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\Bridge\Private\NodeProcessRunnableThread.cpp">
-      <Filter>Plugins\Bridge\Source\Bridge\Private</Filter>
-    </ClCompile>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\Bridge\Private\NodeProcessRunnableThread.h">
-      <Filter>Plugins\Bridge\Source\Bridge\Private</Filter>
-    </ClInclude>
-    <Filter Include="Plugins\Bridge\Source\Bridge\Private\UI">
-      <UniqueIdentifier>{3E6533E4-0904-3965-AA72-2F677C0E77BB}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\Bridge\Private\UI\BridgeStyle.cpp">
-      <Filter>Plugins\Bridge\Source\Bridge\Private\UI</Filter>
-    </ClCompile>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\Bridge\Private\UI\BridgeStyle.h">
-      <Filter>Plugins\Bridge\Source\Bridge\Private\UI</Filter>
-    </ClInclude>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\Bridge\Private\UI\BridgeUIManager.cpp">
-      <Filter>Plugins\Bridge\Source\Bridge\Private\UI</Filter>
-    </ClCompile>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\Bridge\Private\UI\BridgeUIManager.h">
-      <Filter>Plugins\Bridge\Source\Bridge\Private\UI</Filter>
-    </ClInclude>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\Bridge\Private\UI\BrowserBinding.cpp">
-      <Filter>Plugins\Bridge\Source\Bridge\Private\UI</Filter>
-    </ClCompile>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\Bridge\Private\UI\BrowserBinding.h">
-      <Filter>Plugins\Bridge\Source\Bridge\Private\UI</Filter>
-    </ClInclude>
-    <Filter Include="Plugins\Bridge\Source\Bridge\Public">
-      <UniqueIdentifier>{3FCF38AD-5C0C-3AA1-AFB2-C9735D26AE99}</UniqueIdentifier>
-    </Filter>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\Bridge\Public\IBridgeModule.h">
-      <Filter>Plugins\Bridge\Source\Bridge\Public</Filter>
-    </ClInclude>
-    <Filter Include="Plugins\Bridge\Source\MegascansPlugin">
-      <UniqueIdentifier>{E4E893F3-B3F1-3A84-97FC-FE9B7324EB85}</UniqueIdentifier>
-    </Filter>
-    <None Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\MegascansPlugin.Build.cs">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin</Filter>
-    </None>
-    <Filter Include="Plugins\Bridge\Source\MegascansPlugin\Internal">
-      <UniqueIdentifier>{A695C31F-E995-31D1-9F99-D92ED9E7B7FD}</UniqueIdentifier>
-    </Filter>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Internal\BridgeDragDropHelper.h">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Internal</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Internal\MetaHumanProjectUtilities.h">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Internal</Filter>
-    </ClInclude>
-    <Filter Include="Plugins\Bridge\Source\MegascansPlugin\Private">
-      <UniqueIdentifier>{071E8DBF-EEC3-3001-B037-DC06305DD7C7}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\AssetsImportController.cpp">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\BridgeDragDropHelper.cpp">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\BridgeDragDropUtils.cpp">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\MegascansLiveLinkModule.cpp">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private</Filter>
-    </ClCompile>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\MSAssetImportData.h">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private</Filter>
-    </ClInclude>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\TCPServer.cpp">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private</Filter>
-    </ClCompile>
-    <Filter Include="Plugins\Bridge\Source\MegascansPlugin\Private\AssetImporters">
-      <UniqueIdentifier>{22D93F64-E4C9-3DB3-A22A-4CE1D56760C6}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\AssetImporters\ImportFactory.cpp">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\AssetImporters</Filter>
-    </ClCompile>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\AssetImporters\ImportFactory.h">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\AssetImporters</Filter>
-    </ClInclude>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\AssetImporters\ProgressiveImport3D.cpp">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\AssetImporters</Filter>
-    </ClCompile>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\AssetImporters\ProgressiveImport3D.h">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\AssetImporters</Filter>
-    </ClInclude>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\AssetImporters\ProgressiveImportSurfaces.cpp">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\AssetImporters</Filter>
-    </ClCompile>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\AssetImporters\ProgressiveImportSurfaces.h">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\AssetImporters</Filter>
-    </ClInclude>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\AssetImporters\UAssetNormalImport.cpp">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\AssetImporters</Filter>
-    </ClCompile>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\AssetImporters\UAssetNormalImport.h">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\AssetImporters</Filter>
-    </ClInclude>
-    <Filter Include="Plugins\Bridge\Source\MegascansPlugin\Private\MetaHumanProjectUtilities">
-      <UniqueIdentifier>{254F8BA4-9A96-35A7-B20D-9E984D9E2D97}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\MetaHumanProjectUtilities\MetaHumanImport.cpp">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\MetaHumanProjectUtilities</Filter>
-    </ClCompile>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\MetaHumanProjectUtilities\MetaHumanImport.h">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\MetaHumanProjectUtilities</Filter>
-    </ClInclude>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\MetaHumanProjectUtilities\MetaHumanImportUI.cpp">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\MetaHumanProjectUtilities</Filter>
-    </ClCompile>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\MetaHumanProjectUtilities\MetaHumanImportUI.h">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\MetaHumanProjectUtilities</Filter>
-    </ClInclude>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\MetaHumanProjectUtilities\MetaHumanProjectUtilities.cpp">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\MetaHumanProjectUtilities</Filter>
-    </ClCompile>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\MetaHumanProjectUtilities\MetaHumanProjectUtilitiesSettings.h">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\MetaHumanProjectUtilities</Filter>
-    </ClInclude>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\MetaHumanProjectUtilities\MetaHumanTypes.cpp">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\MetaHumanProjectUtilities</Filter>
-    </ClCompile>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\MetaHumanProjectUtilities\MetaHumanTypes.h">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\MetaHumanProjectUtilities</Filter>
-    </ClInclude>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\MetaHumanProjectUtilities\MetaHumanVersionService.cpp">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\MetaHumanProjectUtilities</Filter>
-    </ClCompile>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\MetaHumanProjectUtilities\MetaHumanVersionService.h">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\MetaHumanProjectUtilities</Filter>
-    </ClInclude>
-    <Filter Include="Plugins\Bridge\Source\MegascansPlugin\Private\MetaHumanProjectUtilities\Tests">
-      <UniqueIdentifier>{81A5A1F4-04B2-3582-B6D6-5184C2553D87}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\MetaHumanProjectUtilities\Tests\MetaHumanImportTest.cpp">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\MetaHumanProjectUtilities\Tests</Filter>
-    </ClCompile>
-    <Filter Include="Plugins\Bridge\Source\MegascansPlugin\Private\Tools">
-      <UniqueIdentifier>{29D45113-D0AC-3ADC-A0E8-7EA7F93E1C7A}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\Tools\BlendMaterials.cpp">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\Tools</Filter>
-    </ClCompile>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\Tools\BlendMaterials.h">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\Tools</Filter>
-    </ClInclude>
-    <Filter Include="Plugins\Bridge\Source\MegascansPlugin\Private\UI">
-      <UniqueIdentifier>{193B3AE4-846C-308A-81E8-F0BA9599F09C}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\UI\MaterialBlendingDetails.cpp">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\UI</Filter>
-    </ClCompile>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\UI\MaterialBlendingDetails.h">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\UI</Filter>
-    </ClInclude>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\UI\MSSettings.cpp">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\UI</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\UI\SMSWindow.cpp">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\UI</Filter>
-    </ClCompile>
-    <Filter Include="Plugins\Bridge\Source\MegascansPlugin\Private\Utilities">
-      <UniqueIdentifier>{B30AE3B2-4C2D-3F46-9640-0A18ED9CBE4B}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\Utilities\MaterialUtils.cpp">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\Utilities</Filter>
-    </ClCompile>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\Utilities\MaterialUtils.h">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\Utilities</Filter>
-    </ClInclude>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\Utilities\MiscUtils.cpp">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\Utilities</Filter>
-    </ClCompile>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\Utilities\MiscUtils.h">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\Utilities</Filter>
-    </ClInclude>
-    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\Utilities\VersionInfoHandler.cpp">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\Utilities</Filter>
-    </ClCompile>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Private\Utilities\VersionInfoHandler.h">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Private\Utilities</Filter>
-    </ClInclude>
-    <Filter Include="Plugins\Bridge\Source\MegascansPlugin\Public">
-      <UniqueIdentifier>{F5A8238E-C62C-3AD8-AB96-29C1A19463D4}</UniqueIdentifier>
-    </Filter>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Public\AssetsImportController.h">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Public\BridgeDragDropUtils.h">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Public\IMegascansLiveLinkModule.h">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Public\MSSettings.h">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Public\SMSWindow.h">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Bridge\Source\MegascansPlugin\Public\TCPServer.h">
-      <Filter>Plugins\Bridge\Source\MegascansPlugin\Public</Filter>
-    </ClInclude>
     <Filter Include="Plugins\Cameras\CameraShakePreviewer\Source">
       <UniqueIdentifier>{42BFAA5D-9C7A-3B6E-9C0B-6500FEF19598}</UniqueIdentifier>
     </Filter>
@@ -149761,6 +149488,57 @@
     <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\LightWeightInstancesEditor\Source\LightWeightInstancesEditor\Public\LightWeightInstancesEditor.h">
       <Filter>Plugins\LightWeightInstancesEditor\Source\LightWeightInstancesEditor\Public</Filter>
     </ClInclude>
+    <Filter Include="Plugins\Marketplace\VisualStudioTools\Source">
+      <UniqueIdentifier>{1DA3E372-41B8-3C56-B433-F15A09B3AC5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools">
+      <UniqueIdentifier>{77DCD7A5-4FA3-3A8A-AD8E-85D71A1A11D6}</UniqueIdentifier>
+    </Filter>
+    <None Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\VisualStudioTools.Build.cs">
+      <Filter>Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\Private">
+      <UniqueIdentifier>{D048F66C-3747-3B63-AFE3-5F5F7CAD6C2B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\Private\BlueprintAssetHelper.cpp">
+      <Filter>Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\Private\BlueprintAssetHelpers.h">
+      <Filter>Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\Private\BlueprintReferencesCommandlet.cpp">
+      <Filter>Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\Private\BlueprintReferencesCommandlet.h">
+      <Filter>Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\Private\VisualStudioTools.cpp">
+      <Filter>Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\Private\VisualStudioToolsCommandlet.cpp">
+      <Filter>Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\Private\VisualStudioToolsCommandlet.h">
+      <Filter>Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\Private\VisualStudioToolsCommandletBase.cpp">
+      <Filter>Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\Private\VisualStudioToolsCommandletBase.h">
+      <Filter>Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\Private\VSTestAdapterCommandlet.cpp">
+      <Filter>Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\Private\VSTestAdapterCommandlet.h">
+      <Filter>Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\Public">
+      <UniqueIdentifier>{2C14BCB9-DA2C-3290-8520-686EC58C6138}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\Public\VisualStudioTools.h">
+      <Filter>Plugins\Marketplace\VisualStudioTools\Source\VisualStudioTools\Public</Filter>
+    </ClInclude>
     <Filter Include="Plugins\Media\AjaMedia\Source">
       <UniqueIdentifier>{DE248E0B-1A51-351E-A15C-AD2EE157DE63}</UniqueIdentifier>
     </Filter>
@@ -163502,6 +163280,9 @@
       <Filter>Plugins\Runtime\AndroidFileServer\Source\AndroidFileServer\Android\java\com\epicgames\unreal</Filter>
     </None>
     <None Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Runtime\AndroidFileServer\Source\AndroidFileServer\Android\java\com\epicgames\unreal\RemoteFileManagerActivity.java">
+      <Filter>Plugins\Runtime\AndroidFileServer\Source\AndroidFileServer\Android\java\com\epicgames\unreal</Filter>
+    </None>
+    <None Include="D:\Program Files (x86)\UE_5.3\Engine\Plugins\Runtime\AndroidFileServer\Source\AndroidFileServer\Android\java\com\epicgames\unreal\RemoteFileManagerService.java">
       <Filter>Plugins\Runtime\AndroidFileServer\Source\AndroidFileServer\Android\java\com\epicgames\unreal</Filter>
     </None>
     <Filter Include="Plugins\Runtime\AndroidFileServer\Source\AndroidFileServer\Classes">

@@ -42,12 +42,24 @@
     <Filter Include="Source\TankGame\Private">
       <UniqueIdentifier>{10392181-25CB-373F-95D1-04562EBAB933}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\TankGame\Private\MyInputConfigData.cpp">
+      <Filter>Source\TankGame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TankGame\Private\MyPawn.cpp">
+      <Filter>Source\TankGame\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\TankGame\Private\Tank.cpp">
       <Filter>Source\TankGame\Private</Filter>
     </ClCompile>
     <Filter Include="Source\TankGame\Public">
       <UniqueIdentifier>{50CF23A1-0B8A-35AA-B457-07634E9CB3A3}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\TankGame\Public\MyInputConfigData.h">
+      <Filter>Source\TankGame\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TankGame\Public\MyPawn.h">
+      <Filter>Source\TankGame\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\TankGame\Public\Tank.h">
       <Filter>Source\TankGame\Public</Filter>
     </ClInclude>

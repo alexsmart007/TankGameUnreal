@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "InputActionValue.h"
 #include "Tank.generated.h"
 
 UCLASS()
@@ -31,6 +32,20 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Enhanced Input")
 		class UInputMappingContext* InputMapping;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Enhanced Input")
+		class UMyInputConfigData* InputActions;
+
 #pragma endregion
+
+
+
+		// Handle move input
+		void Move(const FInputActionValue& Value);
+
+		// Handle shoot input
+		void Shoot(const FInputActionValue& Value);
+
+		// Handle rotate input
+		void Rotate(const FInputActionValue& Value);
 
 };

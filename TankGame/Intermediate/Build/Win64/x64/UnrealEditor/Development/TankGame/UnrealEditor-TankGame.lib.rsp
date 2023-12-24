@@ -7,9 +7,13 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\alexs\Documents\Unreal Projects\TankGameUnreal\TankGame\Intermediate\Build\Win64\x64\TankGameEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"C:\Users\alexs\Documents\Unreal Projects\TankGameUnreal\TankGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\TankGame\MyInputConfigData.gen.cpp.obj"
+"C:\Users\alexs\Documents\Unreal Projects\TankGameUnreal\TankGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\TankGame\MyPawn.gen.cpp.obj"
 "C:\Users\alexs\Documents\Unreal Projects\TankGameUnreal\TankGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\TankGame\Tank.gen.cpp.obj"
 "C:\Users\alexs\Documents\Unreal Projects\TankGameUnreal\TankGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\TankGame\TankGame.init.gen.cpp.obj"
 "C:\Users\alexs\Documents\Unreal Projects\TankGameUnreal\TankGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\TankGame\TankGame.cpp.obj"
+"C:\Users\alexs\Documents\Unreal Projects\TankGameUnreal\TankGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\TankGame\MyInputConfigData.cpp.obj"
+"C:\Users\alexs\Documents\Unreal Projects\TankGameUnreal\TankGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\TankGame\MyPawn.cpp.obj"
 "C:\Users\alexs\Documents\Unreal Projects\TankGameUnreal\TankGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\TankGame\Tank.cpp.obj"
 "C:\Users\alexs\Documents\Unreal Projects\TankGameUnreal\TankGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\TankGame\Default.rc2.res"
 /OUT:"C:\Users\alexs\Documents\Unreal Projects\TankGameUnreal\TankGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\TankGame\UnrealEditor-TankGame.lib"
