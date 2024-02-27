@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Scripts/Input/PlayerInput.uasset",
+				"C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Scripts/Input/MyInputConfig.uasset",
+				"C:/Users/alexs/Documents/Unreal Projects/TankGameUnreal/TankGame/Content/Prefabs/PlayerTankBluePrint.uasset"
+			]
+		}
+	]
+}

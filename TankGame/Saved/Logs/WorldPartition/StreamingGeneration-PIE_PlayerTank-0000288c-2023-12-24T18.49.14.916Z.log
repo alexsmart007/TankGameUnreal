@@ -1,0 +1,70 @@
+[+] Containers:
+ |- [+] Container: /Game/Prefabs/PlayerTank
+ |   |- [+] ActorDescs:
+ |   |   |- Guid:2491083F48D3F92495DC8DAF0DCBBA00 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9581B001_1309835725 Label:Tank_TankChassis SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-80.092 Y=-117.438 Z=7.681), Max=(X=90.092 Y=119.140 Z=118.533) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:6B4CBFEF43D8C24A4BD3669CAB7CDFA0 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9581B001_1309837726 Label:Tank_TankTracksLeft SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=25.207 Y=-96.396 Z=0.000), Max=(X=102.151 Y=113.163 Z=96.290) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:8357CC7843DC43C25695F1A1C5EEC95B BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9581B001_1309839728 Label:Tank_TankTurret SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-59.686 Y=-119.140 Z=105.157), Max=(X=69.684 Y=79.406 Z=248.703) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:A5D9877C4C6B6ABFC8B8E2814DCCB484 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9581B001_1309838727 Label:Tank_TankTracksRight SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-102.151 Y=-96.396 Z=0.000), Max=(X=-25.207 Y=113.163 Z=96.290) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:C1B142B94181F45DA747ADA3A4E108C1 BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:None SpatiallyLoaded:0 Bounds:Invalid RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1
+ |   |- [+] Clusters:
+ |   |   |- [+] [  0]
+ |   |   |   |- Guid:2491083F48D3F92495DC8DAF0DCBBA00 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9581B001_1309835725 Label:Tank_TankChassis SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-80.092 Y=-117.438 Z=7.681), Max=(X=90.092 Y=119.140 Z=118.533) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  1]
+ |   |   |   |- Guid:6B4CBFEF43D8C24A4BD3669CAB7CDFA0 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9581B001_1309837726 Label:Tank_TankTracksLeft SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=25.207 Y=-96.396 Z=0.000), Max=(X=102.151 Y=113.163 Z=96.290) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  2]
+ |   |   |   |- Guid:8357CC7843DC43C25695F1A1C5EEC95B BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9581B001_1309839728 Label:Tank_TankTurret SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-59.686 Y=-119.140 Z=105.157), Max=(X=69.684 Y=79.406 Z=248.703) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  3]
+ |   |   |   |- Guid:A5D9877C4C6B6ABFC8B8E2814DCCB484 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9581B001_1309838727 Label:Tank_TankTracksRight SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-102.151 Y=-96.396 Z=0.000), Max=(X=-25.207 Y=113.163 Z=96.290) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  4]
+ |   |   |   |- Guid:C1B142B94181F45DA747ADA3A4E108C1 BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:None SpatiallyLoaded:0 Bounds:Invalid RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1
+ |- ContainerInstances:
+ |- [+] MainContainer:
+ |   |-        ID: 00000000000000000000000000000000
+ |   |-  ParentID: 00000000000000000000000000000000
+ |   |-    Bounds: IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000)
+ |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |   |- Container: /Game/Prefabs/PlayerTank
+----------------------------------------------------------------------------------------------------------------
+PlayerTank - Persistent Level
+----------------------------------------------------------------------------------------------------------------
+[+] Content of PlayerTank Persistent Level
+ |- Always loaded Actor Count: 11 
+ |- Actor Path: /Game/Prefabs/PlayerTank.PlayerTank:PersistentLevel.AbstractNavData-Default
+ |- Actor Package: /Game/Prefabs/PlayerTank
+ |- Actor Path: /Game/Prefabs/PlayerTank.PlayerTank:PersistentLevel.Brush_0
+ |- Actor Package: /Game/Prefabs/PlayerTank
+ |- Actor Path: /Game/Prefabs/PlayerTank.PlayerTank:PersistentLevel.DefaultPhysicsVolume_0
+ |- Actor Package: /Game/Prefabs/PlayerTank
+ |- Actor Path: /Game/Prefabs/PlayerTank.PlayerTank:PersistentLevel.GameplayDebuggerPlayerManager_0
+ |- Actor Package: /Game/Prefabs/PlayerTank
+ |- Actor Path: /Game/Prefabs/PlayerTank.PlayerTank:PersistentLevel.StaticMeshActor_UAID_601895280B9581B001_1309835725
+ |- Actor Package: /Game/__ExternalActors__/Prefabs/PlayerTank/0/G4/EEGAHGB5K506PM947TP9CE
+ |- Actor Path: /Game/Prefabs/PlayerTank.PlayerTank:PersistentLevel.StaticMeshActor_UAID_601895280B9581B001_1309837726
+ |- Actor Package: /Game/__ExternalActors__/Prefabs/PlayerTank/7/67/PU62NG8YQQMMR2JWZWVQG5
+ |- Actor Path: /Game/Prefabs/PlayerTank.PlayerTank:PersistentLevel.StaticMeshActor_UAID_601895280B9581B001_1309838727
+ |- Actor Package: /Game/__ExternalActors__/Prefabs/PlayerTank/E/RX/6GW9JPVW78XDRJAR2XC1LR
+ |- Actor Path: /Game/Prefabs/PlayerTank.PlayerTank:PersistentLevel.StaticMeshActor_UAID_601895280B9581B001_1309839728
+ |- Actor Package: /Game/__ExternalActors__/Prefabs/PlayerTank/C/M5/F1J2SSCA5O6MFSE5DWTCEC
+ |- Actor Path: /Game/Prefabs/PlayerTank.PlayerTank:PersistentLevel.WorldDataLayers
+ |- Actor Package: /Game/__ExternalActors__/Prefabs/PlayerTank/9/HR/KJ3NQ1GW1TSQMGN2AWF71A
+ |- Actor Path: /Game/Prefabs/PlayerTank.PlayerTank:PersistentLevel.WorldPartitionMiniMap_UAID_601895280B9581B001_1299571724
+ |- Actor Package: /Game/__ExternalActors__/Prefabs/PlayerTank/A/YN/F0IFNRZ1KCK9Y4LRR98B89
+ |- Actor Path: /Game/Prefabs/PlayerTank.PlayerTank:PersistentLevel.WorldSettings
+ |- Actor Package: /Game/Prefabs/PlayerTank
+
+----------------------------------------------------------------------------------------------------------------
+PlayerTank - Runtime Spatial Hash - Streaming Grid - MainGrid
+----------------------------------------------------------------------------------------------------------------
+            Origin: X=0.000 Y=0.000 Z=0.000
+         Cell Size: 12800
+      World Bounds: IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000)
+     Loading Range: 25600.00
+Block Slow Loading: No
+ ClientOnlyVisible: No
+            Origin: X=0.000 Y=0.000 Z=0.000
+
+[+] Grid Levels: 1
+ |- Level  0: Cell Count    0 | Cell Size   12800 | Actor Count    0 (0.0%)
+
+[+] Content of Grid Level 0
+

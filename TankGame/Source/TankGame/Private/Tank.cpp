@@ -5,7 +5,7 @@
 #include "InputMappingContext.h"
 #include "EnhancedInputSubsystems.h"
 #include "GameFramework/PlayerController.h"
-#include "EnhancedInput/Public/EnhancedInputComponent.h"
+#include "EnhancedInputComponent.h"
 #include "MyInputConfigData.h"
 #include "InputActionValue.h"
 
@@ -63,7 +63,7 @@ void ATank::Move(const FInputActionValue& Value)
         {
             // Get forward vector
             const FVector Direction = MovementRotation.RotateVector(FVector::ForwardVector);
-
+            printf("%d", MoveValue.Y);
             AddMovementInput(Direction, MoveValue.Y);
         }
 
@@ -72,7 +72,7 @@ void ATank::Move(const FInputActionValue& Value)
         {
             // Get right vector
             const FVector Direction = MovementRotation.RotateVector(FVector::RightVector);
-
+            printf("%d", MoveValue.X);
             AddMovementInput(Direction, MoveValue.X);
         }
     }
