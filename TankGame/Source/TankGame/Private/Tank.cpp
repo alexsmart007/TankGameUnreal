@@ -63,35 +63,36 @@ void ATank::Move(const FInputActionValue& Value)
         {
             // Get forward vector
             const FVector Direction = MovementRotation.RotateVector(FVector::ForwardVector);
-            printf("%d", MoveValue.Y);
             AddMovementInput(Direction, MoveValue.Y);
-        }
-
-        // Right/Left direction
-        if (MoveValue.X != 0.f)
-        {
-            // Get right vector
-            const FVector Direction = MovementRotation.RotateVector(FVector::RightVector);
-            printf("%d", MoveValue.X);
-            AddMovementInput(Direction, MoveValue.X);
         }
     }
 }
 
 void ATank::Rotate(const FInputActionValue& Value)
 {
+    //if (Controller != nullptr)
+    //{
+    //    const FVector2D LookValue = Value.Get<FVector2D>();
+
+    //    if (LookValue.X != 0.f)
+    //    {
+    //        AddControllerYawInput(LookValue.X);
+    //    }
+
+    //    if (LookValue.Y != 0.f)
+    //    {
+    //        AddControllerPitchInput(LookValue.Y);
+    //    }
+    //}
     if (Controller != nullptr)
     {
         const FVector2D LookValue = Value.Get<FVector2D>();
 
+        // Right/Left direction
         if (LookValue.X != 0.f)
         {
-            AddControllerYawInput(LookValue.X);
-        }
-
-        if (LookValue.Y != 0.f)
-        {
-            AddControllerPitchInput(LookValue.Y);
+            // Rotate
+            AddControllerPitchInput(LookValue.X);
         }
     }
 }
