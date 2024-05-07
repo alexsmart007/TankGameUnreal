@@ -1,0 +1,510 @@
+[+] Containers:
+ |- [+] Container: /Game/Levels/TankGame
+ |   |- [+] ActorDescs:
+ |   |   |- Guid:03920DF94EEFC9F86CC66185D32A3DA1 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_A4AE111137DC54FB00_1240666663 Label:SM_SkySphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-1638400.000 Y=-1638400.000 Z=-1638400.000), Max=(X=1638400.000 Y=1638400.000 Z=1638400.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:05E262A04CD3BE7D30603BBF4450F237 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95CCB001_1785375927 Label:Cube5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=57.500 Y=-606.250 Z=-51.250), Max=(X=982.500 Y=-293.750 Z=111.250) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Enviroment /Wall FolderGuid:C16D772A4E43D8BAFC9D36AE1A44C6DD
+ |   |   |- Guid:1C43798E42C0BA5C82D0489F9FDF3DE4 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95BDB001_1518631285 Label:Cube10 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=50.000 Y=1520.000 Z=-50.000), Max=(X=750.000 Y=1820.000 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Enviroment /Wall FolderGuid:C16D772A4E43D8BAFC9D36AE1A44C6DD
+ |   |   |- Guid:1D3D26F04B6DC10BEFB5B69E5CF914C8 BaseClass: NativeClass:/Script/Engine.VolumetricCloud Name:VolumetricCloud_UAID_A85E45CFE40401D200_1470381760 Label:VolumetricCloud SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:1DE8D7AC4103A2EABA11649C7FCF8ACA BaseClass: NativeClass:/Script/Engine.SkyLight Name:SkyLight_UAID_A85E45CFE40401D200_1470380759 Label:SkyLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:246774594E5C34B837D8219237748F66 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95BDB001_1518734288 Label:Cube11 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1370.000 Y=-330.000 Z=-50.000), Max=(X=1670.000 Y=370.000 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Enviroment /Wall FolderGuid:C16D772A4E43D8BAFC9D36AE1A44C6DD
+ |   |   |- Guid:2CE12F874AA39D020A0F4BA5739BD305 BaseClass: NativeClass:/Script/Engine.SkyAtmosphere Name:SkyAtmosphere_UAID_A85E45CFE40401D200_1470382762 Label:SkyAtmosphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:47AA88244850EBDD6F360E87806CB540 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95BDB001_1518627284 Label:Cube9 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=970.000 Y=1520.000 Z=-50.000), Max=(X=1670.000 Y=1820.000 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Enviroment /Wall FolderGuid:C16D772A4E43D8BAFC9D36AE1A44C6DD
+ |   |   |- Guid:5368FABB47D6D9580DAECA8B0417BF92 BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers-1 SpatiallyLoaded:0 Bounds:Invalid RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1 FolderPath:Misc FolderGuid:24891A81493DCDF0B41475BDFBC394D4
+ |   |   |- Guid:6A195F454CCBC1851DD5EB88ED63FA1A BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95BBB001_2050035931 Label:Cube8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1370.000 Y=-1320.000 Z=-50.000), Max=(X=1670.000 Y=-620.000 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Enviroment /Wall FolderGuid:C16D772A4E43D8BAFC9D36AE1A44C6DD
+ |   |   |- Guid:6BF0F0FD48A29CF721849EB4EB8F560C BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95C6B001_1390361869 Label:Cube13 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-624.000 Y=820.000 Z=-50.000), Max=(X=-324.000 Y=1520.000 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Enviroment /Wall FolderGuid:C16D772A4E43D8BAFC9D36AE1A44C6DD
+ |   |   |- Guid:78E5A6914A05EF9C4D67A0BA18801BED BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95B1B001_1687986193 Label:Cube6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=450.000 Y=-1320.000 Z=-50.000), Max=(X=1150.000 Y=-1020.000 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Enviroment /Wall FolderGuid:C16D772A4E43D8BAFC9D36AE1A44C6DD
+ |   |   |- Guid:7AF5421E4ADC252F9BCF25966DD306BF BaseClass: NativeClass:/Script/Engine.CameraActor Name:CameraActor_UAID_601895280B9581B001_1983774732 Label:CameraActor SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-191.000 Y=260.000 Z=1880.000), Max=(X=-191.000 Y=260.000 Z=1880.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Misc FolderGuid:24891A81493DCDF0B41475BDFBC394D4
+ |   |   |- Guid:8218958148A0B9B3DAD3F7AA1F6B0661 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95CCB001_1940264928 Label:Cube15 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=592.500 Y=782.500 Z=-51.250), Max=(X=967.500 Y=957.500 Z=111.250) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Enviroment /Wall FolderGuid:C16D772A4E43D8BAFC9D36AE1A44C6DD
+ |   |   |- Guid:89AAAF6A478735C99F4327AF67970957 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95CCB001_1986989929 Label:Cube16 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=35.000 Y=782.500 Z=-51.250), Max=(X=385.000 Y=957.500 Z=111.250) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Enviroment /Wall FolderGuid:C16D772A4E43D8BAFC9D36AE1A44C6DD
+ |   |   |- Guid:962D6BE34E7839A2A94E65B8F6CE5D43 BaseClass: NativeClass:/Script/Engine.PlayerStart Name:PlayerStart_UAID_F02F74551BF5599B01_1153002503 Label:PlayerStart SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-240.000 Y=-40.000 Z=0.000), Max=(X=-160.000 Y=40.000 Z=184.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Misc FolderGuid:24891A81493DCDF0B41475BDFBC394D4
+ |   |   |- Guid:9A3CA07A40A0AD153435AF9B0A5393DE BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95C5B001_1506449688 Label:Cube12 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1370.000 Y=595.000 Z=-50.000), Max=(X=1670.000 Y=1295.000 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Enviroment /Wall FolderGuid:C16D772A4E43D8BAFC9D36AE1A44C6DD
+ |   |   |- Guid:AAAC6B5742760A58C2206DB37E44683C BaseClass: NativeClass:/Script/Engine.DirectionalLight Name:DirectionalLight_UAID_A85E45CFE40401D200_1470382761 Label:DirectionalLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-4398046511104.000 Y=-4398046511104.000 Z=-4398046511104.000), Max=(X=4398046511104.000 Y=4398046511104.000 Z=4398046511104.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:C23D113A4D935FF1AC0E3DBAD5389128 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95C6B001_2137739870 Label:Cube14 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-625.100 Y=-1025.000 Z=-50.000), Max=(X=-325.100 Y=-375.000 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Enviroment /Wall FolderGuid:C16D772A4E43D8BAFC9D36AE1A44C6DD
+ |   |   |- Guid:D3FB7383421AAEFD3DB6F8B1E415A9FE BaseClass: NativeClass:/Script/Engine.ExponentialHeightFog Name:ExponentialHeightFog_UAID_A85E45CFE40401D200_1470382763 Label:ExponentialHeightFog SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-5600.000 Y=-50.000 Z=-6850.000), Max=(X=-5600.000 Y=-50.000 Z=-6850.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:EADB8F86469B6E5083DE96AFC2429DD9 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95B2B001_1221785344 Label:Cube7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-470.000 Y=-1320.000 Z=-50.000), Max=(X=230.000 Y=-1020.000 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Enviroment /Wall FolderGuid:C16D772A4E43D8BAFC9D36AE1A44C6DD
+ |   |   |- Guid:EDFCC1C9455F1422A51900BD850646D5 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B957FB001_1520682367 Label:Plane SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3860.000 Y=-4090.000 Z=-50.000), Max=(X=4140.000 Y=3910.000 Z=-50.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Enviroment  FolderGuid:BC94AC034BD48E8FB984FF84F941DE57
+ |   |- [+] Clusters:
+ |   |   |- [+] [  0]
+ |   |   |   |- Guid:03920DF94EEFC9F86CC66185D32A3DA1 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_A4AE111137DC54FB00_1240666663 Label:SM_SkySphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-1638400.000 Y=-1638400.000 Z=-1638400.000), Max=(X=1638400.000 Y=1638400.000 Z=1638400.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [  1]
+ |   |   |   |- Guid:05E262A04CD3BE7D30603BBF4450F237 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95CCB001_1785375927 Label:Cube5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=57.500 Y=-606.250 Z=-51.250), Max=(X=982.500 Y=-293.750 Z=111.250) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Enviroment /Wall FolderGuid:C16D772A4E43D8BAFC9D36AE1A44C6DD
+ |   |   |- [+] [  2]
+ |   |   |   |- Guid:1C43798E42C0BA5C82D0489F9FDF3DE4 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95BDB001_1518631285 Label:Cube10 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=50.000 Y=1520.000 Z=-50.000), Max=(X=750.000 Y=1820.000 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Enviroment /Wall FolderGuid:C16D772A4E43D8BAFC9D36AE1A44C6DD
+ |   |   |- [+] [  3]
+ |   |   |   |- Guid:1D3D26F04B6DC10BEFB5B69E5CF914C8 BaseClass: NativeClass:/Script/Engine.VolumetricCloud Name:VolumetricCloud_UAID_A85E45CFE40401D200_1470381760 Label:VolumetricCloud SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [  4]
+ |   |   |   |- Guid:1DE8D7AC4103A2EABA11649C7FCF8ACA BaseClass: NativeClass:/Script/Engine.SkyLight Name:SkyLight_UAID_A85E45CFE40401D200_1470380759 Label:SkyLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [  5]
+ |   |   |   |- Guid:246774594E5C34B837D8219237748F66 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95BDB001_1518734288 Label:Cube11 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1370.000 Y=-330.000 Z=-50.000), Max=(X=1670.000 Y=370.000 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Enviroment /Wall FolderGuid:C16D772A4E43D8BAFC9D36AE1A44C6DD
+ |   |   |- [+] [  6]
+ |   |   |   |- Guid:2CE12F874AA39D020A0F4BA5739BD305 BaseClass: NativeClass:/Script/Engine.SkyAtmosphere Name:SkyAtmosphere_UAID_A85E45CFE40401D200_1470382762 Label:SkyAtmosphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [  7]
+ |   |   |   |- Guid:47AA88244850EBDD6F360E87806CB540 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95BDB001_1518627284 Label:Cube9 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=970.000 Y=1520.000 Z=-50.000), Max=(X=1670.000 Y=1820.000 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Enviroment /Wall FolderGuid:C16D772A4E43D8BAFC9D36AE1A44C6DD
+ |   |   |- [+] [  8]
+ |   |   |   |- Guid:5368FABB47D6D9580DAECA8B0417BF92 BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers-1 SpatiallyLoaded:0 Bounds:Invalid RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1 FolderPath:Misc FolderGuid:24891A81493DCDF0B41475BDFBC394D4
+ |   |   |- [+] [  9]
+ |   |   |   |- Guid:6A195F454CCBC1851DD5EB88ED63FA1A BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95BBB001_2050035931 Label:Cube8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1370.000 Y=-1320.000 Z=-50.000), Max=(X=1670.000 Y=-620.000 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Enviroment /Wall FolderGuid:C16D772A4E43D8BAFC9D36AE1A44C6DD
+ |   |   |- [+] [ 10]
+ |   |   |   |- Guid:6BF0F0FD48A29CF721849EB4EB8F560C BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95C6B001_1390361869 Label:Cube13 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-624.000 Y=820.000 Z=-50.000), Max=(X=-324.000 Y=1520.000 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Enviroment /Wall FolderGuid:C16D772A4E43D8BAFC9D36AE1A44C6DD
+ |   |   |- [+] [ 11]
+ |   |   |   |- Guid:78E5A6914A05EF9C4D67A0BA18801BED BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95B1B001_1687986193 Label:Cube6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=450.000 Y=-1320.000 Z=-50.000), Max=(X=1150.000 Y=-1020.000 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Enviroment /Wall FolderGuid:C16D772A4E43D8BAFC9D36AE1A44C6DD
+ |   |   |- [+] [ 12]
+ |   |   |   |- Guid:7AF5421E4ADC252F9BCF25966DD306BF BaseClass: NativeClass:/Script/Engine.CameraActor Name:CameraActor_UAID_601895280B9581B001_1983774732 Label:CameraActor SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-191.000 Y=260.000 Z=1880.000), Max=(X=-191.000 Y=260.000 Z=1880.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Misc FolderGuid:24891A81493DCDF0B41475BDFBC394D4
+ |   |   |- [+] [ 13]
+ |   |   |   |- Guid:8218958148A0B9B3DAD3F7AA1F6B0661 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95CCB001_1940264928 Label:Cube15 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=592.500 Y=782.500 Z=-51.250), Max=(X=967.500 Y=957.500 Z=111.250) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Enviroment /Wall FolderGuid:C16D772A4E43D8BAFC9D36AE1A44C6DD
+ |   |   |- [+] [ 14]
+ |   |   |   |- Guid:89AAAF6A478735C99F4327AF67970957 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95CCB001_1986989929 Label:Cube16 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=35.000 Y=782.500 Z=-51.250), Max=(X=385.000 Y=957.500 Z=111.250) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Enviroment /Wall FolderGuid:C16D772A4E43D8BAFC9D36AE1A44C6DD
+ |   |   |- [+] [ 15]
+ |   |   |   |- Guid:962D6BE34E7839A2A94E65B8F6CE5D43 BaseClass: NativeClass:/Script/Engine.PlayerStart Name:PlayerStart_UAID_F02F74551BF5599B01_1153002503 Label:PlayerStart SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-240.000 Y=-40.000 Z=0.000), Max=(X=-160.000 Y=40.000 Z=184.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Misc FolderGuid:24891A81493DCDF0B41475BDFBC394D4
+ |   |   |- [+] [ 16]
+ |   |   |   |- Guid:9A3CA07A40A0AD153435AF9B0A5393DE BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95C5B001_1506449688 Label:Cube12 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1370.000 Y=595.000 Z=-50.000), Max=(X=1670.000 Y=1295.000 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Enviroment /Wall FolderGuid:C16D772A4E43D8BAFC9D36AE1A44C6DD
+ |   |   |- [+] [ 17]
+ |   |   |   |- Guid:AAAC6B5742760A58C2206DB37E44683C BaseClass: NativeClass:/Script/Engine.DirectionalLight Name:DirectionalLight_UAID_A85E45CFE40401D200_1470382761 Label:DirectionalLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-4398046511104.000 Y=-4398046511104.000 Z=-4398046511104.000), Max=(X=4398046511104.000 Y=4398046511104.000 Z=4398046511104.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [ 18]
+ |   |   |   |- Guid:C23D113A4D935FF1AC0E3DBAD5389128 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95C6B001_2137739870 Label:Cube14 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-625.100 Y=-1025.000 Z=-50.000), Max=(X=-325.100 Y=-375.000 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Enviroment /Wall FolderGuid:C16D772A4E43D8BAFC9D36AE1A44C6DD
+ |   |   |- [+] [ 19]
+ |   |   |   |- Guid:D3FB7383421AAEFD3DB6F8B1E415A9FE BaseClass: NativeClass:/Script/Engine.ExponentialHeightFog Name:ExponentialHeightFog_UAID_A85E45CFE40401D200_1470382763 Label:ExponentialHeightFog SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-5600.000 Y=-50.000 Z=-6850.000), Max=(X=-5600.000 Y=-50.000 Z=-6850.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [ 20]
+ |   |   |   |- Guid:EADB8F86469B6E5083DE96AFC2429DD9 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95B2B001_1221785344 Label:Cube7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-470.000 Y=-1320.000 Z=-50.000), Max=(X=230.000 Y=-1020.000 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Enviroment /Wall FolderGuid:C16D772A4E43D8BAFC9D36AE1A44C6DD
+ |   |   |- [+] [ 21]
+ |   |   |   |- Guid:EDFCC1C9455F1422A51900BD850646D5 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B957FB001_1520682367 Label:Plane SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3860.000 Y=-4090.000 Z=-50.000), Max=(X=4140.000 Y=3910.000 Z=-50.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Enviroment  FolderGuid:BC94AC034BD48E8FB984FF84F941DE57
+ |- [+] Container: /Game/Prefabs/Wall3
+ |   |- [+] ActorDescs:
+ |   |   |- Guid:3AD0AC4C45595967D252E8A7301A603B BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95B0B001_1759043008 Label:Cube4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-112.500 Y=-150.000 Z=0.000), Max=(X=112.500 Y=150.000 Z=300.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:F3A5F6D045BCD4A4FE90759C5BCDAAB9 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95B0B001_1759045009 Label:Cylinder2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-98.750 Y=-112.500 Z=300.000), Max=(X=101.250 Y=112.500 Z=500.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |- [+] Clusters:
+ |   |   |- [+] [  0]
+ |   |   |   |- Guid:3AD0AC4C45595967D252E8A7301A603B BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95B0B001_1759043008 Label:Cube4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-112.500 Y=-150.000 Z=0.000), Max=(X=112.500 Y=150.000 Z=300.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  1]
+ |   |   |   |- Guid:F3A5F6D045BCD4A4FE90759C5BCDAAB9 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95B0B001_1759045009 Label:Cylinder2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-98.750 Y=-112.500 Z=300.000), Max=(X=101.250 Y=112.500 Z=500.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |- [+] Container: /Game/Prefabs/Wall4
+ |   |- [+] ActorDescs:
+ |   |   |- Guid:3077152145EF259277ACB0827411BA66 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95B0B001_2024660013 Label:Cube3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-113.750 Y=-150.000 Z=0.000), Max=(X=111.250 Y=150.000 Z=300.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:9C56B24A46E0FA024E91ECA7DF7918B8 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95B0B001_2024662014 Label:Sphere SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-125.000 Y=-125.000 Z=295.000), Max=(X=125.000 Y=125.000 Z=545.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |- [+] Clusters:
+ |   |   |- [+] [  0]
+ |   |   |   |- Guid:3077152145EF259277ACB0827411BA66 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95B0B001_2024660013 Label:Cube3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-113.750 Y=-150.000 Z=0.000), Max=(X=111.250 Y=150.000 Z=300.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  1]
+ |   |   |   |- Guid:9C56B24A46E0FA024E91ECA7DF7918B8 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95B0B001_2024662014 Label:Sphere SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-125.000 Y=-125.000 Z=295.000), Max=(X=125.000 Y=125.000 Z=545.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |- [+] Container: /Game/Prefabs/Wall2
+ |   |- [+] ActorDescs:
+ |   |   |- Guid:5C63796E4AEFEBF353C072B41815B69E BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95B0B001_1183212997 Label:Cube2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-112.500 Y=-150.000 Z=0.000), Max=(X=112.500 Y=150.000 Z=300.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:8DDCB3E94BEBD7230A1D1BBB290DBA2D BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95B0B001_1183214998 Label:Cone SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-108.750 Y=-120.000 Z=300.000), Max=(X=111.250 Y=100.000 Z=520.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |- [+] Clusters:
+ |   |   |- [+] [  0]
+ |   |   |   |- Guid:5C63796E4AEFEBF353C072B41815B69E BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95B0B001_1183212997 Label:Cube2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-112.500 Y=-150.000 Z=0.000), Max=(X=112.500 Y=150.000 Z=300.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  1]
+ |   |   |   |- Guid:8DDCB3E94BEBD7230A1D1BBB290DBA2D BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B95B0B001_1183214998 Label:Cone SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-108.750 Y=-120.000 Z=300.000), Max=(X=111.250 Y=100.000 Z=520.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |- [+] Container: /Game/Prefabs/Wall1
+ |   |- [+] ActorDescs:
+ |   |   |- Guid:C8ACDDE54266DFADF18651BE73950FCC BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9583B001_1093218089 Label:Cube SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-145.000 Y=-200.000 Z=0.000), Max=(X=155.000 Y=200.000 Z=400.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:E57F5AA74CEDFC443EF38C912611B554 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9583B001_1093219090 Label:Cylinder SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-110.000 Y=-160.000 Z=400.000), Max=(X=140.000 Y=140.000 Z=700.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |- [+] Clusters:
+ |   |   |- [+] [  0]
+ |   |   |   |- Guid:C8ACDDE54266DFADF18651BE73950FCC BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9583B001_1093218089 Label:Cube SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-145.000 Y=-200.000 Z=0.000), Max=(X=155.000 Y=200.000 Z=400.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  1]
+ |   |   |   |- Guid:E57F5AA74CEDFC443EF38C912611B554 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9583B001_1093219090 Label:Cylinder SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-110.000 Y=-160.000 Z=400.000), Max=(X=140.000 Y=140.000 Z=700.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |- [+] Container: /Game/Prefabs/EnemyTank
+ |   |- [+] ActorDescs:
+ |   |   |- Guid:1CBBF231441BC9B5DC122186F59F61AD BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9581B001_1309835725 Label:Tank_TankChassis SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-80.092 Y=-117.438 Z=7.681), Max=(X=90.092 Y=119.140 Z=118.533) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:334409A5427A544C422105AF5C82EB31 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9581B001_1309838727 Label:Tank_TankTracksRight SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-102.151 Y=-96.396 Z=0.000), Max=(X=-25.207 Y=113.163 Z=96.290) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:8ADE7F2F493CEB3FF574EA8729F66EC1 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9581B001_1309837726 Label:Tank_TankTracksLeft SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=25.207 Y=-96.396 Z=0.000), Max=(X=102.151 Y=113.163 Z=96.290) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:C06C20984695E0C9323901B5A4417007 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9581B001_1309839728 Label:Tank_TankTurret SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-59.686 Y=-119.140 Z=105.157), Max=(X=69.684 Y=79.406 Z=248.703) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |- [+] Clusters:
+ |   |   |- [+] [  0]
+ |   |   |   |- Guid:1CBBF231441BC9B5DC122186F59F61AD BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9581B001_1309835725 Label:Tank_TankChassis SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-80.092 Y=-117.438 Z=7.681), Max=(X=90.092 Y=119.140 Z=118.533) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  1]
+ |   |   |   |- Guid:334409A5427A544C422105AF5C82EB31 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9581B001_1309838727 Label:Tank_TankTracksRight SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-102.151 Y=-96.396 Z=0.000), Max=(X=-25.207 Y=113.163 Z=96.290) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  2]
+ |   |   |   |- Guid:8ADE7F2F493CEB3FF574EA8729F66EC1 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9581B001_1309837726 Label:Tank_TankTracksLeft SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=25.207 Y=-96.396 Z=0.000), Max=(X=102.151 Y=113.163 Z=96.290) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  3]
+ |   |   |   |- Guid:C06C20984695E0C9323901B5A4417007 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9581B001_1309839728 Label:Tank_TankTurret SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-59.686 Y=-119.140 Z=105.157), Max=(X=69.684 Y=79.406 Z=248.703) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |- [+] Container: /Game/Prefabs/PlayerTank
+ |   |- [+] ActorDescs:
+ |   |   |- Guid:2491083F48D3F92495DC8DAF0DCBBA00 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9581B001_1309835725 Label:Tank_TankChassis SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-80.092 Y=-117.438 Z=7.681), Max=(X=90.092 Y=119.140 Z=118.533) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:6B4CBFEF43D8C24A4BD3669CAB7CDFA0 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9581B001_1309837726 Label:Tank_TankTracksLeft SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=25.207 Y=-96.396 Z=0.000), Max=(X=102.151 Y=113.163 Z=96.290) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:8357CC7843DC43C25695F1A1C5EEC95B BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9581B001_1309839728 Label:Tank_TankTurret SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-59.686 Y=-119.140 Z=105.157), Max=(X=69.684 Y=79.406 Z=248.703) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:A5D9877C4C6B6ABFC8B8E2814DCCB484 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9581B001_1309838727 Label:Tank_TankTracksRight SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-102.151 Y=-96.396 Z=0.000), Max=(X=-25.207 Y=113.163 Z=96.290) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |- [+] Clusters:
+ |   |   |- [+] [  0]
+ |   |   |   |- Guid:2491083F48D3F92495DC8DAF0DCBBA00 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9581B001_1309835725 Label:Tank_TankChassis SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-80.092 Y=-117.438 Z=7.681), Max=(X=90.092 Y=119.140 Z=118.533) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  1]
+ |   |   |   |- Guid:6B4CBFEF43D8C24A4BD3669CAB7CDFA0 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9581B001_1309837726 Label:Tank_TankTracksLeft SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=25.207 Y=-96.396 Z=0.000), Max=(X=102.151 Y=113.163 Z=96.290) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  2]
+ |   |   |   |- Guid:8357CC7843DC43C25695F1A1C5EEC95B BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9581B001_1309839728 Label:Tank_TankTurret SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-59.686 Y=-119.140 Z=105.157), Max=(X=69.684 Y=79.406 Z=248.703) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  3]
+ |   |   |   |- Guid:A5D9877C4C6B6ABFC8B8E2814DCCB484 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_601895280B9581B001_1309838727 Label:Tank_TankTracksRight SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-102.151 Y=-96.396 Z=0.000), Max=(X=-25.207 Y=113.163 Z=96.290) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |- ContainerInstances:
+ |- [+] MainContainer:
+ |   |-        ID: 00000000000000000000000000000000
+ |   |-  ParentID: 00000000000000000000000000000000
+ |   |-    Bounds: IsValid=true, Min=(X=-3860.000 Y=-4090.000 Z=-52.617), Max=(X=4140.000 Y=3910.000 Z=1880.000)
+ |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |   |- Container: /Game/Levels/TankGame
+ |- [+] SubContainers:
+ |   |- [+] Wall6:
+ |   |   |-        ID: 07E3BF61F950038B0BCD67E090882A2B
+ |   |   |-  ParentID: 00000000000000000000000000000000
+ |   |   |-    Bounds: IsValid=true, Min=(X=1139.000 Y=-1320.000 Z=-50.000), Max=(X=1389.000 Y=-1020.000 Z=495.000)
+ |   |   |- Transform: 1264.000000,-1170.000000,-50.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |   |   |- Container: /Game/Prefabs/Wall4
+ |   |- [+] Wall5:
+ |   |   |-        ID: 1CBBE3629678FAF6F9AC1144BD03B4BE
+ |   |   |-  ParentID: 00000000000000000000000000000000
+ |   |   |-    Bounds: IsValid=true, Min=(X=227.500 Y=-1320.000 Z=-50.000), Max=(X=452.500 Y=-1020.000 Z=470.000)
+ |   |   |- Transform: 340.000000,-1170.000000,-50.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |   |   |- Container: /Game/Prefabs/Wall2
+ |   |- [+] EnemyTank:
+ |   |   |-        ID: 35902A1B8E3548DF7306830D389A3B46
+ |   |   |-  ParentID: 00000000000000000000000000000000
+ |   |   |-    Bounds: IsValid=true, Min=(X=438.924 Y=1220.430 Z=-50.000), Max=(X=541.076 Y=1339.570 Z=74.351)
+ |   |   |- Transform: 490.000000,1280.000000,-50.000000|0.000000,179.999999,-0.000000|0.500000,0.500000,0.500000
+ |   |   |- Container: /Game/Prefabs/EnemyTank
+ |   |- [+] Wall3:
+ |   |   |-        ID: 5C384662399401D0BA05BFB83190B79C
+ |   |   |-  ParentID: 00000000000000000000000000000000
+ |   |   |-    Bounds: IsValid=true, Min=(X=-549.000 Y=-80.000 Z=-50.000), Max=(X=-324.000 Y=220.000 Z=450.000)
+ |   |   |- Transform: -436.500000,70.000000,-50.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |   |   |- Container: /Game/Prefabs/Wall3
+ |   |- [+] Wall4:
+ |   |   |-        ID: 63E6F40806751587FB862C108D8894B7
+ |   |   |-  ParentID: 00000000000000000000000000000000
+ |   |   |-    Bounds: IsValid=true, Min=(X=-561.500 Y=-380.000 Z=-50.000), Max=(X=-311.500 Y=-80.000 Z=495.000)
+ |   |   |- Transform: -436.500000,-230.000000,-50.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |   |   |- Container: /Game/Prefabs/Wall4
+ |   |- [+] PlayerTank:
+ |   |   |-        ID: 6C87D27C8F636CCED328415741F9C52D
+ |   |   |-  ParentID: 00000000000000000000000000000000
+ |   |   |-    Bounds: IsValid=true, Min=(X=513.924 Y=-937.809 Z=-52.617), Max=(X=616.076 Y=-818.669 Z=71.734)
+ |   |   |- Transform: 565.000015,-878.238922,-52.616842|0.000000,0.000000,-0.000000|0.500000,0.500000,0.500000
+ |   |   |- Container: /Game/Prefabs/PlayerTank
+ |   |- [+] Wall10:
+ |   |   |-        ID: 9C8D230AC29873292079168CA9CCCA56
+ |   |   |-  ParentID: 00000000000000000000000000000000
+ |   |   |-    Bounds: IsValid=true, Min=(X=1370.000 Y=1283.500 Z=-50.000), Max=(X=1670.000 Y=1533.500 Z=495.000)
+ |   |   |- Transform: 1520.000000,1408.500000,-50.000000|0.000000,90.000000,-0.000000|1.000000,1.000000,1.000000
+ |   |   |- Container: /Game/Prefabs/Wall4
+ |   |- [+] Wall12:
+ |   |   |-        ID: 9EF66CC00E2DF7D43B7CE731D2C8025A
+ |   |   |-  ParentID: 00000000000000000000000000000000
+ |   |   |-    Bounds: IsValid=true, Min=(X=-399.000 Y=1520.000 Z=-50.000), Max=(X=-174.000 Y=1820.000 Z=450.000)
+ |   |   |- Transform: -286.500000,1670.000000,-50.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |   |   |- Container: /Game/Prefabs/Wall3
+ |   |- [+] Wall1:
+ |   |   |-        ID: A706613FD6C54B2FC1AFF92E0EAB696B
+ |   |   |-  ParentID: 00000000000000000000000000000000
+ |   |   |-    Bounds: IsValid=true, Min=(X=-549.250 Y=520.000 Z=-50.000), Max=(X=-324.250 Y=820.000 Z=475.000)
+ |   |   |- Transform: -440.500000,670.000000,-50.000000|0.000000,0.000000,-0.000000|0.750000,0.750000,0.750000
+ |   |   |- Container: /Game/Prefabs/Wall1
+ |   |- [+] Wall11:
+ |   |   |-        ID: BD027D6B9A08C3D567FE482E213C3FD7
+ |   |   |-  ParentID: 00000000000000000000000000000000
+ |   |   |-    Bounds: IsValid=true, Min=(X=-638.000 Y=1520.000 Z=-50.000), Max=(X=-388.000 Y=1820.000 Z=495.000)
+ |   |   |- Transform: -513.000000,1670.000000,-50.000000|0.000000,180.000000,-0.000000|1.000000,1.000000,1.000000
+ |   |   |- Container: /Game/Prefabs/Wall4
+ |   |- [+] Wall9:
+ |   |   |-        ID: C65DF0B738BE8A17435BE3F91EF7C312
+ |   |   |-  ParentID: 00000000000000000000000000000000
+ |   |   |-    Bounds: IsValid=true, Min=(X=1370.000 Y=370.000 Z=-50.000), Max=(X=1670.000 Y=595.000 Z=450.000)
+ |   |   |- Transform: 1520.000000,482.500000,-50.000000|0.000000,89.999999,-0.000000|1.000000,1.000000,1.000000
+ |   |   |- Container: /Game/Prefabs/Wall3
+ |   |- [+] Wall7:
+ |   |   |-        ID: D5F3159D9D2F4272233B46FCE9F33B16
+ |   |   |-  ParentID: 00000000000000000000000000000000
+ |   |   |-    Bounds: IsValid=true, Min=(X=-189.000 Y=1520.000 Z=-50.000), Max=(X=61.000 Y=1820.000 Z=495.000)
+ |   |   |- Transform: -63.999990,1669.999988,-50.000000|0.000000,179.999999,-0.000000|1.000000,1.000000,1.000000
+ |   |   |- Container: /Game/Prefabs/Wall4
+ |   |- [+] Wall2:
+ |   |   |-        ID: D78E922CD59FCCB884ADB21EB38C6AD5
+ |   |   |-  ParentID: 00000000000000000000000000000000
+ |   |   |-    Bounds: IsValid=true, Min=(X=1369.750 Y=-622.500 Z=-50.000), Max=(X=1594.750 Y=-322.500 Z=475.000)
+ |   |   |- Transform: 1478.500000,-472.500000,-50.000000|0.000000,0.000000,-0.000000|0.750000,0.750000,0.750000
+ |   |   |- Container: /Game/Prefabs/Wall1
+ |   |- [+] Wall2:
+ |   |   |-        ID: ED4D4F1A419D564E4D4F5E51E61B7288
+ |   |   |-  ParentID: 00000000000000000000000000000000
+ |   |   |-    Bounds: IsValid=true, Min=(X=-549.000 Y=220.000 Z=-50.000), Max=(X=-324.000 Y=520.000 Z=470.000)
+ |   |   |- Transform: -436.500000,370.000000,-50.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |   |   |- Container: /Game/Prefabs/Wall2
+ |   |- [+] Wall8:
+ |   |   |-        ID: F25A4074A8304CF96FC1BCE8DDDDB180
+ |   |   |-  ParentID: 00000000000000000000000000000000
+ |   |   |-    Bounds: IsValid=true, Min=(X=747.500 Y=1520.000 Z=-50.000), Max=(X=972.500 Y=1820.000 Z=470.000)
+ |   |   |- Transform: 860.000010,1669.999943,-50.000000|0.000000,179.999999,-0.000000|1.000000,1.000000,1.000000
+ |   |   |- Container: /Game/Prefabs/Wall2
+----------------------------------------------------------------------------------------------------------------
+TankGame - Persistent Level
+----------------------------------------------------------------------------------------------------------------
+[+] Content of TankGame Persistent Level
+ |- Always loaded Actor Count: 53 
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.AbstractNavData-Default
+ |- Actor Package: /Game/Levels/TankGame
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.Brush_0
+ |- Actor Package: /Game/Levels/TankGame
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.Brush_1
+ |- Actor Package: /Game/Levels/TankGame
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.Brush_2
+ |- Actor Package: /Game/Levels/TankGame
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.Brush_3
+ |- Actor Package: /Game/Levels/TankGame
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.Brush_4
+ |- Actor Package: /Game/Levels/TankGame
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.Brush_5
+ |- Actor Package: /Game/Levels/TankGame
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.Brush_6
+ |- Actor Package: /Game/Levels/TankGame
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.Brush_7
+ |- Actor Package: /Game/Levels/TankGame
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.Brush_8
+ |- Actor Package: /Game/Levels/TankGame
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.Brush_9
+ |- Actor Package: /Game/Levels/TankGame
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.CameraActor_UAID_601895280B9581B001_1983774732
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/C/HW/LNHMA55GKS6Q6OPVEJG1T3
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.DefaultPhysicsVolume_0
+ |- Actor Package: /Game/Levels/TankGame
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.DirectionalLight_UAID_A85E45CFE40401D200_1470382761
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/9/WF/J1R82UPN2J49MWWEJOV5DN
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.ExponentialHeightFog_UAID_A85E45CFE40401D200_1470382763
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/0/Y7/HVJ4XS4IY6NAW4PTU7TLL9
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.GameplayDebuggerPlayerManager_0
+ |- Actor Package: /Game/Levels/TankGame
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.LevelInstance_UAID_601895280B9581B001_1309891729
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/C/QN/ZYG78SF52B9S7R4KK1DXLD
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.LevelInstance_UAID_601895280B9581B001_1450655730
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/5/6X/HUTR80WSEK5CTH9EWLCID8
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.LevelInstance_UAID_601895280B9583B001_1093286091
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/3/KI/JS9CGASEBA1NR81HX8KEMB
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.LevelInstance_UAID_601895280B9583B001_1117138092
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/6/RF/87FITCOYK637D2UXG2N04I
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.LevelInstance_UAID_601895280B95B0B001_1184622999
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/C/TA/WV1ZXMT7S84UELEZ344YEC
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.LevelInstance_UAID_601895280B95B0B001_1759097010
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/B/Z7/687L09WOTZ3HM9JLD5HZG2
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.LevelInstance_UAID_601895280B95B0B001_2024725015
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/7/1K/3RRLC9YC5C8XSL98MX9H2X
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.LevelInstance_UAID_601895280B95B1B001_1799775196
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/6/3V/MQ5EBB3LNCRIHMBST1P989
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.LevelInstance_UAID_601895280B95BBB001_1892696930
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/5/9O/44AH0FHG677R8S7DAH8VYJ
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.LevelInstance_UAID_601895280B95BDB001_1518633286
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/3/FQ/KGUEI80T9FEJ2FOR497JFU
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.LevelInstance_UAID_601895280B95BDB001_1518733287
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/3/BD/J463JN6NM92WWQ0BSJC2RR
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.LevelInstance_UAID_601895280B95C5B001_1246585687
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/5/S1/W3LVYZEJQCX7T3RF8D075X
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.LevelInstance_UAID_601895280B95C5B001_1781733689
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/9/Y6/LZQBHU5N4QPFD4N69LGZNL
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.LevelInstance_UAID_601895280B95C5B001_1996349690
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/1/XX/L9SHFRR6A5V1B6CUSOYH3Z
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.LevelInstance_UAID_601895280B95C6B001_1207733868
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/0/ZE/Y1LOOKI921ACM5DGU183FY
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.PlayerStart_UAID_F02F74551BF5599B01_1153002503
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/C/M5/QNRVZB673YWGS0AFCKFWZT
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.SkyAtmosphere_UAID_A85E45CFE40401D200_1470382762
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/9/E3/G7STR9KG1UUXDCR6OW24DL
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.SkyLight_UAID_A85E45CFE40401D200_1470380759
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/1/T8/IZEJ00QAFJ70RBWPJD7VOI
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B957FB001_1520682367
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/A/IK/ID4PT97DHR9HIJ4EYP6VSW
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95B1B001_1687986193
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/4/VS/CY8J1R1J37GCMG0FYDHQFF
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95B2B001_1221785344
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/9/CS/CL8YJSOBT9CPSX7Q38Z51P
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95BBB001_2050035931
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/D/GJ/QFNKI2CMNYYENJT8943DF8
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95BDB001_1518627284
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/9/70/JD5O11DCDG95WFU112QXNR
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95BDB001_1518631285
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/3/HQ/O9AVL7CFVTSRC53QG82ZQI
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95BDB001_1518734288
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/A/K5/AU9QNI0ZNWMHC4G9D0BADX
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95C5B001_1506449688
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/8/P7/L8X4EWRJJAELUOJL768QJA
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95C6B001_1390361869
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/6/U7/BYC1TSRRZOO4A2AJK8RVSO
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95C6B001_2137739870
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/7/BA/FDI6R3RN2SM1MH0ZT9B7PT
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95CCB001_1785375927
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/9/P6/XGKD0X8QBA2K5H6US8LBH8
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95CCB001_1940264928
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/0/5S/ONPIBJZMDQBRL4WC8B6WD9
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95CCB001_1986989929
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/7/5D/0CKVK0DSVNRS7P09TCQXIT
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_A4AE111137DC54FB00_1240666663
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/2/OI/818TLJVGULXV9JB4TCQBGM
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.Tank_UAID_601895280B9566EC01_1431696330
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/C/QN/ZYG78SF52B9S7R4KK1DXLD
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.VolumetricCloud_UAID_A85E45CFE40401D200_1470381760
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/A/ZN/X0CYLPYPM9VC99K0PSVTTH
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.WorldDataLayers
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/D/30/SGLXD5IO9Q2HXAWSDKU17D
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.WorldPartitionMiniMap_UAID_3497F631D5890DD300_1296925927
+ |- Actor Package: /Game/__ExternalActors__/Levels/TankGame/4/UD/S6KZ46QXNSXNXB3V5E7PAQ
+ |- Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.WorldSettings
+ |- Actor Package: /Game/Levels/TankGame
+
+----------------------------------------------------------------------------------------------------------------
+TankGame - Runtime Spatial Hash - Streaming Grid - MainGrid
+----------------------------------------------------------------------------------------------------------------
+            Origin: X=0.000 Y=0.000 Z=0.000
+         Cell Size: 25600
+      World Bounds: IsValid=true, Min=(X=-3860.000 Y=-4090.000 Z=-52.617), Max=(X=4140.000 Y=3910.000 Z=1880.000)
+     Loading Range: 76800.00
+Block Slow Loading: No
+ ClientOnlyVisible: No
+            Origin: X=0.000 Y=0.000 Z=0.000
+
+[+] Grid Levels: 2
+ |- Level  0: Cell Count    1 | Cell Size   25600 | Actor Count   48 (100.0%)
+ |- Level  1: Cell Count    0 | Cell Size   51200 | Actor Count    0 (0.0%)
+
+[+] Content of Grid Level 0
+ |- [+] Content of Cell TankGame_MainGrid_L0_X0_Y0 (3FXY4ICN5X0VMRACI36SBVIQX)
+ |   |- Actor Count: 48
+ |   |-          Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95CCB001_1785375927
+ |   |-       Actor Package: /Game/__ExternalActors__/Levels/TankGame/9/P6/XGKD0X8QBA2K5H6US8LBH8
+ |   |- Actor Instance Guid: 05E262A04CD3BE7D30603BBF4450F237
+ |   |-          Actor Path: /Game/Prefabs/Wall4.Wall4:PersistentLevel.StaticMeshActor_UAID_601895280B95B0B001_2024660013
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/Wall4/9/4Y/9ECB63E4KWVINQXK72CXW3
+ |   |- Actor Instance Guid: 0E37304F8CA14BBD0AC37BDA52E2EAAF
+ |   |-          Actor Path: /Game/Prefabs/Wall4.Wall4:PersistentLevel.StaticMeshActor_UAID_601895280B95B0B001_2024662014
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/Wall4/4/KL/AI586NQKL41GO57XWM06PU
+ |   |- Actor Instance Guid: 0EE8500E6936CABDC5EEBE60D9C6C01F
+ |   |-          Actor Path: /Game/Prefabs/Wall4.Wall4:PersistentLevel.StaticMeshActor_UAID_601895280B95B0B001_2024662014
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/Wall4/4/KL/AI586NQKL41GO57XWM06PU
+ |   |- Actor Instance Guid: 12FF2B560460E368B22A15444A9BE1F9
+ |   |-          Actor Path: /Game/Prefabs/Wall2.Wall2:PersistentLevel.StaticMeshActor_UAID_601895280B95B0B001_1183212997
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/Wall2/7/YT/ADR214F531YOP6ZH1C1Z9C
+ |   |- Actor Instance Guid: 19C434CB8E232EF827A5B980902C1DD7
+ |   |-          Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95BDB001_1518631285
+ |   |-       Actor Package: /Game/__ExternalActors__/Levels/TankGame/3/HQ/O9AVL7CFVTSRC53QG82ZQI
+ |   |- Actor Instance Guid: 1C43798E42C0BA5C82D0489F9FDF3DE4
+ |   |-          Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95BDB001_1518734288
+ |   |-       Actor Package: /Game/__ExternalActors__/Levels/TankGame/A/K5/AU9QNI0ZNWMHC4G9D0BADX
+ |   |- Actor Instance Guid: 246774594E5C34B837D8219237748F66
+ |   |-          Actor Path: /Game/Prefabs/PlayerTank.PlayerTank:PersistentLevel.StaticMeshActor_UAID_601895280B9581B001_1309838727
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/PlayerTank/E/RX/6GW9JPVW78XDRJAR2XC1LR
+ |   |- Actor Instance Guid: 25CF19CF29BF5822217A5CC9248D1A70
+ |   |-          Actor Path: /Game/Prefabs/Wall3.Wall3:PersistentLevel.StaticMeshActor_UAID_601895280B95B0B001_1759043008
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/Wall3/3/QX/4WRQAYMXCX15ZBSN5DMI7O
+ |   |- Actor Instance Guid: 33D56FFD6B77309F773961634193721F
+ |   |-          Actor Path: /Game/Prefabs/PlayerTank.PlayerTank:PersistentLevel.StaticMeshActor_UAID_601895280B9581B001_1309837726
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/PlayerTank/7/67/PU62NG8YQQMMR2JWZWVQG5
+ |   |- Actor Instance Guid: 3BC4E84EE140D13D34B3F89FD2E8F884
+ |   |-          Actor Path: /Game/Prefabs/Wall4.Wall4:PersistentLevel.StaticMeshActor_UAID_601895280B95B0B001_2024660013
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/Wall4/9/4Y/9ECB63E4KWVINQXK72CXW3
+ |   |- Actor Instance Guid: 3FD0E668D896A19E9003A1D33D490B5E
+ |   |-          Actor Path: /Game/Prefabs/Wall3.Wall3:PersistentLevel.StaticMeshActor_UAID_601895280B95B0B001_1759043008
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/Wall3/3/QX/4WRQAYMXCX15ZBSN5DMI7O
+ |   |- Actor Instance Guid: 43202657AD62887C8DD109366753A6D8
+ |   |-          Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95BDB001_1518627284
+ |   |-       Actor Package: /Game/__ExternalActors__/Levels/TankGame/9/70/JD5O11DCDG95WFU112QXNR
+ |   |- Actor Instance Guid: 47AA88244850EBDD6F360E87806CB540
+ |   |-          Actor Path: /Game/Prefabs/Wall2.Wall2:PersistentLevel.StaticMeshActor_UAID_601895280B95B0B001_1183214998
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/Wall2/C/N8/I9G97IGJEOF0YQ49DCA2FR
+ |   |- Actor Instance Guid: 4B9A556E2BA979B77AA4C56FF518DE6B
+ |   |-          Actor Path: /Game/Prefabs/EnemyTank.EnemyTank:PersistentLevel.StaticMeshActor_UAID_601895280B9581B001_1309838727
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/EnemyTank/8/GQ/LN2AGV5IYTMSX88HR7X7DL
+ |   |- Actor Instance Guid: 5083DA0512E7C1EE8EB579A8B117BE17
+ |   |-          Actor Path: /Game/Prefabs/EnemyTank.EnemyTank:PersistentLevel.StaticMeshActor_UAID_601895280B9581B001_1309835725
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/EnemyTank/3/8I/P9PZHZEVS11Z34O6L6KE5M
+ |   |- Actor Instance Guid: 606B93E8EC46371D21678AA0A9AA4931
+ |   |-          Actor Path: /Game/Prefabs/PlayerTank.PlayerTank:PersistentLevel.StaticMeshActor_UAID_601895280B9581B001_1309835725
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/PlayerTank/0/G4/EEGAHGB5K506PM947TP9CE
+ |   |- Actor Instance Guid: 626CE8046F79E3A17F7FB4EDF3D1D141
+ |   |-          Actor Path: /Game/Prefabs/Wall3.Wall3:PersistentLevel.StaticMeshActor_UAID_601895280B95B0B001_1759045009
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/Wall3/9/DI/K8172M344LMJPF8H273RUM
+ |   |- Actor Instance Guid: 668281C9AE5621F7835796B1C20970DB
+ |   |-          Actor Path: /Game/Prefabs/Wall3.Wall3:PersistentLevel.StaticMeshActor_UAID_601895280B95B0B001_1759045009
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/Wall3/9/DI/K8172M344LMJPF8H273RUM
+ |   |- Actor Instance Guid: 66931BF771AB46B5352001E2FCDC5BB6
+ |   |-          Actor Path: /Game/Prefabs/Wall2.Wall2:PersistentLevel.StaticMeshActor_UAID_601895280B95B0B001_1183214998
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/Wall2/C/N8/I9G97IGJEOF0YQ49DCA2FR
+ |   |- Actor Instance Guid: 67E09842F3781B51674B3CF20FBDA706
+ |   |-          Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95BBB001_2050035931
+ |   |-       Actor Package: /Game/__ExternalActors__/Levels/TankGame/D/GJ/QFNKI2CMNYYENJT8943DF8
+ |   |- Actor Instance Guid: 6A195F454CCBC1851DD5EB88ED63FA1A
+ |   |-          Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95C6B001_1390361869
+ |   |-       Actor Package: /Game/__ExternalActors__/Levels/TankGame/6/U7/BYC1TSRRZOO4A2AJK8RVSO
+ |   |- Actor Instance Guid: 6BF0F0FD48A29CF721849EB4EB8F560C
+ |   |-          Actor Path: /Game/Prefabs/Wall4.Wall4:PersistentLevel.StaticMeshActor_UAID_601895280B95B0B001_2024660013
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/Wall4/9/4Y/9ECB63E4KWVINQXK72CXW3
+ |   |- Actor Instance Guid: 6C3E2A4D581CFC29348D90B3FB89B48E
+ |   |-          Actor Path: /Game/Prefabs/Wall1.Wall1:PersistentLevel.StaticMeshActor_UAID_601895280B9583B001_1093218089
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/Wall1/3/XD/8TJ5861VTJ3GGXIOE32BV4
+ |   |- Actor Instance Guid: 6EF8EC14FC3D48EB7549AD3772932B91
+ |   |-          Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95B1B001_1687986193
+ |   |-       Actor Package: /Game/__ExternalActors__/Levels/TankGame/4/VS/CY8J1R1J37GCMG0FYDHQFF
+ |   |- Actor Instance Guid: 78E5A6914A05EF9C4D67A0BA18801BED
+ |   |-          Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.CameraActor_UAID_601895280B9581B001_1983774732
+ |   |-       Actor Package: /Game/__ExternalActors__/Levels/TankGame/C/HW/LNHMA55GKS6Q6OPVEJG1T3
+ |   |- Actor Instance Guid: 7AF5421E4ADC252F9BCF25966DD306BF
+ |   |-          Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95CCB001_1940264928
+ |   |-       Actor Package: /Game/__ExternalActors__/Levels/TankGame/0/5S/ONPIBJZMDQBRL4WC8B6WD9
+ |   |- Actor Instance Guid: 8218958148A0B9B3DAD3F7AA1F6B0661
+ |   |-          Actor Path: /Game/Prefabs/Wall4.Wall4:PersistentLevel.StaticMeshActor_UAID_601895280B95B0B001_2024662014
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/Wall4/4/KL/AI586NQKL41GO57XWM06PU
+ |   |- Actor Instance Guid: 88916A3AA4442EB636E0B8FBF39659CF
+ |   |-          Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95CCB001_1986989929
+ |   |-       Actor Package: /Game/__ExternalActors__/Levels/TankGame/7/5D/0CKVK0DSVNRS7P09TCQXIT
+ |   |- Actor Instance Guid: 89AAAF6A478735C99F4327AF67970957
+ |   |-          Actor Path: /Game/Prefabs/Wall2.Wall2:PersistentLevel.StaticMeshActor_UAID_601895280B95B0B001_1183212997
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/Wall2/7/YT/ADR214F531YOP6ZH1C1Z9C
+ |   |- Actor Instance Guid: 94A6AFCF1425E168A437D3A0D18FFD9B
+ |   |-          Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95C5B001_1506449688
+ |   |-       Actor Package: /Game/__ExternalActors__/Levels/TankGame/8/P7/L8X4EWRJJAELUOJL768QJA
+ |   |- Actor Instance Guid: 9A3CA07A40A0AD153435AF9B0A5393DE
+ |   |-          Actor Path: /Game/Prefabs/Wall3.Wall3:PersistentLevel.StaticMeshActor_UAID_601895280B95B0B001_1759045009
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/Wall3/9/DI/K8172M344LMJPF8H273RUM
+ |   |- Actor Instance Guid: 9E4CEC2F627665A91C3B48D36D4FF7DB
+ |   |-          Actor Path: /Game/Prefabs/Wall2.Wall2:PersistentLevel.StaticMeshActor_UAID_601895280B95B0B001_1183212997
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/Wall2/7/YT/ADR214F531YOP6ZH1C1Z9C
+ |   |- Actor Instance Guid: A45ED44B5FA86CC52C04ACC8967C6968
+ |   |-          Actor Path: /Game/Prefabs/Wall1.Wall1:PersistentLevel.StaticMeshActor_UAID_601895280B9583B001_1093219090
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/Wall1/2/N3/3V7C6Z9Z8ODW5I1RJEEX25
+ |   |- Actor Instance Guid: B72FC68E58EFDF830FAB2E7DFE167BDB
+ |   |-          Actor Path: /Game/Prefabs/Wall2.Wall2:PersistentLevel.StaticMeshActor_UAID_601895280B95B0B001_1183214998
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/Wall2/C/N8/I9G97IGJEOF0YQ49DCA2FR
+ |   |- Actor Instance Guid: BB5FC4CD1810B8FFF0E072C745ACE73C
+ |   |-          Actor Path: /Game/Prefabs/Wall4.Wall4:PersistentLevel.StaticMeshActor_UAID_601895280B95B0B001_2024662014
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/Wall4/4/KL/AI586NQKL41GO57XWM06PU
+ |   |- Actor Instance Guid: BDB6C13BDF7BD287596B60FBBD7EAE96
+ |   |-          Actor Path: /Game/Prefabs/Wall4.Wall4:PersistentLevel.StaticMeshActor_UAID_601895280B95B0B001_2024660013
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/Wall4/9/4Y/9ECB63E4KWVINQXK72CXW3
+ |   |- Actor Instance Guid: BF0C4EB238E380CBBBEBDC083446C330
+ |   |-          Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95C6B001_2137739870
+ |   |-       Actor Package: /Game/__ExternalActors__/Levels/TankGame/7/BA/FDI6R3RN2SM1MH0ZT9B7PT
+ |   |- Actor Instance Guid: C23D113A4D935FF1AC0E3DBAD5389128
+ |   |-          Actor Path: /Game/Prefabs/EnemyTank.EnemyTank:PersistentLevel.StaticMeshActor_UAID_601895280B9581B001_1309839728
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/EnemyTank/C/TV/I4M9BEZM5TIX1FGDDI1EUD
+ |   |- Actor Instance Guid: D263F85860ADE2540A5C7CB3D7971E9E
+ |   |-          Actor Path: /Game/Prefabs/Wall1.Wall1:PersistentLevel.StaticMeshActor_UAID_601895280B9583B001_1093218089
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/Wall1/3/XD/8TJ5861VTJ3GGXIOE32BV4
+ |   |- Actor Instance Guid: DCEDF8773ECD8DB4DEE0E45B28DBB147
+ |   |-          Actor Path: /Game/Prefabs/Wall3.Wall3:PersistentLevel.StaticMeshActor_UAID_601895280B95B0B001_1759043008
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/Wall3/3/QX/4WRQAYMXCX15ZBSN5DMI7O
+ |   |- Actor Instance Guid: DEFF2B000E5CBBD02B11D877CBA9E477
+ |   |-          Actor Path: /Game/Prefabs/PlayerTank.PlayerTank:PersistentLevel.StaticMeshActor_UAID_601895280B9581B001_1309839728
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/PlayerTank/C/M5/F1J2SSCA5O6MFSE5DWTCEC
+ |   |- Actor Instance Guid: E4D67778FF7828D68F10E6152DC2C7AE
+ |   |-          Actor Path: /Game/Prefabs/Wall4.Wall4:PersistentLevel.StaticMeshActor_UAID_601895280B95B0B001_2024662014
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/Wall4/4/KL/AI586NQKL41GO57XWM06PU
+ |   |- Actor Instance Guid: E55C2DFDBB0E17A389697B4728713F17
+ |   |-          Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B95B2B001_1221785344
+ |   |-       Actor Package: /Game/__ExternalActors__/Levels/TankGame/9/CS/CL8YJSOBT9CPSX7Q38Z51P
+ |   |- Actor Instance Guid: EADB8F86469B6E5083DE96AFC2429DD9
+ |   |-          Actor Path: /Game/Prefabs/Wall1.Wall1:PersistentLevel.StaticMeshActor_UAID_601895280B9583B001_1093219090
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/Wall1/2/N3/3V7C6Z9Z8ODW5I1RJEEX25
+ |   |- Actor Instance Guid: EB8D1903BF0BCAF73C057BAE9C312AA0
+ |   |-          Actor Path: /Game/Levels/TankGame.TankGame:PersistentLevel.StaticMeshActor_UAID_601895280B957FB001_1520682367
+ |   |-       Actor Package: /Game/__ExternalActors__/Levels/TankGame/A/IK/ID4PT97DHR9HIJ4EYP6VSW
+ |   |- Actor Instance Guid: EDFCC1C9455F1422A51900BD850646D5
+ |   |-          Actor Path: /Game/Prefabs/EnemyTank.EnemyTank:PersistentLevel.StaticMeshActor_UAID_601895280B9581B001_1309837726
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/EnemyTank/3/0W/KMXMOIHRA20WS1TDX95204
+ |   |- Actor Instance Guid: F3BD65519D42B928CD71C2CEB11E6E26
+ |   |-          Actor Path: /Game/Prefabs/Wall4.Wall4:PersistentLevel.StaticMeshActor_UAID_601895280B95B0B001_2024660013
+ |   |-       Actor Package: /Game/__ExternalActors__/Prefabs/Wall4/9/4Y/9ECB63E4KWVINQXK72CXW3
+ |   |- Actor Instance Guid: F94386B40788B9816F2279ABD5785F44
+[+] Content of Grid Level 1
+
