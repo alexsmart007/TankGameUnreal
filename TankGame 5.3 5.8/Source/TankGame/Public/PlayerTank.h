@@ -53,14 +53,6 @@ protected:
 	TObjectPtr<UMyInputConfigData> InputActions;
 #pragma endregion
 
-	// Unity speed 2.5 (m/s) = 250 cm/s
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Tank|Movement")
-	float MoveSpeed = 250.f;
-
-	// Degrees per second
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Tank|Movement")
-	float RotateSpeed = 100.f;
-
 private:
 	void OnMoveInput(const FInputActionValue& Value);
 	void OnRotateInput(const FInputActionValue& Value);

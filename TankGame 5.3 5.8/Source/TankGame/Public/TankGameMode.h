@@ -26,10 +26,8 @@ public:
 	// Called by a shell when it destroys a tank
 	void TankDestroyed(ATankPawn* Tank);
 
-	// Only one enemy shell may be in flight at a time (Unity's ShellExplosionEnemy.destoryed)
-	bool CanEnemyFire() const { return ActiveEnemyShells == 0 && !bRoundOver; }
-	void EnemyShellSpawned() { ++ActiveEnemyShells; }
-	void EnemyShellRemoved() { ActiveEnemyShells = FMath::Max(0, ActiveEnemyShells - 1); }
+	// False once the level is won or lost; enemies stop firing
+	bool IsRoundActive() const { return !bRoundOver; }
 
 	UFUNCTION(BlueprintPure, Category = "Tank Game")
 	int32 GetGameLevel() const;
@@ -99,7 +97,6 @@ private:
 	void OpenMapForLevel(int32 Level);
 
 	int32 EnemiesRemaining = 0;
-	int32 ActiveEnemyShells = 0;
 	bool bRoundOver = false;
 	FTimerHandle NextLevelTimer;
 };

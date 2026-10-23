@@ -57,24 +57,15 @@ void AShell::BeginPlay()
 	}
 
 	ProjectileMovement->OnProjectileBounce.AddDynamic(this, &AShell::HandleBounce);
-
-	if (!bFiredByPlayer)
-	{
-		if (ATankGameMode* GameMode = GetWorld()->GetAuthGameMode<ATankGameMode>())
-		{
-			GameMode->EnemyShellSpawned();
-		}
-	}
 }
 
 void AShell::EndPlay(const EEndPlayReason::Type EndPlayReason)
 {
-	if (!bFiredByPlayer)
+	// Free up a shell slot on the tank that fired this one
+	ATankPawn* Shooter = Cast<ATankPawn>(GetOwner());
+	if (IsValid(Shooter))
 	{
-		if (ATankGameMode* GameMode = GetWorld()->GetAuthGameMode<ATankGameMode>())
-		{
-			GameMode->EnemyShellRemoved();
-		}
+		Shooter->NotifyShellRemoved();
 	}
 
 	Super::EndPlay(EndPlayReason);

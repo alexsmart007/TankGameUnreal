@@ -96,21 +96,11 @@ void APlayerTank::Tick(float DeltaTime)
 
 	if (MoveInput != 0.f)
 	{
-		const FVector Delta = GetActorForwardVector() * (MoveInput * MoveSpeed * DeltaTime);
-		FHitResult Hit;
-		AddActorWorldOffset(Delta, true, &Hit);
-
-		// A sweep that starts inside something (usually the floor) blocks every move,
-		// so push out of it and try again
-		if (Hit.bStartPenetrating)
-		{
-			AddActorWorldOffset(Hit.Normal * (Hit.PenetrationDepth + 0.1f));
-			AddActorWorldOffset(Delta, true);
-		}
+		MoveForward(MoveInput, DeltaTime);
 	}
 	if (RotateInput != 0.f)
 	{
-		AddActorWorldRotation(FRotator(0.f, RotateInput * RotateSpeed * DeltaTime, 0.f), true);
+		Turn(RotateInput, DeltaTime);
 	}
 
 	if (EngineAudio->Sound)
