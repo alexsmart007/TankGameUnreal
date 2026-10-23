@@ -8,7 +8,6 @@
 #include "TankAIController.generated.h"
 
 class AEnemyTank;
-class APlayerTank;
 class UAISenseConfig_Sight;
 
 UENUM(BlueprintType)
@@ -40,17 +39,29 @@ public:
 
 protected:
 	virtual void OnPossess(APawn* InPawn) override;
+	virtual void OnUnPossess() override;
 
 private:
 	UFUNCTION()
 	void HandleTargetPerceptionUpdated(AActor* Actor, FAIStimulus Stimulus);
 
+	// Forget the player and go back to roaming (the round restarted after a death)
+	void HandleRoundReset();
+
 	void SetAIState(ETankAIState NewState);
 
+	void TickState(float DeltaTime);
 	void TickRoam(float DeltaTime);
 	void TickChase(float DeltaTime);
 	void TickAttack(float DeltaTime);
 	void TickSearch(float DeltaTime);
+
+	// Back up while turning to get free of whatever is blocking the tank (usually another tank)
+	void TickUnstuck(float DeltaTime);
+	void StartUnstuck();
+
+	// Pick a random reachable point and plan a path to it; false if there is none
+	bool SetRandomRoamDestination();
 
 	// Find a nav mesh path to Destination; false if there is none
 	bool SetDestination(const FVector& Destination);
@@ -69,7 +80,7 @@ private:
 	UPROPERTY()
 	TObjectPtr<AEnemyTank> Tank;
 
-	TWeakObjectPtr<APlayerTank> Target;
+	TWeakObjectPtr<APawn> Target;
 	bool bCanSeeTarget = false;
 	FVector LastKnownLocation = FVector::ZeroVector;
 
@@ -81,4 +92,9 @@ private:
 	float RepathTimeLeft = 0.f;
 	float WaitTimeLeft = 0.f;
 	float SearchTimeLeft = 0.f;
+
+	// How long the tank has been trying to drive without getting anywhere
+	float StuckTime = 0.f;
+	float UnstuckTimeLeft = 0.f;
+	float UnstuckTurn = 0.f;
 };

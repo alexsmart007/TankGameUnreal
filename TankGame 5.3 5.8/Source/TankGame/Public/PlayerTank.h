@@ -9,6 +9,7 @@
 
 class UAudioComponent;
 class UCameraComponent;
+class UEnhancedInputComponent;
 class UInputMappingContext;
 class UMyInputConfigData;
 class USpringArmComponent;
@@ -54,6 +55,11 @@ protected:
 #pragma endregion
 
 private:
+	void BindInputActions(UEnhancedInputComponent& EIC);
+
+	// Loop the engine sound while driving
+	void UpdateEngineAudio();
+
 	void OnMoveInput(const FInputActionValue& Value);
 	void OnRotateInput(const FInputActionValue& Value);
 	void OnShootInput(const FInputActionValue& Value);

@@ -13,7 +13,7 @@ class USoundBase;
 
 /**
  * Level flow from the Unity project: GenerateLevel (enemy spawning), GameOver (lives),
- * LevelLoader (next level) and Win.
+ * LevelLoader (next level) and Win. Listens to each tank's OnTankDestroyed event.
  */
 UCLASS()
 class TANKGAME_API ATankGameMode : public AGameModeBase
@@ -22,12 +22,6 @@ class TANKGAME_API ATankGameMode : public AGameModeBase
 
 public:
 	ATankGameMode();
-
-	// Called by a shell when it destroys a tank
-	void TankDestroyed(ATankPawn* Tank);
-
-	// False once the level is won or lost; enemies stop firing
-	bool IsRoundActive() const { return !bRoundOver; }
 
 	UFUNCTION(BlueprintPure, Category = "Tank Game")
 	int32 GetGameLevel() const;
@@ -44,6 +38,9 @@ public:
 
 protected:
 	virtual void BeginPlay() override;
+
+	// Called each time a player tank spawns
+	virtual void SetPlayerDefaults(APawn* PlayerPawn) override;
 
 #pragma region /** UI hooks, implement these in the Blueprint subclass */
 	UFUNCTION(BlueprintImplementableEvent, Category = "Tank Game")
@@ -73,6 +70,10 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category = "Tank Game|Levels")
 	int32 FinalLevel = 11;
 
+	// Pause after the player dies before the round resets and the player respawns
+	UPROPERTY(EditDefaultsOnly, Category = "Tank Game|Levels")
+	float RespawnDelay = 1.f;
+
 	// Delay between clearing a level and loading the next one
 	UPROPERTY(EditDefaultsOnly, Category = "Tank Game|Levels")
 	float TransitionTime = 2.f;
@@ -92,11 +93,36 @@ protected:
 
 private:
 	UTankGameInstance* GetTankGameInstance() const;
+
+#pragma region /** Level setup */
 	void SpawnEnemies();
+
+	// Spawn points keyed by their number, from tags like EnemySpawn1, EnemySpawn2, ...
+	TMap<int32, AActor*> FindEnemySpawnPoints() const;
+
+	// Start listening for this tank's destruction
+	void WatchTank(ATankPawn* Tank);
+#pragma endregion
+
+#pragma region /** Round flow */
+	void HandleTankDestroyed(ATankPawn* Tank);
+	void HandlePlayerDestroyed(AController* PlayerController);
+	void HandleEnemyDestroyed();
+
+	// After the player dies: every tank clears its shells and enemies return to their spawn points
+	void ResetRound(TWeakObjectPtr<AController> PlayerController);
+
+	// The level is won or lost: stop all firing
+	void EndRound();
+
+	void CompleteLevel();
+	void ShowMenuCursor();
 	void LoadNextLevel();
 	void OpenMapForLevel(int32 Level);
+#pragma endregion
 
 	int32 EnemiesRemaining = 0;
 	bool bRoundOver = false;
 	FTimerHandle NextLevelTimer;
+	FTimerHandle RespawnTimer;
 };

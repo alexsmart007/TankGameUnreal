@@ -79,38 +79,78 @@ float ATankPawn::TurnTowards(const FVector& Direction, float DeltaTime)
 bool ATankPawn::CanFire() const
 {
 	const bool bCooledDown = GetWorld()->GetTimeSeconds() - LastFireTime >= FireCooldown;
-	const bool bShellAvailable = MaxActiveShells <= 0 || ActiveShells < MaxActiveShells;
-	return ShellClass && bCooledDown && bShellAvailable;
+	const bool bShellAvailable = MaxActiveShells <= 0 || CountLiveShells(false) < MaxActiveShells;
+	const bool bLastShellBounced = !bWaitForBounce || CountLiveShells(true) == 0;
+	return bFiringEnabled && ShellClass && bCooledDown && bShellAvailable && bLastShellBounced;
 }
 
 AShell* ATankPawn::Fire()
 {
+	AShell* Shell = nullptr;
+
 	if (!ShellClass)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("%s has no ShellClass set."), *GetName());
-		return nullptr;
 	}
-	if (!CanFire())
+	else if (CanFire())
 	{
-		return nullptr;
+		const FTransform SpawnTransform(GetActorRotation(), FirePoint->GetComponentLocation());
+		Shell = GetWorld()->SpawnActorDeferred<AShell>(ShellClass, SpawnTransform, this, this, ESpawnActorCollisionHandlingMethod::AlwaysSpawn);
+		if (Shell)
+		{
+			Shell->SetSpeed(ShellSpeed);
+			Shell->FinishSpawning(SpawnTransform);
+
+			FiredShells.RemoveAll([](const TWeakObjectPtr<AShell>& Fired) { return !Fired.IsValid(); });
+			FiredShells.Add(Shell);
+			LastFireTime = GetWorld()->GetTimeSeconds();
+			UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
+		}
 	}
 
-	const FTransform SpawnTransform(GetActorRotation(), FirePoint->GetComponentLocation());
-	AShell* Shell = GetWorld()->SpawnActorDeferred<AShell>(ShellClass, SpawnTransform, this, this, ESpawnActorCollisionHandlingMethod::AlwaysSpawn);
-	if (!Shell)
-	{
-		return nullptr;
-	}
-	Shell->SetSpeed(ShellSpeed);
-	Shell->FinishSpawning(SpawnTransform);
-
-	++ActiveShells;
-	LastFireTime = GetWorld()->GetTimeSeconds();
-	UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
 	return Shell;
 }
 
 FVector ATankPawn::GetFirePointLocation() const
 {
 	return FirePoint->GetComponentLocation();
+}
+
+void ATankPawn::TakeHit()
+{
+	// Two shells can land in the same frame; only the first one counts
+	if (!bHit)
+	{
+		bHit = true;
+		OnTankDestroyed.Broadcast(this);
+		Destroy();
+	}
+}
+
+void ATankPawn::ResetForNewRound()
+{
+	for (const TWeakObjectPtr<AShell>& Fired : FiredShells)
+	{
+		if (Fired.IsValid())
+		{
+			Fired->Destroy();
+		}
+	}
+	FiredShells.Reset();
+	LastFireTime = -1000.f;
+
+	OnRoundReset.Broadcast();
+}
+
+int32 ATankPawn::CountLiveShells(bool bOnlyUnbounced) const
+{
+	int32 Count = 0;
+	for (const TWeakObjectPtr<AShell>& Fired : FiredShells)
+	{
+		if (Fired.IsValid() && !Fired->HasExploded() && (!bOnlyUnbounced || !Fired->HasBounced()))
+		{
+			++Count;
+		}
+	}
+	return Count;
 }

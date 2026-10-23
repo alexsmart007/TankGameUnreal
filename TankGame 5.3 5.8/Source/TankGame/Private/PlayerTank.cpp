@@ -16,6 +16,9 @@ APlayerTank::APlayerTank()
 {
 	AutoPossessPlayer = EAutoReceiveInput::Disabled;
 
+	// No spamming: the next shot is ready once the last one has bounced
+	bWaitForBounce = true;
+
 	// Overhead camera that follows the tank but does not turn with it
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(RootComponent);
@@ -59,34 +62,40 @@ void APlayerTank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 	UEnhancedInputComponent* EIC = Cast<UEnhancedInputComponent>(PlayerInputComponent);
-	if (!EIC || !InputActions)
+	if (EIC && InputActions)
+	{
+		BindInputActions(*EIC);
+	}
+	else
 	{
 		UE_LOG(LogTemp, Warning, TEXT("%s: Input Actions data asset is not set, controls are disabled."), *GetName());
-		return;
 	}
+}
 
+void APlayerTank::BindInputActions(UEnhancedInputComponent& EIC)
+{
 	// Completed fires with a zero value, which stops the tank when the key is released
 	if (InputActions->InputMove)
 	{
-		EIC->BindAction(InputActions->InputMove, ETriggerEvent::Triggered, this, &APlayerTank::OnMoveInput);
-		EIC->BindAction(InputActions->InputMove, ETriggerEvent::Completed, this, &APlayerTank::OnMoveInput);
+		EIC.BindAction(InputActions->InputMove, ETriggerEvent::Triggered, this, &APlayerTank::OnMoveInput);
+		EIC.BindAction(InputActions->InputMove, ETriggerEvent::Completed, this, &APlayerTank::OnMoveInput);
 	}
 	if (InputActions->InputRotate)
 	{
-		EIC->BindAction(InputActions->InputRotate, ETriggerEvent::Triggered, this, &APlayerTank::OnRotateInput);
-		EIC->BindAction(InputActions->InputRotate, ETriggerEvent::Completed, this, &APlayerTank::OnRotateInput);
+		EIC.BindAction(InputActions->InputRotate, ETriggerEvent::Triggered, this, &APlayerTank::OnRotateInput);
+		EIC.BindAction(InputActions->InputRotate, ETriggerEvent::Completed, this, &APlayerTank::OnRotateInput);
 	}
 	if (InputActions->InputShoot)
 	{
-		EIC->BindAction(InputActions->InputShoot, ETriggerEvent::Started, this, &APlayerTank::OnShootInput);
+		EIC.BindAction(InputActions->InputShoot, ETriggerEvent::Started, this, &APlayerTank::OnShootInput);
 	}
 	if (InputActions->InputRestart)
 	{
-		EIC->BindAction(InputActions->InputRestart, ETriggerEvent::Started, this, &APlayerTank::OnRestartInput);
+		EIC.BindAction(InputActions->InputRestart, ETriggerEvent::Started, this, &APlayerTank::OnRestartInput);
 	}
 	if (InputActions->InputQuit)
 	{
-		EIC->BindAction(InputActions->InputQuit, ETriggerEvent::Started, this, &APlayerTank::OnQuitInput);
+		EIC.BindAction(InputActions->InputQuit, ETriggerEvent::Started, this, &APlayerTank::OnQuitInput);
 	}
 }
 
@@ -102,18 +111,19 @@ void APlayerTank::Tick(float DeltaTime)
 	{
 		Turn(RotateInput, DeltaTime);
 	}
+	UpdateEngineAudio();
+}
 
-	if (EngineAudio->Sound)
+void APlayerTank::UpdateEngineAudio()
+{
+	const bool bMoving = MoveInput != 0.f;
+	if (EngineAudio->Sound && bMoving && !EngineAudio->IsPlaying())
 	{
-		const bool bMoving = MoveInput != 0.f;
-		if (bMoving && !EngineAudio->IsPlaying())
-		{
-			EngineAudio->Play();
-		}
-		else if (!bMoving && EngineAudio->IsPlaying())
-		{
-			EngineAudio->Stop();
-		}
+		EngineAudio->Play();
+	}
+	else if (!bMoving && EngineAudio->IsPlaying())
+	{
+		EngineAudio->Stop();
 	}
 }
 

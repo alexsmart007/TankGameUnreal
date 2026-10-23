@@ -21,13 +21,23 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Tank Game")
 	void ResetProgress();
 
+	// Move on to the next level; called each time a level loads
+	void AdvanceLevel() { ++Level; }
+
+	// Lose a life; returns the lives left
+	int32 LoseLife();
+
+	UFUNCTION(BlueprintPure, Category = "Tank Game")
+	int32 GetLevelNumber() const { return Level; }
+
+	UFUNCTION(BlueprintPure, Category = "Tank Game")
+	int32 GetLives() const { return Lives; }
+
+protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Tank Game")
 	int32 StartingLives = 3;
 
-	// Current level, incremented by ATankGameMode every time a level loads
-	UPROPERTY(BlueprintReadOnly, Category = "Tank Game")
+private:
 	int32 Level = 0;
-
-	UPROPERTY(BlueprintReadOnly, Category = "Tank Game")
-	int32 Lives = 3;
+	int32 Lives = 0;
 };

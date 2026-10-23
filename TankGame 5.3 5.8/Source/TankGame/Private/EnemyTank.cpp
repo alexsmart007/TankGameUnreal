@@ -19,3 +19,15 @@ AEnemyTank::AEnemyTank()
 	FireCooldown = 1.5f;
 	MaxActiveShells = 1;
 }
+
+void AEnemyTank::BeginPlay()
+{
+	Super::BeginPlay();
+	SpawnTransform = GetActorTransform();
+}
+
+void AEnemyTank::ResetForNewRound()
+{
+	SetActorTransform(SpawnTransform, false, nullptr, ETeleportType::TeleportPhysics);
+	Super::ResetForNewRound();
+}

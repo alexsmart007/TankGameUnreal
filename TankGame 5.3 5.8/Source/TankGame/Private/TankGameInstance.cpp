@@ -14,3 +14,9 @@ void UTankGameInstance::ResetProgress()
 	Level = 0;
 	Lives = StartingLives;
 }
+
+int32 UTankGameInstance::LoseLife()
+{
+	Lives = FMath::Max(0, Lives - 1);
+	return Lives;
+}

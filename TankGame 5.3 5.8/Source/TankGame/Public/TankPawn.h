@@ -7,12 +7,17 @@
 #include "TankPawn.generated.h"
 
 class AShell;
+class ATankPawn;
 class UBoxComponent;
 class USoundBase;
 class UStaticMeshComponent;
 
+DECLARE_MULTICAST_DELEGATE_OneParam(FOnTankDestroyed, ATankPawn* /*Tank*/);
+DECLARE_MULTICAST_DELEGATE(FOnTankRoundReset);
+
 /**
- * Shared tank body, driving and cannon (Unity's ShootControl) for the player and enemy tanks.
+ * Shared tank body for the player and enemy tanks: driving, the cannon and the shells it fired,
+ * and its own destruction. Listeners learn about a destroyed tank through OnTankDestroyed.
  */
 UCLASS(Abstract)
 class TANKGAME_API ATankPawn : public APawn
@@ -22,6 +27,7 @@ class TANKGAME_API ATankPawn : public APawn
 public:
 	ATankPawn();
 
+#pragma region /** Driving */
 	// Drive along the tank's forward vector; Scale is -1 (reverse) to 1 (forward). Slides along walls.
 	void MoveForward(float Scale, float DeltaTime);
 
@@ -31,20 +37,38 @@ public:
 	// Turn toward a world direction at RotateSpeed; returns the angle (degrees) still left to turn
 	float TurnTowards(const FVector& Direction, float DeltaTime);
 
-	// True when the cooldown has passed and the tank has fewer than MaxActiveShells in flight
+	float GetMoveSpeed() const { return MoveSpeed; }
+#pragma endregion
+
+#pragma region /** Cannon */
+	// True when firing is enabled, the cooldown has passed, the tank has fewer than MaxActiveShells
+	// in flight, and (with bWaitForBounce) its shells have all bounced
 	UFUNCTION(BlueprintPure, Category = "Tank")
 	bool CanFire() const;
 
-	// Spawn a shell at FirePoint, facing the way the tank faces. Returns null if the tank can't fire yet.
+	// Spawn a shell at FirePoint, facing the way the tank faces. Returns null if the tank can't fire.
 	UFUNCTION(BlueprintCallable, Category = "Tank")
 	AShell* Fire();
 
-	// Called by a shell this tank fired when it is destroyed
-	void NotifyShellRemoved() { ActiveShells = FMath::Max(0, ActiveShells - 1); }
+	// Turn the cannon off and on (off once a round is won or lost)
+	void SetFiringEnabled(bool bEnabled) { bFiringEnabled = bEnabled; }
 
 	FVector GetFirePointLocation() const;
+#pragma endregion
 
-	float GetMoveSpeed() const { return MoveSpeed; }
+#pragma region /** Life cycle */
+	// A shell hit this tank: announce it through OnTankDestroyed, then destroy the tank
+	void TakeHit();
+
+	// Get ready for the round to restart after the player dies: clears this tank's shells
+	virtual void ResetForNewRound();
+
+	// Broadcast just before the tank is destroyed by a hit
+	FOnTankDestroyed OnTankDestroyed;
+
+	// Broadcast when ResetForNewRound runs
+	FOnTankRoundReset OnRoundReset;
+#pragma endregion
 
 protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
@@ -89,10 +113,19 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Tank|Shooting")
 	int32 MaxActiveShells = 0;
 
+	// Can't fire again until the last shell has bounced off a wall (or hit something)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Tank|Shooting")
+	bool bWaitForBounce = false;
+
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Tank|Audio")
 	TObjectPtr<USoundBase> FireSound;
 
 private:
-	int32 ActiveShells = 0;
+	// Shells this tank fired that are still flying (exploded or destroyed ones are skipped)
+	int32 CountLiveShells(bool bOnlyUnbounced) const;
+
+	TArray<TWeakObjectPtr<AShell>> FiredShells;
 	float LastFireTime = -1000.f;
+	bool bFiringEnabled = true;
+	bool bHit = false;
 };

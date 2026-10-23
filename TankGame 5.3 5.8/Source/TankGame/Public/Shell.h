@@ -14,8 +14,8 @@ class UStaticMeshComponent;
 
 /**
  * Tank shell (Unity's ShellExplosionPlayer / ShellExplosionEnemy).
- * Bounces off a wall once and explodes on the second wall. It always destroys a tank of the
- * other side, and destroys a tank of its own side (including the shooter) only after bouncing.
+ * Bounces off a wall once and explodes on the second wall. It destroys any tank it hits; the tank
+ * that fired it is only hittable after the first bounce. Two shells that collide both explode.
  */
 UCLASS()
 class TANKGAME_API AShell : public AActor
@@ -28,11 +28,11 @@ public:
 	// Call before FinishSpawning
 	void SetSpeed(float Speed);
 
-	bool IsFiredByPlayer() const { return bFiredByPlayer; }
+	bool HasBounced() const { return bBounced; }
+	bool HasExploded() const { return bExploded; }
 
 protected:
 	virtual void BeginPlay() override;
-	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	TObjectPtr<USphereComponent> Collision;
@@ -56,9 +56,11 @@ private:
 	UFUNCTION()
 	void HandleBounce(const FHitResult& Hit, const FVector& ImpactVelocity);
 
+	// First wall hit: keep flying, and from now on the shooter can be hit too
+	void Bounce();
+
 	void Explode();
 
-	bool bFiredByPlayer = false;
 	bool bBounced = false;
 	bool bExploded = false;
 };

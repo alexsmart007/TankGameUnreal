@@ -7,19 +7,13 @@
 #include "EnemyTank.generated.h"
 
 /**
- * Enemy tank body. Its behaviour lives in ATankAIController; the settings below tune it per Blueprint.
+ * Tuning for an enemy tank's AI, read by ATankAIController.
  */
-UCLASS()
-class TANKGAME_API AEnemyTank : public ATankPawn
+USTRUCT(BlueprintType)
+struct FTankAIConfig
 {
 	GENERATED_BODY()
 
-	friend class ATankAIController;
-
-public:
-	AEnemyTank();
-
-protected:
 	// False keeps the tank in place, spinning to scan like the original Unity enemy
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Tank|AI")
 	bool bCanRoam = true;
@@ -59,4 +53,30 @@ protected:
 	// Draw the AI state, view cone and path while playing
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Tank|AI")
 	bool bDrawDebug = false;
+};
+
+/**
+ * Enemy tank body. Its behaviour lives in ATankAIController, tuned per Blueprint through AIConfig.
+ */
+UCLASS()
+class TANKGAME_API AEnemyTank : public ATankPawn
+{
+	GENERATED_BODY()
+
+public:
+	AEnemyTank();
+
+	const FTankAIConfig& GetAIConfig() const { return AIConfig; }
+
+	// Also moves the tank back to where it spawned
+	virtual void ResetForNewRound() override;
+
+protected:
+	virtual void BeginPlay() override;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Tank|AI", meta = (ShowOnlyInnerProperties))
+	FTankAIConfig AIConfig;
+
+private:
+	FTransform SpawnTransform;
 };

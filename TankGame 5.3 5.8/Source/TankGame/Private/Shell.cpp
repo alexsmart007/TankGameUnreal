@@ -2,8 +2,7 @@
 
 
 #include "Shell.h"
-#include "PlayerTank.h"
-#include "TankGameMode.h"
+#include "TankPawn.h"
 #include "Components/SphereComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "Engine/CollisionProfile.h"
@@ -48,8 +47,6 @@ void AShell::BeginPlay()
 {
 	Super::BeginPlay();
 
-	bFiredByPlayer = GetInstigator() && GetInstigator()->IsA<APlayerTank>();
-
 	// Don't hit the tank that fired until the shell has bounced
 	if (GetInstigator())
 	{
@@ -59,49 +56,35 @@ void AShell::BeginPlay()
 	ProjectileMovement->OnProjectileBounce.AddDynamic(this, &AShell::HandleBounce);
 }
 
-void AShell::EndPlay(const EEndPlayReason::Type EndPlayReason)
-{
-	// Free up a shell slot on the tank that fired this one
-	ATankPawn* Shooter = Cast<ATankPawn>(GetOwner());
-	if (IsValid(Shooter))
-	{
-		Shooter->NotifyShellRemoved();
-	}
-
-	Super::EndPlay(EndPlayReason);
-}
-
 void AShell::HandleBounce(const FHitResult& Hit, const FVector& ImpactVelocity)
 {
-	if (bExploded)
+	if (!bExploded)
 	{
-		return;
-	}
-
-	if (ATankPawn* Tank = Cast<ATankPawn>(Hit.GetActor()))
-	{
-		const bool bHitPlayer = Tank->IsA<APlayerTank>();
-		if (bHitPlayer != bFiredByPlayer || bBounced)
+		AActor* HitActor = Hit.GetActor();
+		if (AShell* OtherShell = Cast<AShell>(HitActor))
 		{
-			if (ATankGameMode* GameMode = GetWorld()->GetAuthGameMode<ATankGameMode>())
-			{
-				GameMode->TankDestroyed(Tank);
-			}
-			else
-			{
-				Tank->Destroy();
-			}
+			// Shells that collide destroy each other
+			OtherShell->Explode();
 			Explode();
-			return;
+		}
+		else if (ATankPawn* Tank = Cast<ATankPawn>(HitActor))
+		{
+			Tank->TakeHit();
+			Explode();
+		}
+		else if (bBounced)
+		{
+			Explode();
+		}
+		else
+		{
+			Bounce();
 		}
 	}
-	else if (bBounced)
-	{
-		Explode();
-		return;
-	}
+}
 
-	// First bounce: from now on the shell can also hit the tank that fired it
+void AShell::Bounce()
+{
 	bBounced = true;
 	if (GetInstigator())
 	{
@@ -112,17 +95,20 @@ void AShell::HandleBounce(const FHitResult& Hit, const FVector& ImpactVelocity)
 
 void AShell::Explode()
 {
-	bExploded = true;
-
-	if (ExplosionEffect)
+	if (!bExploded)
 	{
-		UNiagaraFunctionLibrary::SpawnSystemAtLocation(this, ExplosionEffect, GetActorLocation());
-	}
-	UGameplayStatics::PlaySoundAtLocation(this, ExplodeSound, GetActorLocation());
+		bExploded = true;
 
-	// Unity destroyed the shell 0.15 s after the explosion
-	ProjectileMovement->StopSimulating(FHitResult());
-	SetActorHiddenInGame(true);
-	SetActorEnableCollision(false);
-	SetLifeSpan(0.15f);
+		if (ExplosionEffect)
+		{
+			UNiagaraFunctionLibrary::SpawnSystemAtLocation(this, ExplosionEffect, GetActorLocation());
+		}
+		UGameplayStatics::PlaySoundAtLocation(this, ExplodeSound, GetActorLocation());
+
+		// Unity destroyed the shell 0.15 s after the explosion
+		ProjectileMovement->StopSimulating(FHitResult());
+		SetActorHiddenInGame(true);
+		SetActorEnableCollision(false);
+		SetLifeSpan(0.15f);
+	}
 }
